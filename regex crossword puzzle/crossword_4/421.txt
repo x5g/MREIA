@@ -1,0 +1,25 @@
+https://regexcrossword.com/playerpuzzles/5fe22a5bbc6ec
+
+(?=..:..)[A-D][^MON].[I-S][HING]
+[^ihadspacesleft]+
+[ST|R\s]+
+[(#UE)]+
+[1:M]+
+
+(?=.(.)\1)[STEAM]+
+[A\s#P1T]+
+[|:)]+
+[A-L][^L][ER]+[^GEN]
+[^withcluesthatdon't]+
+
+[^soijustfilledthem]+
+P?A?R?T? #?1?
+[^emoticons]+
+[MORSEL]+
+[MIXUPS]+
+
+(?!A[WAY]).+
+[(TOP)]+
+(?!.*(.).*\1).+
+[^haveanyimpact]+
+[^onthesolution]+

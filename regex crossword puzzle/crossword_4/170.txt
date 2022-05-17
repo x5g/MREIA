@@ -1,0 +1,25 @@
+https://regexcrossword.com/playerpuzzles/5cfd4a9f2a651
+
+([^NASA])\1{2}.*
+[FEM]*[RID\s]+
+[ BRANCHES]*
+[GROW KNEE]*
+[\W RN]+
+[THEFT]*
+
+(\w)(.)\2{3}.*
+(?!.*[RINGP].*)(.)(.)\2{3}.*
+[OHBOYHISWAND]+
+(?=.*\*.*)[FRINGE\*]+
+
+[ORN]+T+
+[^CAPTBDICK]+E
+[^HAMBURG](?=.*BW.*).*
+[EIGHT]{2}[SUN][RAYGUN].[GAF]
+
+.*[OUTER]
+..[^RM2 STAR SHIP].
+.*
+(?!WRONG).*[^OPPRESSION]
+.*
+.*

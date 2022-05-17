@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/57121bd6ade4c
+
+[1-3AJQK]{2}
+[^\dE-Y][01248]
+
+[HYOGOKOBE078]+
+(36|37|38|39|40)
+
+.*
+.*
+
+.*
+.*

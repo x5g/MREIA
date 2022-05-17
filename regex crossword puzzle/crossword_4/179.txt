@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5d715ebb472d6
+
+(1|O|Y)*
+\s[^F-S]*
+[HBE]*
+
+(\s|\d|H)*
+[A-P](B)\1
+(ET|YT|E|Y|TY){2}
+
+.*
+.*
+.*
+
+.*
+.*
+.*

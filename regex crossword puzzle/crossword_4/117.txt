@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/dec24f1e-eccc-4a84-8aa1-b9c031b99399
+
+[^?\s]*[Q-T]+
+[S-W]*
+[K-R]+
+
+[VH\sM]*[BREM,\sU]+
+
+.+(0|O|U)[^\dR]$
+
+.*
+.*
+.*

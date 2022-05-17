@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5922d9ffacd51
+
+(EL|E|R)+
+[A-J]{2}[F-T]
+((INK)|I+|J+)+
+
+(EJ|EL).*
+(LEN|MAN|LON|MEC)
+(RO|O|K)*
+
+[A-J]+
+[L-M].+
+.+[J-R]
+
+.*[C-R]
+J.+
+(NK|I)+

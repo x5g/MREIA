@@ -1,0 +1,19 @@
+https://regexcrossword.com/playerpuzzles/5c2a09f66f361
+
+[DIY]+
+[IL L]+
+[SHOCK]?[AWE !]+
+(?=.*L.*!).*
+
+[A-E].*(?=IA).*
+[WAY ]+(OF|HATE)*
+[DAILY RACIST?]+[!]+
+
+[DIVORCE]*[ADULTERY]*
+[^OUTRAGED]+[M]?[ANGER]
+[^SNOW]*[^FLAKE]+
+
+.*[F-V]
+..[K-Q]
+(\w\w\s)
+[A-M]+\W

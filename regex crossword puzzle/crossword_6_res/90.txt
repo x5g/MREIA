@@ -1,0 +1,11 @@
+https://regexcrossword.com/challenges/hexagonal/puzzles/5
+
+'  N  I  B
+T  H  O  S  E
+T  F  A        W
+T  H     I  S  N  G
+B  E  E  E  E  E  E  E
+O     R  R     H  O
+   S  T  E      
+K  I  N  G   
+V  N  R  .

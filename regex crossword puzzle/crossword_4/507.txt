@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5c3509d667b61
+
+[DATTO]+
+([^AEIOU])[^\1]
+
+(AL|LA)
+(TO)E?
+
+.*
+.*
+
+.*
+.*

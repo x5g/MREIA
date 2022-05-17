@@ -1,0 +1,31 @@
+https://regexcrossword.com/playerpuzzles/5a964c99b4f47
+
+[CONCH ROE]+
+[NO DELAY RELAY]+.
+[ION KINETIC]+
+[SAVE US]+:
+.[DARK]+.[SPACE]*[FEAR]+\u0029
+
+[ONAIR\s]+C?
+[CLEAN]+[ROOM]+
+^[SKATE RIDE]*$
+\W?[U-Y]O[U-Y]\W?
+[CANTILEVERS\s]+
+([GEEK])\1[K].?[IT]*[FOR]+
+[O-O]+R+([EO])[V]*\1
+[RW]\D+
+
+[ONLY]+\s[AIR]{1,}.?
+[CLOCKCL]+E+A+R+
+\W\w+[SK]{2}
+(C|O|U|L|D|Y|O|U|\s)+
+[C|A|N]+( S)
+E[A-K]+\sF
+[POOR]*(.)[COVER]*\1
+[DRIVE]\W+
+
+(OC|OR|CE| +)+
+[L-N]{2}DY+AE*[R!]+
+\s([A-E])I[K-P]+\1.
+(.)\1[SUAVE ]+:
+[^A-Z0-9]+[RISK ]*[FREE)]+

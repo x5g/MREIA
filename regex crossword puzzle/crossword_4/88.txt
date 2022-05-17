@@ -1,0 +1,25 @@
+https://regexcrossword.com/playerpuzzles/5a738a62e6e3d
+
+[CLEVER]*[PALS]*[LOFT]*[TIN]*[CARS]*
+SAND?[ ][ALS]?\w
+[1590]*(COOL)?
+4K...
+[^123467890][^AIOU].[G]!*
+
+C[SJ][123][346][058]
+PACKER?S?
+L[AND]*[CODE]AA?
+I (AM|IS|ARE|CAN|ON|DO).?[ANYTHING]*
+CO?[LLE]G?E!
+
+.*
+.*
+.*
+.*
+.*
+
+.*
+.*
+.*
+.*
+.*

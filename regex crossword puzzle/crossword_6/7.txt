@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/56bd02e7b0721
+
+3 4 3
+
+[A-N]+D?
+L(.)[^L-P]\1
+[REALLY?]+[DUH]?
+
+[REAL][LIFE]
+...
+[DOWN]+[UNDER]+
+L?O?L?
+
+O?D?D?
+([LIST])[WOW]\1
+[E-GO-U]*[ROT]
+[HOT][LINE]

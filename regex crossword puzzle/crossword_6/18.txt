@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5a49fd72e6a6d
+
+3 4 3
+
+(?!.*([^ ])\1.*)[NANO][YSZH]+
+([AEIOU])(\w)\2([AEIOU])
+(?!.*([^ ])\1.*)S.*[REAL]?
+
+[SPIRA]+[^OF THINGS]
+[ZL]+[KNOWLEDGE]+
+[ROY2]+
+[TRANSPARENCY]?[HD-EEG]+
+
+[EIOU][RUPERT]+
+(?!.*([^ ])\1.*).*[M-R][K-Y]
+[YOUR]*[SOUL]?
+[MAN?]+

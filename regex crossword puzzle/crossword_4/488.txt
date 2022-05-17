@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/575e8ad70cc57
+
+.*[^A-H]?[I-Z]*?
+
+[A-Z]*[A-Z]{0,3}[ZJMAINSTAY]+
+
+A?B*?[^A-Y]+
+
+.{0,1}[HZG]?

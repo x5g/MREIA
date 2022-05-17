@@ -1,0 +1,6 @@
+https://regexcrossword.com/playerpuzzles/59601926ce090
+
+   X  Y  Z
+Y  Z     X
+Z     X  Y
+X  Y  Z   

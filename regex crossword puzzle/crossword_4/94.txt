@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/bf8d4795-c209-484c-951b-3283ec45babc
+
+[A-DF-K]\S
+[ROCK]+
+
+\w\S
+[^WASHINGTON]{2}
+
+[TESLA]?[COOL!]
+[EDISON]?[^R\sK.]+
+
+[AND]+
+[^POP]*

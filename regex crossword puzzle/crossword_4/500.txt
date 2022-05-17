@@ -1,0 +1,17 @@
+https://regexcrossword.com/challenges/cities/puzzles/2
+
+[IDEAL\s]+
+[OLD]I[PUS]
+[MNOPQR]+
+
+.*[KNIGHT]
+(IN|SI|D|E)+
+[IMUST]+
+
+[^GIP]+[^MITE]
+[DIMN]+[NO]
+[^SNAP\s\-]+
+
+(DI|FI|L|O)+
+[IOU\s]+
+(.)\1(M|N)

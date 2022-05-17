@@ -1,0 +1,12 @@
+https://regexcrossword.com/playerpuzzles/60f2bba34f3c6
+
+R  2  S  {  R  3  G  E
+_  _  I  S  _  F  U  N
+,  _  R  1  9  H  7  ?
+_  I  7  _  C  4  N  _
+F  E  T  C  H  _  A  N
+Y  T  H  1  N  G  _  U
+_  W  A  N  7  _  F  R
+0  M  _  U  R  _  L  0
+G  5  _  A  N  D  _  W
+E  B  P  4  G  E  5  }

@@ -1,0 +1,5 @@
+https://regexcrossword.com/playerpuzzles/5d89b462a31cd
+
+X  X  Y
+Y  Y  X
+X  Y  Z

@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/28c1c678-b94d-4a54-bcbb-ac09beab3876
+
+A*B+
+[A-M]*
+
+[0-5A][BQ-X]
+B*A+
+
+.*
+.*
+
+.*
+.*

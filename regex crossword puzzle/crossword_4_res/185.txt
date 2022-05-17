@@ -1,0 +1,6 @@
+https://regexcrossword.com/playerpuzzles/417c52b0-194e-4689-88d0-3c71fd8ce4fa
+
+N  4  8  1
+1  9  5  6
+E  1  7  0
+8  1  2  2

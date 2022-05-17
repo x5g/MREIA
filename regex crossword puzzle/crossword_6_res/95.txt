@@ -1,0 +1,7 @@
+https://regexcrossword.com/playerpuzzles/92e1bfc7-96fc-482e-8518-8fd11f1d12fc
+
+2  *  4  1
+5  2  +  1  7
+9  *  9  -  1  0
+5  +  4  ^  3
+8  *  1  1

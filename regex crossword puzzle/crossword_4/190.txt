@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/1d2d6876-4a68-4c6b-a7a3-37603523dc44
+
+.[BREATH]
+[^ABCDE].
+[FLETH]+
+(.)\1
+
+[A-L]+
+[^FRIP]*
+
+(A|L|ME)+[^THYBE]*
+[BE].[TEA\s]+
+
+[^HEL\sRUS]*
+(LE|LI|MY)*
+[FAITH]*
+[A-E]*[GRIF]*

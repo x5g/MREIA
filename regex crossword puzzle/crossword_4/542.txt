@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/5689c40b73fa6
+
+[3/Z]+:*Q
+[COZE!]+:.?
+[FH-L].{3}
+[ROW]+\d
+
+\d\w+.
+[/Z]*.?[ZOO][CAR]
+(:*|;)\1[LOW]+
+\w(?:;?).(\d|\W)
+
+.[CKLE].[RIDE]
+..(OR|RO)
+\W+\w+
+\w?\W+(K3|31|AB)
+
+.\W.*
+[^KILE,](Z|ER)+\W{2}
+[ -G](OL|LK)+(M|K)
+[TREE][RAW][W-\^]\d

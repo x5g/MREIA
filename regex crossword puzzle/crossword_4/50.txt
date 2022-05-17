@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5c2e5dbd95080
+
+TBR|PZK|CLC
+[HAIR][FR]V
+[UP][SM]+
+
+[CEPH]+
+[^BTRMLK]+
+.V[^BOXES]
+
+.*
+.*
+.*
+
+.*
+.*
+.*

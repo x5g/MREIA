@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/5a6f2dd78baec
+
+3 4 5 4 3
+
+[CAPO&4]+
+(LA|ST|IN|FI|RS|T |OU|T )?[LF0-3]+
+[NR]+\d{2}[DAY]
+[REAL]{2}[M4]+
+[DREAM1NG]+
+
+\d(.)\1
+[EN]+[LEAVES]
+(?=..(.)\1\W)[G E&11 E7 E&4]+
+[M4F]+[CHURCH]+
+(?=.*0.*)[DREAM]\d{2}
+
+([D\.OMG]+)
+([0-3][3-5][4-6][F-Z])
+..(.).(\1)
+.*
+[^BROWN][RL]+

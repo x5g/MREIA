@@ -1,0 +1,7 @@
+https://regexcrossword.com/playerpuzzles/5d70ff8313158
+
++  -  |  -  -  +
+-  B  D  -  B  |
+|  |  A  B  |  |
+|  D  C  D  C  |
++  -  -  -  -  +

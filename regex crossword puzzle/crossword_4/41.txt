@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5a11dad243f3a
+
+[^MAX]+
+[LOGICAL]*
+(.)\1
+
+[B-ITE-S]+
+(LB|E){2}
+
+[^R-STO-Q][^J-S]+
+[^!]*
+
+[M-w].
+[IRRATIONAL]*
+.*

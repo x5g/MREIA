@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5b05b9483a03d
+
+[ER]*P
+(UI|U|TH)(.)*I
+[RU]*
+[OM|MO|O]*(\?)*
+
+[E|X|XE][U](TH|RO)
+(P|T)(HER|IUM|OCTO|THORP)+
+
+.*
+.*
+
+.*
+.*
+.*
+.*

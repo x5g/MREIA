@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/58e53ed0e1ebb
+
+[Q-Z][ME][SIN]
+[ABC](.)\1
+[A-Z]T[EMT]
+
+(VA|L)*
+[TEN]*
+[AEIOU]N[SE]
+
+.*
+.*
+.*
+
+.*
+.*
+.*

@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/042ac88b-aeaf-4ec8-9dc9-37a879d57ccf
+
+[BEAR]+
+[TREAT]+
+[TRACTOR]{2,}[^A-E]+
+
+[B-D][^A-DT].*
+(?=.*[PRY].*)(?=.*E.*A)[AEIOU]+.+
+[TAY]+
+
+.+[^ACCORD]
+.*
+.[^A][^T]
+
+[^CRY]+
+[^OUR]+
+[^F-Q]*

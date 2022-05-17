@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/583c0996f2a0a
+
+O
+K
+A
+W
+.
+
+^[O][K|P|Z]([1-9A-J\¥])[^\W](\1){1}
+
+.*
+
+.*
+.*
+.*
+.*
+.*

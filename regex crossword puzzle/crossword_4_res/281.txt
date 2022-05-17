@@ -1,0 +1,5 @@
+https://regexcrossword.com/playerpuzzles/56b561d43fb3b
+
+(  ?  =  .  *  E  .  *  I  )  V  .  N  [  E  I  ]
+(  ?  =  .  *  (  I  )  .  *  \  1  )  V  .  D  .
+(  ?  =  .  *  (  I  )  .  *  \  1  )  V  .  C  .

@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/5dc5dcff5b6b1
+
+3 4 5 4 3
+
+^[^P|E|D|G|\s][ZXC]?[B|E]*E$
+^[K-Y]{1}\SS?[TRD]{1}
+^\b[NXC]{1}\.?[LIS]{2}[DNO]{2}\b\S?
+^F[CPG]{3}.?\s*
+^A{1}[^A-IK-Z]+[TEST]{1}$
+
+^\b[FNAZ]+\b$
+.?\b\w{2}[PI]+\b$
+^[KROT]{1}[LG]+[MOON]{2}\b$
+^\b.+[CLONE]+[POST]+B\b$
+[^O]{1}\w{2}.?$
+
+^[DIM]+[CCC]+[^SENA]$
+\.?[TOM]{1}[^DOM]\W?G+[JUICE]{1}
+^\w{2}L+(T|A|P){2}$
+^[^C-Z]+[IO]{2}[^\s]$
+^(M|P)[^\s]T?(N|P)+

@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5fbc5fea19415
+
+(DEB|DCB)
+(AC|CA)B
+.(AB|ID)
+
+(AB|C|D)*
+[^ABDE]*
+B*D*
+
+.*
+.*
+.*
+
+.*
+.*
+.*

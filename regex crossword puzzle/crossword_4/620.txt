@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5968f22e12c83
+
+[SCALE]
+[VISUALIZE]
+(I|O|T)
+[PUBLIC]
+([D-I]|[S-TR]|I|[BUT]|[ED])
+
+[A-L]+[AEIOU]{2,}[ZAYBXCWD]
+
+[1-D][^AEIOU][N-Z]+[UANWDOVFHWMXN]
+
+[^LAND]
+.*
+.*
+[^A-M]
+.*

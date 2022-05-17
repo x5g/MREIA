@@ -1,0 +1,7 @@
+https://regexcrossword.com/playerpuzzles/5ad90c4637631
+
+0  2
+0  1  1
+1  1  0  0
+2  0  2
+2  1

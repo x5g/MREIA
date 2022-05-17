@@ -1,0 +1,6 @@
+https://regexcrossword.com/playerpuzzles/56976f729d3e4
+
+I  F     X  =  '  C  '     A  N  D   
+         Y  =  '  K  '     A  N  D   
+         Z  =  '  O  '     T  H  E  N
+   X  +  Z  +  X  +  Y  =  ?         

@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/56bc4e4991f83
+
+               .  .
+               *  *  .
+               G  P  *   
+               .  .  X      
+               *  *  .         
+.  *  R  .  *        *            
+.  *  E  .  *                        
+.  *  !  .  *        *            
+               *  *  .         
+               .  .  E      
+               G  E  .   
+               *  *  ^
+               .  .

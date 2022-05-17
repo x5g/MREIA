@@ -1,0 +1,17 @@
+https://regexcrossword.com/challenges/intermediate/puzzles/4
+
+[JUNDT]*
+APA|OPI|OLK
+(NA|FE|HE)[CV]
+
+[DEF][MNO]*
+[^DJNU]P[ABC]
+[ICAN]*
+
+.*
+.*
+.*
+
+.*
+.*
+.*

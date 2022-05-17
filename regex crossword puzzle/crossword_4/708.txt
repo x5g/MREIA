@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/814cf15d-61f8-4dba-951b-6ab567c66a25
+
+[DELETE][BATCH]*
+[IO]+[STREAM]
+[BATCH]+
+[TABLE]+
+[LAG][GROUP]?[BY].
+[FOREIGN] [KEYS]
+
+.*[TOP]{2}[SELECT]{2}
+[\sYMBOL]+
+TABLES
+
+[FILL]{2,}.*[FACTOR]?
+[ODBC]+[\sYSTEM]{2,}
+[T].*(UP)?(LES)?
+
+.*
+.*
+[^CACHE]+
+.*
+.*
+.*

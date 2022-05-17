@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5d834e15b8747
+
+[^ART!]+.
+[^DROP]+.
+
+[PART].
+[TOOT].
+[ART!].
+
+.[APP]
+.[TOOT]
+.[POOR]
+
+[^RAD!]+
+[^DERP]+

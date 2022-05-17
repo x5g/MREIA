@@ -1,0 +1,8 @@
+https://regexcrossword.com/playerpuzzles/e49a668c-03f2-4b0f-8674-c1d0e813eec0
+
+            A
+            |   
+            B   
+         +  -  +
+A  |  Z  [  A  ]
+         +  -  +

@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/5b4eef4a3bd9f
+
+[KBTG]+
+[ROLL ]+
+(I)[JN]{2}\1
+[GROUP CLUB PASSING]*
+.*(.)\1
+
+[^CASCADE]*
+[^MILLSMESS]*
+[^HOOP]\s[^POI]*
+(.)[SLACKLINES]{3}\1
+
+[A-C][GRI]+[A-I]
+[ON TUESDAYS]*[CLUBS]*
+[^PRESTONPARk]*
+[^RED TOWER]*
+
+..[H-Z].
+(.)[M-Q](\s)(.)
+[NINJA]+
+[A-H][ ][NU]+
+(JUG.)|(HUG.)|(HUGH)

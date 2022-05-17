@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5a50f60e50e5a
+
+J|A|B
+[VBE]
+[GF]
+[BF]
+
+[^A-B][A|E|O][S|F]*
+
+.*
+
+.
+.*
+.*
+.*

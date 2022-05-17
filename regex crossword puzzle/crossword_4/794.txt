@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/c7d561b7-ac1c-4d94-891b-75c8b314445d
+
+[AB]+[E\'0-9]*
+A[RTIESGONEBOO]+
+[\w]+O\s.*
+[EAT]+[^\w\d].*
+( Y|\)|E)+
+
+[\w\s]+
+.*(.)\1E.
+[^\w\d]+S\s\w+
+[^\sI-SA-D]+
+
+(..)\1\W
+.*Y
+[WORST\'PITCH\s]+E
+\w+[^\w\d]{2}
+
+(BB|\'E)+
+(A|T|OS)+
+.*H
+[HORSETOOTHJACKASS]+:
+.*

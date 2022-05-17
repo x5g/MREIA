@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5d73496fec948
+
+.(.)\1*
+[^A-I].+
+
+[A-K][BSV]+
+[JA]*
+
+[^\d\sB-K].*
+.+[^A0-9]
+
+.*[A-G]
+[^S0].?

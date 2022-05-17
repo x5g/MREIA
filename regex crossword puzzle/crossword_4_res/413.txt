@@ -1,0 +1,5 @@
+https://regexcrossword.com/playerpuzzles/c49c275d-3477-4ed7-8974-9ac6eb607d1e
+
+/  -  \
+|  -  |
+\  -  /

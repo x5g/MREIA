@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5b0420f8dc8a7
+
+[^B-Z]*
+[SINGAPORE]{0,}I
+[TOM]+M
+[^A-Q0-9]*[AEIOU]
+
+[ARMSTRONG]+
+[JAKE]?[INTRATER]?[MATH]?[YURD]?
+
+[^TONG]{2}[^TONGS]*
+.*
+
+.*
+(SI|IN|NG|GA|AP|PO|OR|RE)
+.*
+.*

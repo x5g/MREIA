@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5ff9d5e743ee5
+
+[RUBY]+
+[ABCE]{2}
+[ANT]*[DL]*
+[ARC]?[EGG]+
+
+(B|G)?[GEL]+G
+[RADIO]*[^G]
+
+.*
+.*
+
+.*
+.*
+.*
+.*

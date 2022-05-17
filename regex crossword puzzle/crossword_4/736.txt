@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5dd3b2fa277d5
+
+[MILPA]*
+[WVGAJ]*
+[U?R!PE]*
+
+[AEXZSFV]*
+[SMAFHRD]*
+[QONBAI!]*
+
+.*
+.*
+.*
+
+.[^A]*
+[T-W].*
+.*

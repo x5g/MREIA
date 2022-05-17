@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/56937875c2b85
+
+[TENS]+
+[ALL ]+
+[PETA]+
+[AVG].+
+[AEIOU]+
+
+[VEAL]+
+[TEN PLUS]+
+[MATHS ]+[^ZERO].
+
+(.).\1.\1
+[^THREE]+
+.+[TWO]{2}
+
+.[^SET][^T-Z]
+[TWELVE]\W+
+.+[^A-R]
+[^MATH][FLOW]+
+.*

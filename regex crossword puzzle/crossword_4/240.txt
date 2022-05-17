@@ -1,0 +1,19 @@
+https://regexcrossword.com/playerpuzzles/5d6fe5c617eb5
+
+[SPILL]+
+[STOPS]+
+(DO|O|RS)*
+[A-HS-Z]*
+[GI]*M?\w?
+
+[C-GL-R]*
+(M|UM|I|IP|PS)+
+
+[^A-DF-KP]+
+[STUMPED? GIVE UP?]+
+
+.*
+.*
+.*
+.*
+.*

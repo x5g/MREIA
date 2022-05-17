@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/59c15b681d344
+
+([^SAY%MAP$FOREACH@]*|[FC|$LOCAL])[OPEN]?
+[COMMENTS]*(?:VA|U|E)
+[^CHOMP]*
+[ELSIF]+
+
+(?![UNDEF])[UNTIL]*([FOR]|[EACH]|[GIVEN]){2,3}
+[PROGRAMMING]+(?:E|O|F)(\W{2}|=~|RL)
+
+[^SHIFT]+[USE]
+(@_|%!|[PUSH])[REDO]+([BLE]|[S$])
+
+[SPLICE][SPL|T]*
+[O-R]+[KEYS]
+[\\\/<V>\/\\](?:[REVERSE]+)
+[DIE]*[<GLOB>]?

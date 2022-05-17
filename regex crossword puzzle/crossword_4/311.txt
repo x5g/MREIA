@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/60a9c74438521
+
+[BC|CB]+
+[IC]+
+
+[BIKE]+
+[^HATER]+
+
+(IK|BI|EB|BK)+
+[CD]+
+
+(.*)
+[^(!)]+

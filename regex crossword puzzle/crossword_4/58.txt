@@ -1,0 +1,37 @@
+﻿https://regexcrossword.com/playerpuzzles/ddb3617e-a4c4-443a-b90a-9822a58d3a2b
+
+.♙[WHITE].*♙.
+[♘♝]{2}[♗BI\sHOPS]+.
+(S)[PAWNS♙](.)(.)\1\3\2♝
+[♔♕]R[EGENT\s]+.[♔♚]
+A+[CHES\s♙♟]+♛
+♗[♙♟](..)\1[♟♙][GOD]?
+[♘♞].?[♟♙].*[♙♟].?[♞♘]
+.♙?[^NON][^EST][^DEUS ].*♟.
+
+♖.*[BLACK].*♖
+(.).(\1)..\2\2\2
+[NUTTER\s]+
+[♙RO\sELYTIZE]+
+[♘♞][CHES\s]+
+[ ♗]+[POPE][I\s][DEVOUT♟]{3}
+[♙ ♟]{2}.[♙I♟]{5}
+♜.*♜
+
+.*[^BLACK]*
+.[♗♝][^PHILOSOPHY]*
+.{3}(.)[^TRINITY ].[NO]\1
+(.)[♙I]\1[EXI][\sT♙]+\1.
+[^♘](.)[^TEA]\1(C\1|H\1)+
+(.)[♗♝]\1.*[^♙ENCHANT]
+.*(.)\1\1[MILADY]\1
+.[NO].*[GOD].*
+
+..[WHIT][^E].*
+[^♝][^CARDINAL][♗\sIN♝]+
+[^\sC]{3}[ROOKS ♜]+.
+[♔♚][♛ ER]+[^II][♚♛]
+.(.).[♟♙][SECT]+\1[♙♟].
+[^IS][^GOD]*[GREAT]\.?
+[♘♙]+[KNIGHT\s♟♞]+
+.*[ZEU\s]{4}.*

@@ -1,0 +1,15 @@
+https://m.regexcrossword.com/puzzles/48f25c7e-0416-410e-b96a-c7ee19dfa110
+
+UB|IE|AW
+[TUBE]*
+[BORF].
+
+[NOTAD]*
+WEL|BAL|EAR
+
+.*
+.*
+
+.*
+.*
+.*

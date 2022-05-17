@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5d768f5bbda33
+
+1
+
+[^B]
+
+C+
+
+[^A]

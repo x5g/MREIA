@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5bb7c0fc58eaf
+
+[DARTH]*
+[^MODULE]*
+
+[MAD]*
+[ROCK]+[ROLL]*
+
+.*
+.*
+
+[^ASS]*
+[^CORE]*

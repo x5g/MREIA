@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/57e742362bc7b
+
+[JACARANDA]*
+(AL|CA|TA)A
+[TBSIR]*
+
+J[JABBA]*
+[AB](LI|TO|NI)
+N[NASA]*
+
+.*
+.*
+.*
+
+.*
+.*
+.*

@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5841a5eeec44e
+
+[T-Z]+
+(U|T)(I|B)
+(L|N)(C|D)
+(.)\1
+
+(?!.*([^\s]).*\1)[U-Z]+[E-M]+
+(?!.*([^\s]).*\1)[S-V].[D-E]+
+
+[^ZS-X][^V-Z][^ME-K][^F-M]
+.[^A-HJ-Z].*
+
+.[^U-Z]
+.*
+.*
+.*

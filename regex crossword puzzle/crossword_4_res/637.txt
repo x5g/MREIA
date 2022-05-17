@@ -1,0 +1,7 @@
+https://regexcrossword.com/playerpuzzles/3018f160-98b4-46d7-8624-bf43cded9078
+
+3  /  6  /  *
+8  /  1  6  \
+4  0  4  \  ?
+\  \  4  /  /
+^  \  D  :  )

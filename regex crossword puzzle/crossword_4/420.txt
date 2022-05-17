@@ -1,0 +1,25 @@
+https://regexcrossword.com/playerpuzzles/5736d0caebe73
+
+[^TM-TOWTDI]+
+(?!.*(.).*\1)[^PO][ETRY ]+
+(.G|^[O][^L]|F$).*
+(^[^OBFUSC]|.A.T|I|ON)+
+(?!.*(.).*\1)[JAPH]+.
+(?=.(.).\1)(?=.*(CP|A|N)).*
+
+(?!.*(.)..*\1)(^.P|[AT]|[H]|OL|[OG-I]$|^CAL?L?Y?)+
+(?!.*(.).*\1)[^ECL][ECT]{2}[^IC]*
+(?=.*(.)\1)(R|[^UBBI\SH])+.*\1?
+(?!.*(.).*\1)..(LI|S|T|E|.R)+
+
+(?=.*(.)\1$)([PRACTI]|CA(L{0,1})?).{4}
+([E]|XTR|AC|T|[I-O]|N |and){3}.*
+.( ?R?E?P?O?R?T?I?N?G?)?
+(L|AN|G|.U.|AG| E.)+
+
+.*
+.*
+.*
+.*
+.*
+.*

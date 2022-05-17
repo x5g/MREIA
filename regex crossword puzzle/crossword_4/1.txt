@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/56ba0f6a6e342
+
+[S-Z]+
+[^PRIMARY]*.*
+
+.[A-H]
+[^A-R]+
+
+[TELL]+[O|H]?
+[BLUESKY][^AIRPLANE]
+
+[TS|ST]+
+[EGG][TARTE]

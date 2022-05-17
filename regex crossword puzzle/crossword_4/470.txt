@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5f0df4b32ac44
+
+[^B-VS-Z/d]+
+(G|S)P
+
+[ASD]+
+(AP|OP)
+
+.*
+.*
+
+.*
+.*

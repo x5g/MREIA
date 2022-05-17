@@ -1,0 +1,13 @@
+https://m.regexcrossword.com/puzzles/27725dbd-2c90-44ef-8a2e-53f54e7a2590
+
+(A|B|C)\1
+(AB|OE|SK)
+
+.*M?O.*
+(AN|FE|BE)
+
+.*
+.*
+
+.*
+.*

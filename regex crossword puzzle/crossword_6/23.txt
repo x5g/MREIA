@@ -1,0 +1,27 @@
+https://regexcrossword.com/playerpuzzles/5bf03d21903fa
+
+4 5 6 7 6 5 4
+
+(I|OR|POLLY)?(WANNA|CRA|CKER)?
+C[AK]E?[AD][ORE]!?
+(SOME)?.(LAR|GE)( HE|XES)
+(OR|AND|XOR|NOT)A*L*I*E*N*
+(PUR|GE)(TI|RED)(PEA|SA|NT)
+[Q-W][-ER][TY]?(MA|SH)I!*
+(I|AM|SMA|RT!)(\\//\\|\?|//\\){1}
+
+.*
+.*
+.*
+.*
+.*
+.*
+.*
+
+I[A]+I(\?|\!)
+(C|S)+L(A)*SH\!
+(DEV|REL)+(IS)?I*T?
+AD+(E?V?)XAT\-[R]+[EST]?
+RE+DA?ET
+(HA|CK)G[A]*NG
+ICE[CREAM]

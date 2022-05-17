@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/51f89808-729b-4548-82ea-946c08d91fa1
+
+.*
+.*
+.*
+
+[XO\s]+
+[XO\s]+
+.*
+
+[TIX][^TOX][TOE]
+[TOE][TIX][^TOX]
+(.)[TOE]\1
+
+(.).\1
+.[XO]+
+[XO][^XO][XO]

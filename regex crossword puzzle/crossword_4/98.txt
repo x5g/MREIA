@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/b35a0e58-eeb0-4c9b-9f5d-833b6cf71223
+
+(?!(.)\1)+[COLD]+
+(?!(.)\1)+[TACTIFUL]+
+(?!(.)\1)+[ARTISTIC]+
+(?!(.)\1)+[PEASANT]+
+(?!(.)\1)+[EMMISSARY]+
+(?!(.)\1)+.*[THING\s!]
+[CAN\s]+
+
+(?=(?:(?!(.).*\1)))\w+\s\w
+(?=(?:(?!(.).*\1).)+$)\w+\W{2}
+
+[^DUSTIFUL]{3,}[PEN ]{3,}
+[^DIFUSEL]{3,}[PEM! ]{3,}
+
+.[\x41\x45\x49\x4f\x55]
+[\x41\x45\x49\x4f\x55][\x40-\x50]
+[^\x41\x45\x49\x4f\x55]+
+[^\x41\x45\x49\x4f\x4e\x55][\x45\x49\x4f\x55]
+[\x41\x45\x49\x4f\x55].
+[\x20-\x21]+
+\w\x20

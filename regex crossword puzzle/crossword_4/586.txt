@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5d75cda3124b1
+
+[^ABC]
+[^BCD]
+(A|B)
+(C|D)
+
+DABC
+
+.*
+
+.*
+.*
+.*
+.*

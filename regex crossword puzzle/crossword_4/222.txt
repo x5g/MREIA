@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5bf4931f20e62
+
+HL
+EP
+
+HE
+LP
+
+.*
+.*
+
+.*
+.*

@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/2e23f329-6449-4101-8c94-e07c72e1b674
+
+(MA|K)(M|A|C)*
+[HI][MEH]
+(TA|KE)
+
+(K|A|T|E)[IT]*
+(MO|CHA)E*
+
+.*
+.*
+
+.*
+.*
+.*

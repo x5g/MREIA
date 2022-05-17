@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5a43f422b1666
+
+3 4 3
+
+(B.N|.+Y)
+L?A?E?(U|P)[N-X]+
+.E(S|L)
+
+(SU|.E)
+[EU]{2}R?J?
+(FET)?(LX)O?
+[QNU][IMY]
+
+[K-N]{2}
+[XY]+[EF]
+(O)[^X]\1
+(M|J)(E|T)

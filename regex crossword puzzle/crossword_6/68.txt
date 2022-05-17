@@ -1,0 +1,27 @@
+https://regexcrossword.com/playerpuzzles/591d9cd23f7ef
+
+4 5 6 7 6 5 4
+
+(S5|Q3)(PG|HW)
+(FXY|TFZ)(0|1)(U|X)
+(A|U)(AW|VC)(FZ|O9)\1
+[A-Z0-9]*
+(ZPP|ARD)(WU|RE)(E|T|X)
+(17|31)(PA8|AS5)
+(MM|FF)[1-5](T|Z)
+
+(M1|F3)(A7|Z5)
+(M|F)(7|1)(R|P)\1(A|U)
+(UP|4A)(DCV|PZA)(F|T)
+(Z|T)(ARD|SWU)(CF|AX)(Q|S)
+(0|5)(U|E)\1(OY|FZ)\1
+T.*
+(VUUG|HAXW)
+
+(VE|HT|HX|VX)(5Z|0T)
+(A|U)(QU|ME)(AU|S4)
+(U9|XZ)(5W|0R)(A|V)(M|F)
+.0.*
+(PY|HZ)(CC|WZ)(R|P)(3|1)
+(3X|5F)(VMA|AFZ)
+(ST|QF)(A|U)(7|5)

@@ -1,0 +1,8 @@
+https://regexcrossword.com/playerpuzzles/5841cb4748563
+
+H  O  W     M  A  N
+Y     R  O  A  D  S
+   M  U  S  T     A
+   M  A  N     W  A
+L  K     D  O  W  N
+.  .  .  .  .  .  ?

@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/596693445e777
+
+(\d)\1[ABC]
+(TRY|OLB|.\d.)
+^N[^A-NP-Z][FLY]
+
+[1-5](OFF|ON)
+1+(BY|LO|LA)
+(\w)\1[XYZ]
+
+.*
+.*
+.*
+
+.*
+.*
+.*

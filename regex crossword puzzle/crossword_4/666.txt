@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5d7827dd130ed
+
+(...)*PL
+UE|OE|PE
+
+PO*
+(...)*LE
+
+.*
+.*
+
+[PLEASE]*
+[EGO]*

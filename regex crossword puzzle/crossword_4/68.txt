@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/58c3ab093f339
+
+.T+[^FEN]*
+.*[WE.ARE]
+THE|HEM|OPL
+
+V{1,}.*\.H?
+[^HBD].*/E*
+[BEST]*(TWL|CAM)
+
+.*
+.*
+.*
+
+.*
+.*
+.*

@@ -1,0 +1,27 @@
+https://regexcrossword.com/playerpuzzles/5688f397e5d6c
+
+4 5 6 7 6 5 4
+
+[A-G](.)[L-Z](\1)
+(?=.*U.*)[^"BARG"]+
+[TIME|SR]+
+(TE|EP|TH|A)+
+(WE|O)+[FOR]+
+(FO|E|TH)+
+R?[A-E]{2}\W
+
+[^BEFW]+
+C\w{3}[^T]
+(.)(\1)+[^D]
+\W[EFG][RUST]+\w
+(.)(\1)[^E]+(\1)
+[A-I]{4}N
+(E|PM)+O
+
+.*\!
+[MZ](E)[OF]+\1
+\w[ACID]\w+
+\w[DTG]{2}\w+
+(.)(\1)(WT|SE)+
+[AEIOUT]+
+[RTD]+["BA"]+

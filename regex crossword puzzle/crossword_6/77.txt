@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/5d8ca296764d0
+
+3 4 5 4 3
+
+.A.
+[COSMOPOLITAN]+
+[WAR\sZAWA]+
+[BEST][SYNCRON]+[IT]
+[JOB][TWARDA4]*
+
+[AEIOUY]*
+(NE|WS)\s.
+(.)[WIN]+\1.
+[WIN].*
+\S[FIKA].
+
+[^A-Y]I.
+[D-K][B-R]{2}.
+.*MN.*
+(.)\1\s.
+(KPA){1}

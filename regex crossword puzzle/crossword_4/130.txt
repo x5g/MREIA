@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5d782b59287a9
+
+(.)\1
+[^FED][SUB]
+
+(AC|DE|FC)
+[A-CM-R]*
+
+.*
+.*
+
+.*
+.*

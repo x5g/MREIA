@@ -1,0 +1,19 @@
+https://regexcrossword.com/playerpuzzles/59ccae67bbe28
+
+[SLEIGHT]?[A-C]*
+[BAR]+R
+[DISTRACTION]+[DA;DA]
+(.)\1.*
+
+[ILLUSION]?(.)..\1
+[MAGIC]?(.)(.)D\2
+[^SWEDISH][FO]?R[^GOOD]\W
+
+[ALI][BONGO][^D;CASTING-O].*
+[CONE].[^CREAM TOPPER]+.
+[^A COMMON][RABBIT!]+
+
+.*
+.*
+.*
+.*

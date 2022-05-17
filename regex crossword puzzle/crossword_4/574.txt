@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/56b39d39ae293
+
+[AEIOU\s]+
+[N-Z]*
+[AEIOU\s]+
+
+[^BLUE\s]*
+[\sW-Z]*
+.*N.*
+
+(AR|ID)[F-L]
+[HORIZN\s]{3}
+[J-T].*(ND|A)
+
+.*
+.*
+.*

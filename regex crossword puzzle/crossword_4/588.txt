@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5cdc55b1d7620
+
+[HURTS\s]*
+[ORF]*[MN\s]*
+[EI|EIO]*!*
+
+[\?\s!][FEAR]*
+[RHYME]*[HIM]
+.*[A?B#C!]*
+
+.*[FEED]*
+[RYE][MINE]*
+[EH|UM|HUH]+.*
+
+[IT\s]*[RUNS]*
+[OOF]*[MEH]*
+[I|EI|O]*[#!$]

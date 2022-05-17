@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5d774a4d6169e
+
+TA|BA|AH
+(...)*OD
+
+(TO|OA)*
+AD*
+
+.*
+.*
+
+[AT]*
+[DO]*

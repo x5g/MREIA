@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/a501517a-8df0-416e-a72d-18144b325bf8
+
+A?.*
+
+A|Z.*
+
+.*F|Z
+
+.*Z|F

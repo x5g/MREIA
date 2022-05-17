@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5a858d2e48af5
+
+1 2 3 2 1
+
+[RUSH]
+[CHICAGO]*
+[EMERSON]*[LAKE]&[PALMER]
+[JETHRO][TULL]*
+[ELVIS]
+
+[PINK FLOYD]*
+[HALL]&[OATES]*
+[CCR]*
+
+[LYNYRD SKYNYRD]*
+[ERIC BURDON & THE ANIMALS]*
+[JOE COCKER]*

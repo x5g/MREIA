@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5fd05f80416a2
+
+[^UKEV]+
+[ESG]S*[^CF]
+U-[^U]
+
+M([AEIOU]+)
+([RSWQ])\1-
+(FG|GF|FC)[UA]
+
+.*
+.*
+.*
+
+.*
+.*
+.*

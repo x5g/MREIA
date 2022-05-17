@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5e15472869d9d
+
+(D\+|S)*
+(Y|S0)*
+[^DS]9\w
+
+[IDS]*
+\+[\d]*
+(YD|S)+
+
+.*
+.*
+.*
+
+.*
+.*
+.*

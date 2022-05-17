@@ -1,0 +1,11 @@
+https://regexcrossword.com/challenges/tutorial/puzzles/4
+
+A*
+
+A
+AB*
+
+.*
+.*
+
+.*

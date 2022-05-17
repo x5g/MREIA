@@ -1,0 +1,21 @@
+﻿https://regexcrossword.com/playerpuzzles/585c13253ac84
+
+[THIS IS BLACK]*
+[MAKE\sHIFTFORNEIGHBOUR]+
+(([^\S$]{1}){2}){2}
+[THIS    IS    WHITE]*
+
+[^REGEXCROSSWORD]*
+[^ONLY\SPACES]+
+(.)\1(.)\2
+([  ]*)\1
+
+[ *_* ]?[ *_* ]?[    *_*    ]?[    *_*    ]?
+(..)\1
+((\s)+)+
+.*
+
+.*
+.*
+.*
+.*

@@ -1,0 +1,9 @@
+https://regexcrossword.com/challenges/tutorial/puzzles/2
+
+[ABC]
+
+[BDF]
+
+.*
+
+.*

@@ -1,0 +1,11 @@
+https://regexcrossword.com/challenges/tutorial/puzzles/8
+
+A{2,}
+
+A{1}
+B|A
+
+.*
+.*
+
+.*

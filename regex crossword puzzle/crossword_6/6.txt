@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/a18b773e-35d2-4a90-bfd5-f1ab0de19050
+
+4 5 6 5 4
+
+(.)\1\1\.
+([OH]\s)+[NO?]?
+[EY][E\s]+[CY]{2}
+([OM]\s)+[BO?]?
+(.)\1\1\.
+
+[E\s\sO]{3}
+(\s\s|\sH)+
+\s+M\s+
+[\sO.]+[WHAT]?
+[BYE ]+
+[CNNNN.]+
+
+.*
+.*
+.*
+.*
+.*
+.*

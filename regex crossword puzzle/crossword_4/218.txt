@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5d87761b56684
+
+[^ECLAIRS]
+(?![FEAT]).
+[RF]
+[FEST]
+
+([FAT]|[CALORIES])[FAT|CALORIES](?!\1).(?!\1).
+
+[^OATS][FIT].(?![G-U]).
+
+.*
+.*
+.*
+.*

@@ -1,0 +1,33 @@
+https://regexcrossword.com/playerpuzzles/250e396f-8e5a-4911-89ee-c8fd4cdda8dd
+
+\s+
+[JUSTICE ]+
+[SHOULD HELP ]+
+[ALL ]+
+[NEWSPAPERS ]+
+[TO GUARD ALL ]+
+[THEIR FREEDOM OF ]+
+[SPEECH ]+
+\s+
+
+[^\withoutpressure]+
+\s\S+\s?\S+\s
+[^\without\threat]+
+\s\S+\s?\S+\s
+[^\without\fear]+
+
+.+
+.+[CABUS]+[TIGNOUS]+.
+.+
+.[CHARB]+[WOLINSKI]+[HONORE].
+.+
+
+.*
+.[^CASUALTIES]+.+
+.[^SHOUT PLOD]+.+
+.[^LAW]+.+
+.[^WEAPONRY]+[^AS NOW]+.
+.[^GOTTA]+[^ROAR]+.
+.[^TERROR]+.
+.[^HARM]+.
+.*

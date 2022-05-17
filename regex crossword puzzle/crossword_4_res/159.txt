@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/56d562a1f1e71
+
+D  E  L  I  M  I  T  E  R     $  $               
+C  R  E  A  T  E     P  R  O  C  E  D  U  R  E   
+F  I  N  A  C  C  I  (  I  N     L     I  N  T  )
+B  E  G  I  N     D  E  C  L  A  R  E            
+X  ,  Y  ,  Z  ,  I     I  N  T  ;               
+D  E  C  L  A  R  E     F     V  A  R  C  H  A  R
+(  1  0  0  0  )  ;  S  E  T     I  =  0  ,      
+X  =  0  ,  Z  =  0  ,  Y  =  1  ,  F  =  '  '  ;
+W  H  I  L  E     I  <  L     D  O     S  E  T   
+   F  =  C  O  N  C  A  T  (  F  ,  Z  ,  '  ,  '
+)  ;  I  F     I  =  0     T  H  E  N     S  E  T
+   Z  =  Y  ;  E  L  S  E  I  F     I  >  0      
+T  H  E  N     S  E  T     Z  =  X  +  Y  ,      
+X  =  Y  ,  Y  =  Z  ;  E  N  D     I  F  ;      
+S  E  T     I  =  I  +  1  ;  E  N  D            
+W  H  I  L  E  ;  S  E  L  E  C  T     F  ;      
+E  N  D  $  $                                    
+D  E  L  I  M  I  T  E  R     ;                  
+C  A  L  L     F  I  N  A  C  C  I  (  2  0  )  ;

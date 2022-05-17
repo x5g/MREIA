@@ -1,0 +1,27 @@
+https://regexcrossword.com/playerpuzzles/edfaf835-1dae-4c28-aa2b-3d0aa7e06afc
+
+...[^A-C]
+\??(AO|EO){1,2}[[\'\]]?
+[UP]?([( )]+)+
+^[HOW R'U?]+;
+[HOPE]+[s\s]
+[PERL\s ?]+
+(\*.)*(DLL)+[><]
+
+([^= -;]).(.)H\2\W[DU]
+I{1,2}[NEED()]+.(HELP?)
+[LOL]?([LOL!])*\WW\1[REAL]*
+^[^EE-ZEE\[\]]\W+
+
+[ -=].*[^?!].
+..\(\(?\W\w+
+[I-MEAN].*\s.*R.*
+.{3,6}[0-9]*>$
+
+\W\w+[BAD]
+.*(O'|oO|Oo|'O)
+.{2,3}(\))*\**
+.[^\sorry?].*
+\w+\W+
+.*\?$
+(\w)(\w)(\2).

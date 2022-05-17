@@ -1,0 +1,7 @@
+https://regexcrossword.com/challenges/volapuk/puzzles/5
+
+T  R  A  N  7
+2  4  L  ?   
+A  M  5  $  L
+-  W  E  3  O
+D  E  F  F  ?

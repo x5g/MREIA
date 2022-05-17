@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5bfe21d688513
+
+[ACX]*
+A.|XC
+
+A*X*
+C*B+
+
+"(0 or more A) before (0 or more X)" |.*
+"(0 or more C) before (1 or more B)" |.*
+
+"0 or more (A or C or X)"        |.*
+"(A before any) or (X before C)" |.*

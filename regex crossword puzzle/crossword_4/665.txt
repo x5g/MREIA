@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5d781d99890b7
+
+(RA|RB|RC)
+RA*
+
+RR(...)*
+[ASH]*(AA|BB|CC)
+
+.*
+.*
+
+(RA|AA)
+(...)*[RA]+

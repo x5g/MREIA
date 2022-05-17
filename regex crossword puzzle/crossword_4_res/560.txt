@@ -1,0 +1,16 @@
+https://regexcrossword.com/playerpuzzles/1635350f-7068-40f4-8c7a-9151d066198a
+
+S  E  C  T  I  O  N     .  T  E  X  T      
+G  L  O  B  A  L        _  S  T  A  R  T   
+_  S  T  A  R  T  :                        
+      M  O  V           E  D  X  ,  L  E  N
+      M  O  V           E  C  X  ,  M  S  G
+      M  O  V           E  B  X  ,  1      
+      M  O  V           E  A  X  ,  4      
+      I  N  T           O  X  8  O         
+      M  O  V           E  A  X  ,  1      
+      I  N  T           O  X  8  O         
+S  E  C  T  I  O  N     .  D  A  T  A      
+M  S  G     D  B     '  H  E  L  L  O  ,   
+            W  O  R  L  D  !  '  ,  O  X  A
+L  E  N     E  Q  U     $     -  M  S  G   

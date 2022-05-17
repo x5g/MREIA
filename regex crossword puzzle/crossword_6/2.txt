@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5ad150aab613b
+
+3
+
+[B-E].*
+
+[DBZ2].*
+.?.*\w
+[^aAJPp]
+
+(85|E?|P?|J*|DOS)
+[^a-z\d\sA-BA-DF-Z_]
+[A-C].*

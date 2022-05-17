@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5968f13bda95d
+
+[SCHWABER]
+[RESPONDING]
+[INDIVDUaLS]
+[COLLABORATION]
+[SOFTWARE]
+
+[MA-NIFE-STO]+
+
+[A-L]+[LIA]+[NCE]
+
+[MARTIN]
+[^IFOLLOWEDPLAN]
+[INTERACTIONS]
+[^NEGOTIATION]
+[^DOCS]

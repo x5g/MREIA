@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/5b08166db7d25
+
+3 4 5 4 3
+
+[\u2127]?([M-P])[A-K]\1
+[1/OHMSR]*(.)\1
+[RC][TIMe]*(.)\1
+[M-O][P-U][P-U]+[H-L]+
+[TotalDissolvedSolids]+
+
+[A-E][NC]*
+([R-U])\1[D-L]\1
+\x53\x54(.)\x52\1
+[F-H]+[IOE]{3}
+[ELECTRIC][OHM]+
+
+(?!=).*
+[TOES]+
+(.)[N-P]\1..
+(.)[O-S]\1N
+[CSM]+

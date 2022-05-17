@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5d773709638ef
+
+(K|L)*[^ILL]
+
+[^GAS]
+
+A|K|S
+
+[^HIJ]

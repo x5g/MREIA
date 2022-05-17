@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5d773439151fc
+
+[^BCDE]
+
+[F|D|C]
+
+[^ABCDE]
+
+F|D

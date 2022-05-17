@@ -1,0 +1,17 @@
+https://regexcrossword.com/challenges/intermediate/puzzles/3
+
+.(.)\1
+.*[WAY]+
+[RAM].[OH]
+
+CAT|FOR|FAT
+RY|TY\-
+[TOWEL]*
+
+.*
+.*
+.*
+
+.*
+.*
+.*

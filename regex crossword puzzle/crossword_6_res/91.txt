@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5ba2fac8-6303-440f-a40a-4c4ba7d12775
+
+0  1  P  K
+A  H  2  Q  I
+7  F  G  9  3  5
+J  4  L  X  N  O  6
+C  D  R  S  T  E
+U  V  W  Z  8
+Y  M  _  B

@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/5924219126dd5
+
+[K|C]*.*G?
+\s*(EA|AE)?(A|B)+.
+[^\sHJBKV]?(LNE|LNR|NRE)E
+P[QCMD]*\s.*
+
+[K|E]*([B-J])*(\1)[A-Z]
+(CA|EC).*[F-Z]*M
+.+[^F-G]*
+\s?[BE OR NOT TO BE]*
+[A|H|P|G|X]([CDE])\1K*
+
+[^BIHCJ].*
+(EC|CA).*[E-Y]*
+[^BRT]*
+.[TO BE]?[^B].
+(GE|PB|FE|KE|HA).*
+
+[H-M]?C([^D-P])\1.*
+(.)...\1
+[A-Q]*\s*
+(PM|MP)[^QCM ].*

@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/59d8b2dd86bd0
+
+6 7 6
+
+[VOICE]{1,3}(?=G|H).T[#-.]
+[KILL](PSI|NEX|AMP|RET|US6)(.)\2[ BABYSPIDERS]
+^(?![KILLING\sJAR]*$)(.)(.)(.)\1\3[,-/]
+
+(WA|SP|ARM)?(TK|♤♡|JK)
+[ROSEN][PAVLOV]+
+[MERCERISM]+[MOODORGAN]+
+[^PENFIELD][EXISTENTALDISPEAR].*
+[SF]+[BOILED\.DOG].*
+[IRAN]?\.[FORTE]{2}
+(\W)+[^LETMETELLYOUABOUTMYMOTHER]*
+
+[EMPATHY]?.*
+[6\-HOURS]?[~]?[FX][R-Z]
+(.)[ARTIFICIAL\.DNA]\1
+[PPGS]+
+[MILGRAM]+[KILEJ]
+[OUTERSPACE]+
+^V(?![INTERGALACTICWAR]*$).*

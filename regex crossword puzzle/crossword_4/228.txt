@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/611188dbd3ce1
+
+(H|L)+Y
+EO*
+[^A-KM-Z\d]\s[^YO]
+
+H(E|L){2}
+(LO|OL)\s
+[YOU]*
+
+.*
+.*
+.*
+
+.*
+.*
+.*

@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/5b04135d65b20
+
+3 4 5 4 3
+
+(WOW)
+(THAT)
+(WASNT)
+(HARD)
+(YAY)
+
+(YHW)
+(AAAT)
+(YRSHW)
+(DNAO)
+(TWO)|(T{2}W)
+
+(TDY)
+(TNRA)
+(WASAY)
+(OHAH)
+(WTW)

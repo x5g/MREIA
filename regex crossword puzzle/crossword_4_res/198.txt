@@ -1,0 +1,12 @@
+https://regexcrossword.com/playerpuzzles/6057446943558
+
+X  X  X  X        X  X  X  X
+X  X        X     X     X  X
+X  X        X        X     X
+X                          X
+            X  X  X  X      
+X                          X
+      -  -  -  -  -  -  -   
+      -  -  -  -  -  -  -   
+                  -  -      
+-              -  -        -

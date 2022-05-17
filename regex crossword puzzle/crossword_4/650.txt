@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/47ea6065-371f-4572-bf52-4acdcc1b9eb4
+
+[AEIOU]
+[^AEIOU]
+[AEIOU]
+
+[ENO]+
+
+[^E].[^O]
+
+.*
+.*
+.*

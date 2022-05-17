@@ -1,0 +1,15 @@
+https://regexcrossword.com/challenges/hexagonal/puzzles/2
+
+2 3 2
+
+[FIND]?\$?[LAKME]
+[^PESCE]?[POS3]*.
+[^OPRES!]+[^STICKO]*
+
+[^XRAY]?[CROWN]*$
+^[D-F\?][^CAMPED]+
+[KIP?!]*(BU|L|B){1,2}
+
+[78NGUA!E]{2}
+(F|^L|Y)?[POWER!]*
+[^ZENI$](TA|NG|LE|R)

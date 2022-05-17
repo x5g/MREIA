@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5d77394082ca5
+
+[^KLMNOPQRST]
+
+(U|N)*[^KILL]
+
+[^ST]
+
+[RUN]*

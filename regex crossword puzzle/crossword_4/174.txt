@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5b5ad54e4b561
+
+\w?\W+
+(J|E|D|I)+[M-Z]+
+[FORTSQ]+
+.*
+
+[^BA\sF]+E
+[\w\s]+
+
+[A-LT]*
+(.).{2}\1
+
+[^C-KT]+
+[AKIM]*
+[^Q\s]+[^O-T]+
+[TEST]?.+

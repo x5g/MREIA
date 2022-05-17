@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5b02c724edcd1
+
+(EI|FR|MA|LM)+
+[SOX]*[RUT]+
+(MS|BM|NM)*
+
+(ERB|YTT|SIL)
+.[UBM]*
+
+.*
+.*
+
+.*
+.*
+.*

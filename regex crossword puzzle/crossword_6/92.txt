@@ -1,0 +1,15 @@
+﻿https://regexcrossword.com/playerpuzzles/5aeccfd7aa4f9
+
+2 3 2
+
+[ZIEH HER!]*
+[du+ich= <3 ]*
+[HDGDL!]*
+
+[^Doppelseitenlöscher3000].*
+[DAS:A+O!].[HAJO!]
+[DAS W|RD SCHOEN]*
+
+[HDL +\-]*
+[DU+ICH]*
+[KOMM HER]*

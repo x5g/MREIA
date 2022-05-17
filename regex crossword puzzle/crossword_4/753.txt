@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/56e40ee6151ef
+
+[HEIS]*.
+M?[SXE]+
+.*(BT|TB)
+
+[^SEBH](MT|AB)
+[HOC][EBD]*
+(ES|SO)?.
+
+.*
+.*
+.*
+
+.*
+.*
+.*

@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5964e7ebb1c2a
+
+[^A-F]
+[RE-P]
+[TQB1FOM]
+
+[A-M][YTI][P-T]
+
+[PQG][^Y].
+
+[AGHI]
+[^O]
+[^A-LQRY]

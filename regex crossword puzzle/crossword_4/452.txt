@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/aa50772d-33c1-43a9-80b5-aae0e8f8a994
+
+[^QUORUM]+
+[LUX]+
+[Z0NE]*
+
+[:-<>-Q]P?Q?R?S?T?U?V?W?X?Y?Z??
+[^\^-~WYPV*\WS-X][^SUPER].?.?.
+
+[\W\w]{3,}
+P?Z?Q?;*.*
+
+[\\dO-Ze|\^=/]+
+[^\WXYZ]{2}
+.*[@-F\-K]

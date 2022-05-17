@@ -1,0 +1,11 @@
+https://regexcrossword.com/playerpuzzles/5d767144d06eb
+
+2
+
+MP
+
+M+
+P+
+
+(P|M)
+[^NO]

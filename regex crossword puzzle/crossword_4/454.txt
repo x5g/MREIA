@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5fbc5d5928621
+
+(BE|BA)
+[DAHS]*
+(C|A)\1
+
+(AB|BA).*
+[^ASDJ]*
+
+.*
+.*
+
+.*
+.*
+.*

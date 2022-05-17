@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5f13abe6c73a1
+
+([TA])F\1
+[ERIC].[RICE]
+(MR|MS)[B|D]
+
+(MI|TI).
+.(AN|AR)
+\D[D-G]+
+
+.*
+.*
+.*
+
+.*
+.*
+.*

@@ -1,0 +1,11 @@
+https://regexcrossword.com/playerpuzzles/a3a337a9-d746-4b2b-92d8-8bd7a0c8056f
+
+*  *  *        *  *  *
+*        *  *        *
+*     *           *   
+   *  /  \  *     *  *
+*  *  |  |     *  *   
+*     _  _  *         
+*        *  *        *
+*     *        *  *  *
+*  *                 *

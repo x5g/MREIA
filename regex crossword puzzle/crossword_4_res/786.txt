@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5de6e92d9f91c
+
+                  ¡ì                           
+                  ¡ì        .        >  +      
+      C  B        ¡ì     .     .        V      
+   D        A     ¡ì     .  .  .               
+   E              ¡ì     .     .     .     .   
+      F           ¡ì                 .  .  .   
+         G        ¡ì                    .      
+            H     ¡ì        .        .         
+   L        I     ¡ì     .     .               
+      K  J        ¡ì     .     .        V      
+                  ¡ì        .        <  +      
+                  ¡ì                           
+

@@ -1,0 +1,5 @@
+https://regexcrossword.com/playerpuzzles/9aeb3451-62f6-498d-a323-f2ddc83ff03d
+
+(  \     /  )
+(  O  T  O  )
+(  >  =  <  )

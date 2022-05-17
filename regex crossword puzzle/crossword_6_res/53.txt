@@ -1,0 +1,7 @@
+https://regexcrossword.com/playerpuzzles/5a6f2dd78baec
+
+&  C  4
+L  1  F  0
+R  N  1  4  D
+R  E  4  M
+1  N  G

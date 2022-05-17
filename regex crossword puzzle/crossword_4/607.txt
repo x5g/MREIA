@@ -1,0 +1,11 @@
+https://regexcrossword.com/challenges/doublecross/puzzles/1
+
+[D-HJ-M]
+[^A-RU-Z]
+
+[A-GN-Z]+
+
+[^A-DI-S]+
+
+[^F-KM-Z]
+[A-KS-V]

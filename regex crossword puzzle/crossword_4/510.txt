@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/3d17649e-3085-41fe-ba9f-3d1fc34a135a
+
+[^FIGHT EIGHT]{2}.*
+(.)\1.[^TAKIN' PICTURES].
+(.)\1..[IF YOU CAN BE GOOD]
+(.)\1\1.\W
+
+[RIGHT]([BANG]).\1
+[LEFT]([BANG]).\1
+^ \W+[CRASH BANG]{2}$
+[PRESS GANG]{2}..
+[AND IF I]{2}[^IF YOU CAN]([BANG)])
+
+[RIGHT]([HEART])[MIND]\1
+[LEFT]([HEART]).\1
+^.(\()\)?[BIG BANG]{2}
+[^TRUE BEAT].[BOING BOING]{2}
+[^I NEED RHYTHM].[^IF YOU'RE BAD].
+
+..[I NEED A BEAT]+
+.*[^IF YOU'RE BAD]
+[MATTER].[^ZING ZANG][^BOINGBOING].*
+.*[^DING DONG][(-)]

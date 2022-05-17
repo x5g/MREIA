@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5aaf6d2ca0738
+
+F(\s|.)
+(UW|[N-P]).*
+(C|[P-S]).
+[GEEK]*[HUB]*
+
+[^KCQN]*[KR]+
+.*\s.*
+
+.[^FAP]+[^FAP]+[H-O]
+.*Y+[OH]*[UH]
+
+.*
+\w{2}
+[^S\s]O
+(HH|KU)

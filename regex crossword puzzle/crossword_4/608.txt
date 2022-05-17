@@ -1,0 +1,17 @@
+https://regexcrossword.com/challenges/palindromeda/puzzles/1
+
+(ENT|NTE|NET)*
+[WEAR]*
+[R-Z]E*[M-R]
+
+(T|E|N)*
+(.)*W+\1
+[LENT]*
+
+.*
+.*
+.*
+
+.*
+.*
+.*

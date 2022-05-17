@@ -1,0 +1,63 @@
+https://regexcrossword.com/playerpuzzles/1635350f-7068-40f4-8c7a-9151d066198a
+
+[ASSEMBLY][ISGRAND]_\W+[SUCK][MY]\s[LIFE]
+[ELEBITS]{3}.*
+.O.[MI]*.{4}
+([^A])BA\w+\1\s+
+I[AR]+[VT]{7}[DEWIE]*
+OL[OOT\s]{9}[BBQO]{3}
+N\W{9}N\W[RUNTS]*
+\s+'L\s
+._.[EO]{4,}.{3}\$$
+TS\s[A-D]{4}[AX]{3}DE\W\s
+[ET]+\s[8X]{7}.*'-$
+XA?\s[,O]+TL,M
+..(.)[LEN].14.1\sAOOS
+([TEST\s]{11}).*\W[XG]{2}
+[\sPACI]+NG\s*A\s
+
+[\w\s]+\.[\w\s]+
+[GLOBE]+[ALL]{2}[\w\s]*[R-T]{2}A[Q-U]{2}\W
+\w[SAURON][TART]+:\s+
+\s{2}\w{3}\s{3}E[\w\s,.]+
+\s{2}[MOVE]{3}\s{3}E[\w\s,.]+[MOV][ASS]G
+\s{2}\w{3}\s{3}[\w\s,.]+
+\s{2}\w{3}\s{3}[\w\s,.]+
+\s{2}\w{3}\s{3}[O8-9X]{2}.*\s{3}
+\s{2}[VOMFOSS]{3}\s{3}[\w\s,.]+
+\s{2}\w{3}\s{3}[O8-9X]+\s{3}
+.E[CKU][TENT][IXZ][\w\s]+\.[\w\s]+
+[MOM][SUCKS]G [A-D\s]+'[\w\s]+,\s
+\s{4}[W-Z][OOD][DOCTOR][A-Z\s]+D!',.*[\w\s]+
+[LOST][END][NEW][\w\s]+.*[\w\s]+
+
+[SOUND][ECH\^O]C(.)[I-O]+\s\.\1[EX]+\1\s+
+[^OTEAM]{2}.*_[sS\s\s](.)AR\1\s
+_[S\s\S]([^BOLD])AR\1.\s*
+.*[MOVE ]{7}D\s*.*[LOT][END][NEW]
+.*[MOVE ]{7}C\s*.*[SMEG]{3}
+.*[MOVE ]{6}[AUE]B\s*.*\s\s
+.*[MOVE ]{6}EA\s*.*,4\s\s
+\s+[IN]{2}[TEREST].*[OX8]+\s\s{2}
+.*[A-E]{2}[EXIT],1\s\s
+\s+[IN]{2}[TEREST].*[OX8]+\s\s{2}
+[SAINT].*ON\s.*DA.{4}
+[MARK].*H[ELLOBOY]{4},\s
+(?!(HELLO))[HELLO ](WORLD!)*\W\W.+OXA
+[L\^EMON][EN\^TS ]{4}[QUIT\s$]{3,}-MSG\s$
+
+[\w\s]*
+[LES\sIS_MORE]*
+[COLD\sMINT\sGILATO]*
+[NOT\sTABOO]*
+[A-W]*
+[BOLT\sQ]*
+[:RUN\s]*
+\s{10,}'L\s
+\S{2}\s\w+[OE]{3}\.\w{1,}\$
+[A-E TSX!]*
+\w{2,}\s[X9]+8[XYZ]8[ALL]{2}\W{2,}
+\w{2}\W{4,}.,[LOT]+[.,?\_]M
+[TART LEMONS\d]+
+\s\w\s\w{2}\s+\S\w{2}
+\s+\w{2,}\s\w*\s+\S\s

@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/bec32b27-68de-49bc-9740-814fe17f210b
+
+([LO]+)\1O.*
+[UATJ-K]+
+[LB!]+
+
+[LU]+
+[LA]+A*B
+[OT!]+
+
+.*
+.*
+.*
+
+.*
+.*
+.*

@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/5d87bbdf6ba8b
+
+[D][B-E]*
+[O-P]\w{1,2}?\W
+\W*?\w{0,3}
+['OHNO' HE SAD]*
+.['T].*
+[S\sH]*
+
+\w*\W\w?\W?
+[BE PREPARED]*.+
+[A-E]\W[JUSTIN BIEBER]\w*
+
+.(ON|T\s|N'|'T).*
+[BAR]{0,2}E?I?B?A?(HT|TH)
+[^F-Z](HI|IS|.T)*S
+
+[B-R]*[E-T]
+.[\s0-9P-U]*
+(ETN|TEN|ENT|NET|NT)*
+'[\S]{2,}
+(.)\1A?E?I?
+[\S\s]+\s?

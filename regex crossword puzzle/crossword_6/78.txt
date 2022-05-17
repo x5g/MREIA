@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/579d798f5235f
+
+1 2 3 2 1
+
+[LIN]
+[ABC].*
+[GINU]{3}
+.*[AILNUTS]
+[DOSA]
+
+.*
+[A-L]N[A-G]
+[D-J][IG][^M]
+
+[H-K][^D-P][^A-Q]
+[^AI]NT
+[GOLD][^BC][AUS]

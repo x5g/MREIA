@@ -1,0 +1,25 @@
+https://regexcrossword.com/playerpuzzles/5a6a1a22e4a08
+
+[!@#$][^AIOU][^O-QS][^EIOU]\s
+[^O-Z][^EIOU][^FH-J][^LN-Q][^AIOU]
+[^AEOU][^R-SU-Z].[^AIOU][^JL-P]
+[^B-O]..[^QS-V].
+[^FH-K][^E-U][^ABD][^A-HJ-Z][^LN-T]
+
+[^@#$][N-S][AEIOU]{2}[F-J]
+[AEIOU]{2}[R-Z] [AEIOU]
+[O-S][F-I]\s[A-D]{2}
+[AEIOU][L-O][AEIOU][Q-T][AEIOU]
+[^\S][AEIOU][J-M][AEIOU][L-O]
+
+(?=(?:(?!(.).*\1)[A-Z\W])+$).*
+(?=.*A$)\w(.)\w\s\1
+(?=(?:(?!(.).*\1)[A-Z ])+$).*
+(?=(?:(?!(.).*\1)[A-Z])+$).*
+(?=(?:(?!(.).*\1)[A-Z ])+$).*
+
+(?=(?:(?!(.).*\1)[A-Z\W])+$).*
+(?=(?:(?!(.).*\1)[A-Z])+$).*
+(?=(?:(?!(.).*\1)[A-Z ])+$).*
+(.)\s\1\w\1
+(?=(?:(?!(.).*\1)[A-Z])+$).*

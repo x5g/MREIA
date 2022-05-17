@@ -1,0 +1,29 @@
+https://regexcrossword.com/playerpuzzles/570584c9ec589
+
+[^HAVE A GO!](?=.[THI]+$)S.*
+(I|S|N|T).((?!\1| )[AN])[E-Z]{1}\2([ANSR])\3*
+(?=..(?=..(C|AN| |Y|OU| )+$)G?DO?)[OK]+[\wO ]+
+(A|\sK$|IN|N?EO(NE)?|EL|\sSE?)+
+^(?=[^CAN\-YOU]+$) (B |[EAT]| {1}(S|T))+!?
+
+(?![A-FUNN-Y])(LI|TT|LE)(JO|KE)+\s
+(?=[OH ITS]+$)\wHO(LLY)?[^PCRE (N0 P05IX)]*
+(?=[^A]+$)(?=[\sAYING]{4})[^DYSLEX1CS]+?
+(?!\WITH)[MIXED UP](?=\wO?)RDS\s
+I(?![^CAN GIVE]+$)(?![^A HINT:]+$). A\s
+(?!T)[HE][ANS\wER]+Y( |I)S
+(?=[^ONLY]+$)[JUST ]A[^N IRREGULAR EXPRESSION]+!
+
+.*
+.*
+.*
+.*
+.*
+.*
+.*
+
+.*
+.*
+.*
+.*
+.*

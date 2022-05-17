@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/577bb8afa9de2
+
+[^D-K]
+
+[A]+
+
+.*
+
+.*

@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/a4c32dac-b953-403e-9fea-355a2e3ae17d
+
+\W
+
+[ABCDEFGHIJKLMΝOPQRSTUVWXYZ]
+
+.*
+
+.*

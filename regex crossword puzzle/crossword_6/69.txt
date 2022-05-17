@@ -1,0 +1,37 @@
+https://regexcrossword.com/playerpuzzles/5e0a2ab40a18b
+
+5 6 7 8 9 10 9 8 7 6 5
+
+(?=.* ).[YAY ]+[W\W]+
+(?=.*(.)\1)[A-M ]+
+H(A)VE( )\1\2
+(?!.*IE)V[NOISE]+\W+
+.\.[\sOFA]*[^LATE]
+[LORD]+ W.(.)[^DIE]\1
+([YES NO]|V.R)+
+(?!.?S).[^A FIEND]+.
+[A FISH][A FiSH]+.
+[KINDNES]+\s.
+.(.)(.)\2\1
+
+(.)(.)\2+\1[N-Z]
+(?!.*D)[^H-RT-Y]+.\.
+[^\sC-L]+[A\sH]+(.)L.\1
+(?!.*[L-Z])[^\WE]+[\WE]. .+
+A( O?[ARISE]*){3}
+(?!.*[IFU]\W)[F-J-U-Z ]+ M
+(.)\1(.)H\2(?=[AEIOU]+$)..(.)\3
+.([^E]).(\w)\1(?!.*\2).*
+[REAL ITY]+
+[WALL.E]*(.)\1.
+
+([AEIOU])\1 .-.
+\w[FRIEND]+ .
+[DUST\WEB]+
+(\W*A[^Q-T]*){3}
+[^A][A][BROWN IE]*
+(?!(.*\W){3})[^G-JQ-V]*[HEIST]*
+[^B-K]+E(.)[D-X]{4}\1
+[^G-IW\W]* [^S\s]*
+[FRIDA .]+
+(?!.*[GRAIN])M.[^\WE].+

@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/9dda1210-7146-49df-9846-982a6fe2052d
+
+[TKO]{1,}[^,\d.\w+\s][SOCK'EM]+
+[HORTON][DUMBO](.)\1
+[DIPOLE]+[IONS]{3}
+[BLACK ]{2}[RED!]*
+
+[STD][HIV][ETC]\W*
+[KING]([KOOPA])\1[LIM]
+[+-.](?:[AEIU]{2}|[^AEIOUR!])+
+W?O?MAN?[ -#]
+
+.*
+.*
+.*
+.*
+
+.*
+.*
+.*
+.*

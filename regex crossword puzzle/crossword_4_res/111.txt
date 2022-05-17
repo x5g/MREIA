@@ -1,0 +1,5 @@
+https://regexcrossword.com/playerpuzzles/569575955eeb1
+
+?  [  -
+^  #  ^
+$  .  *

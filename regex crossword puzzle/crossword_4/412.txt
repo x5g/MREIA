@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5791a0e919995
+
+(LT|BS|DF)
+(MF|QS|AT)
+[^L][A-H]
+Y[LPQ]
+
+(.).\1.
+T*(UI|ST|JL|EP)*[PZM]*
+
+.*
+.*
+
+.*
+.*
+.*
+.*

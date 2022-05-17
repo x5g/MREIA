@@ -1,0 +1,37 @@
+https://regexcrossword.com/playerpuzzles/d5e86087-5065-488e-b387-6d629df29bae
+
+.*(T.)+
+.*((H).)\2+O?
+.*(E)+U?
+(.)(O)\1\1
+[SUCK](U)R?[WIG]+
+\s?[TICK](\s)(UND|ST|EI|n)+
+[RED][BLUE][NUANC3](L)
+[FOOL][WELL]T.*
+[NaCL]+L.*
+[GLUE][OR][DIE].
+(.)[MANY][RAMS]+\1
+[BRU73][FORCE].\.
+
+(TH|EY|LL)(.)([SOON TRY])+G\2[HARDER]
+(.)\1(Y.).\1[BOY][COME]*[PLEASE]
+..(E)(\s)([TENT GELL]+)R?\2
+Y[AIOUY]+(.)[WORLD][IS NOT](.)\2\1B?E\.
+
+.*
+.*
+.*
+.*
+
+.*
+.*
+.*
+.*
+.*
+.*
+.*
+.*
+.*
+.*
+.*
+.*

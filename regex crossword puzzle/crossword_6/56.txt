@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5689c51256c02
+
+2 3 2
+
+([A-Z]|3)[ -!]
+[A-G]\d(E|F)
+[RIDE:][Z-\[]
+
+[D-Z]+
+Z(\d|\w)\1
+.?[!%:]+
+
+(E|6)(AC|Z|ED)
+\W\d?[RA]+\??
+(\W|\d)[B-D]

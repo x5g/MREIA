@@ -1,0 +1,25 @@
+https://regexcrossword.com/playerpuzzles/5b36333fcf11b
+
+3 4 5 6 5 4 3
+
+[RAIL]+
+(?=.*I.*T.*)[WRIT]+\s
+(?=.*A.*Y.*T)[PASTEY]+
+[SPACE]{2}[DANCE]Y\sR
+(?=.*S{2})[ESSENSE]+I
+((NX)|(EU)|(OB)){2}
+[REEFER]*
+
+[CRIMINAL][JUSTICE]+[ACTS]
+(?=.*[NXP]PP.*).*(.)\1
+(?=.*DA.*)E[DOSE]+.*
+.(.)Y\1(.)\2
+[YITA ]+
+[COURT]* [TRAIL]
+
+[BIER]+
+[STOFFF ]+
+\s(.)\1[RUSH]+
+[TNET LSD]+
+[A PARTEY!]+
+[TRIPS]+

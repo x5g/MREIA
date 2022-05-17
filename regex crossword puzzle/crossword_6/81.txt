@@ -1,0 +1,11 @@
+https://regexcrossword.com/playerpuzzles/5d767da3bc335
+
+2
+
+((?![A-D])[A-Z])(?!0|[2-9])\d
+
+(?![E-I])[A-Z]
+[0-9]+
+
+(?!0|[2-9])\d
+(?![A-I]|[K-Z])\w

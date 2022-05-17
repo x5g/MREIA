@@ -1,0 +1,25 @@
+https://regexcrossword.com/playerpuzzles/57a3869172837
+
+\s([!-+])\1_[^F-T]*
+.(\W)\1_[I-Q]+
+(IT|EE|TB)[1O1]+\137(G|O|A|L)?
+[U-Y]{2}[^MURDER|BIT]\u005F[DOH!]
+E?(OE)*O?[Z-a][TIME]
+
+(\+| |-)*(FI|FT|EE|N)(O|V|E|R)*3?
+(\+| |-)*(BE|TW|EE|N)3?(A|N|D)?[ONE]
+(\+| |-)*\s[^B1NARY][NUMBER]{1,}
+(\+| |-)*[UNDER_LINE]*
+(\+| |-)*[THERE-IS]{4}([PLUS]|[TWO])
+
+.*
+.*
+.*
+.*
+.*
+
+.*
+.*
+.*
+.*
+.*

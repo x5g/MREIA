@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/d2efc1a5-541f-439c-bc11-5d4575ef2819
+
+(SH|BO|ST)
+(EE|SE|EA|UA)
+[CUTE](T|R|N)
+(SH|UO|ST|SP)
+
+[^A-R][A-R][ARE][^A-R]*
+[^DOT][^NET]*(P|L)
+
+.*
+.*
+
+.*
+.*
+.*
+.*

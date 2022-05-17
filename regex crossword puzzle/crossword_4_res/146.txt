@@ -1,0 +1,7 @@
+﻿https://regexcrossword.com/playerpuzzles/5877362190c9d
+
+²  5  ²  5  ²
+5  ²  5  ²  5
+²  5  *  5  ²
+5  ²  5  ²  5
+²  5  ²  5  ²

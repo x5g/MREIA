@@ -1,0 +1,15 @@
+https://regexcrossword.com/challenges/doublecross/puzzles/2
+
+[^MCI]+
+.A
+(TM|BF)
+
+(CAT|A-T)+
+[MA\-\sE]+
+
+[^KI\sP]+
+(M|APS|EA)*
+
+[AI][E\s]
+[A\-Z]+
+[\sT\-M]+

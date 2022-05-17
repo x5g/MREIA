@@ -1,0 +1,27 @@
+https://regexcrossword.com/playerpuzzles/5d66cc8555819
+
+6 7 8 7 6
+
+[HR](H|RRH)+(HG|RE)
+(.(.))\1.*\2
+.*
+[^H]*(.)H[^H]*\1
+([^BR]|BR)+
+
+.*(GR|EC|RT).*
+[^HE]*H[^H]*
+R+[^R]*
+H*\s[^\sB]*
+[QB](SG|BH|BR)*
+[RA](DA|CH|XU)+
+(\s|ST|M[RQ]H)*
+([RE].G|[CA].E)
+
+([EC].|[RA])+
+[^B]*B[^B]*
+[^RS]*AS.*
+([^R]|HR)+
+.*(.)\1.*
+[^GE]*[RE]*
+(.).*\1
+(RAW|.E).?

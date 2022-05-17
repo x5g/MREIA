@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/5ba0edad12cab
+
+[LISA]+.*A
+[OH][SHIT]*
+[HIVE ]+R
+E([^N]|I)E[^\w]
+[YES]* [NO]+ [^&*]
+
+[^ROSE]O[WV]E+.*
+[SIN]{2}.*[SIN]{2}
+\s+[TEN][HEN]+[^\S]
+[RIA]+:[&*)]
+
+[^HAWAI].*
+[^NES]S I.*
+..H..
+.*
+
+.*
+.*
+.*
+.*
+.*

@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5afbde1096ac4
+
+3 4 3
+
+[A-D,O-Z][E-L][A-D,O-Z]|[E-L][A-D,O-Z][E-L]
+.{2}(MA|PO|SE)
+[A-P]*
+
+GN|AE
+.*
+[CRST]M?L*U?
+[AMPC][AEIOU]
+
+.*
+[OST].I?U?V?
+LEG|ARM
+CN|HN

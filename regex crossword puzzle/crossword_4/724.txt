@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/592a446d71eff
+
+[REG]?[EX][2DO]*
+[REG]?[EX][RULES]
+[ABCDEFG][UVWXYZ]\D
+
+(REG|EKS)
+(E|X*)[WHAT]
+([2D]|OR|[3D])*
+
+.*
+.*
+.*
+
+.*
+.*
+.*

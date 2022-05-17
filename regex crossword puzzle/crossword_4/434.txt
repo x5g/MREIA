@@ -1,0 +1,31 @@
+https://regexcrossword.com/playerpuzzles/59315046d7be2
+
+[^A-P](OA|OQ)[^S][^I][L-O]+[H-I]{2,}
+(ON|OFF)N.{3}[LESS]*
+(\s|\d)+.*(\1)\2(\1)\3.{1}
+[DLNA]+...(FA|FT|TF|FF)+(\.)
+
+[SOON]+\s[LONG]+
+(ON|OFF)[^Q]?\W
+[CAN'T DO]*\W
+[Q-W](H|2)A\w
+[KING]+S.[D-R]+
+(OR|OR).(BO|A|OK)
+L*\W*T*
+[HE IS NOT FIRST]*
+[THAT'S IT, THAT'S]*.
+
+[SIXNINE]+[^\d]*
+[M-OF-G]*[^A]
+[DON'T PANIC]*
+[^QRUV][^G2]A[N\s]
+[^QUEEN]+
+.+[^K]
+[K-P]+ .
+[^TRISTe]*
+(AL|LT|HE|RE|IS)H.
+
+[AIOSTLKH]*
+[^AF]*
+.G[D-J].*
+(L,\s|ND\s).*

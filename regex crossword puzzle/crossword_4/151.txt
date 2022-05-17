@@ -1,0 +1,25 @@
+https://regexcrossword.com/playerpuzzles/5b1fc85346dc3
+
+(.)\1{4}
+T(REE)?(.)\2{3}
+[AEIO](.)\1{2}[K-Z]
+.[DIAGNOSTIC]+
+(.){1}[A NALYSIS ]+\1
+
+(.)[FAULT ]+(.)\2+
+([A-G])[MEA ]+
+([B-H])[A MODE]+
+(.)[CAUSE / MEAN]+
+[FMODE ]+
+
+F?A?U?L?T?R?E?E?A?.*
+(FM|ZP|EA|RP| )+
+.*(DA|CA|AD|CK)
+.*(DA|CA|AD|CK)
+.(.)\1D.
+
+.*
+.*
+[AEIOU]{4}[^AEIOU]
+.*
+(.)(\1)..\2

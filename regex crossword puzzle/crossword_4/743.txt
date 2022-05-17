@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5d75d19e16d29
+
+[^SIP]
+[^MIP]
+[^MSP]
+[^MSI]
+
+MSIP
+
+.*
+
+.*
+.*
+.*
+.*

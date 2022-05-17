@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/56b3b1d7cc7cc
+
+[FINE]*
+[OLD]*
+[FOAM]*
+[GREAT]\s
+
+[ROTFL]*
+[^NERF]*
+
+.*[LR].*[LR].*
+[A-J]+[^A-Z]+
+
+.*
+.*
+(T|OA|D)+
+.*

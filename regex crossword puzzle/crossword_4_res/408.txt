@@ -1,0 +1,6 @@
+https://regexcrossword.com/challenges/palindromeda/puzzles/4
+
+T  R  A  P
+R  A  J  A
+A  J  A  R
+P  A  R  T

@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5bdebbce4b4c6
+
+[JUNE]+
+.*[\/\sNOW\\]*
+[CHARIZARD]+
+
+[J-P]+[^ABC]
+[CHIN\s]*
+(NA|E)+
+
+[^PUMPKIN]+
+.[\\\/\s][^HI]+
+.*
+
+.[^JUICE]*.
+[O|N][^LAMP]+
+[^DRIZZLE]+

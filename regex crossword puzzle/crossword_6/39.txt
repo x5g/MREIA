@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/59c20c7fc85b4
+
+2 3 2
+
+[DELERIANT]*Y.*
+[ATROPINE]*T+(?!☢).*N*
+S[CORPOLAMINE]*.*A
+
+[SARIN].*.
+[ANTHRAX]+(?!☤)..
+[TABUN]*\u2006
+
+N[^VX]
+\W[☢-☤].
+[HAZYMAT]*

@@ -1,0 +1,6 @@
+https://regexcrossword.com/challenges/palindromeda/puzzles/3
+
+R  A  T  S
+A  B  U  T
+T  U  B  A
+S  T  A  R

@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/41228562-3709-457f-8e7f-6d1d7fbaaa21
+
+[TA]{2}
+.[NRS]
+.*
+
+[MT](AC|OC)
+[HA](RD|IN|ES|EI)
+
+(TO|MO).
+.*
+
+.*
+.*
+.*

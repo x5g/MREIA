@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5d79f2f4b1e85
+
+[FACN]*
+[AIGF]*
+
+(...)*FA
+[CI]*
+[SING]*
+
+.*
+.*
+.*
+
+(FLN|FCN|FDN)
+AIG+

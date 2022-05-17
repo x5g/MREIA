@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/0a8c5256-5b35-44eb-b44a-7214e214519d
+
+[^BL][NOVEL]
+[^BL][^COMIC]
+[^BL][^DRAMA]
+
+[LG](B|T)+
+([^LOVE])\1\1
+
+.*
+.*
+
+.*
+.*
+.*

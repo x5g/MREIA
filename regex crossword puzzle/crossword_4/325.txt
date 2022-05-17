@@ -1,0 +1,31 @@
+https://regexcrossword.com/playerpuzzles/5cb3a98331dc0
+
+(HK|[I!]T(?!H)| [WF ])+
+(O? )(IE|.IR|E+P)+( O?)
+(UL?[R ]?E? *|O[^Y]R|TIS)+
+(EP|TU|ZL| NW+|.S|T +L)+
+([A CG]|ZI|I T)+
+(O(K|Y )|-[ON]|[NH] | +,|YR)+
+( [N ]|[EFK] )+ [DG]
+
+(I( |NK)|[ !]O[UF](T *)?|TH)+
+\s*(LU|IS|T.L|CK|TH)+\s+
+( (IS?)?|T?[RH]E|–|,)+
+(WR?|( G?)?ON(G +)?|K?E+P?)+
+( |(WA)?Y|Z+-|PU)+
+\s*((WA|FО)R|NG|D|LI|[OL] +)+
+
+.*
+.*
+.*
+.*
+.*
+.*
+
+.*
+.*
+.*
+.*
+.*
+.*
+.*

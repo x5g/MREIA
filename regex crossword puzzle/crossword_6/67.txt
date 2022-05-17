@@ -1,0 +1,19 @@
+https://regexcrossword.com/playerpuzzles/5666ec760d6dc
+
+2 3 4 3 2
+
+ME|YOU?|US
+[SAVANT]{3}
+[P-R\-]+[AEIOU]*
+[TOO]*[SMART]
+.*
+
+(IM|NO|TW|IT)-
+A*[M-P]+
+[PRIMES]+
+(.).\1
+
+[EXTRA]*
+(UH)?(UM)?(AR)?(OI)?
+(.|[TEST])+
+[^A-LO-Z]*-?

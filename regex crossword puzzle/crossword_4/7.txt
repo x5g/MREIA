@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/51c59b14-ef3a-4cb6-afdd-381749e7403c
+
+[Somthing]*[in]?[Life]+
+[DO You know]+
+[what does involVe?]
+[That's Essential]
+
+.?(LO|n|g)+.(Ti|m|E)*
+
+.(AB|O|V|E)+
+
+.*
+[the mOst important]?
+[^not the materially]
+[in your hEart]

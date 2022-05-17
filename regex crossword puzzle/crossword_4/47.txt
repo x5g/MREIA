@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/58a8a3238b3a2
+
+[SWITZERLAND]*
+[GERMANY]*
+[SVERIGE]+.*
+
+[SAMOA]*
+[NETHERLANDS]*
+(?![NEPAL])[DENMARK]*
+
+.[^LAOS].
+[^COOK ISLANDS]*
+.[BRAZIL][^GREENLAND]
+
+[THAILAND]*
+[GUATEMALA]*
+[SAN MARINO]*

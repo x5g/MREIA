@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5b626f6c2214f
+
+([SERVETUS]|\D\d)?
+.*
+
+([SERVETUS])*\1+
+\d*\w?[^MICHAEL]
+
+.?[THOREAU].?
+.?(HE|NR|Y)*[DAV1D]?
+
+[^D-T][MER6ER]
+[T-V]\d

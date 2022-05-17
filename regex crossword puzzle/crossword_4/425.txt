@@ -1,0 +1,13 @@
+https://regexcrossword.com/challenges/cities/puzzles/1
+
+(MA|LM)
+[^MESH]+
+
+[LINE]+
+[LAM]+
+
+[ISLE]+
+[MALE]+
+
+[LAME]*
+[^LES]+

@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5a9ee550adb5a
+
+[^\u005A-\u0080]
+
+[^\u0000-\u0058]
+
+\w
+
+.*

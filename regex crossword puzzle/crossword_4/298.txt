@@ -1,0 +1,25 @@
+https://regexcrossword.com/playerpuzzles/5a0820f57c2a7
+
+.[^D]+G.[^02-9]
+[^U].*(O|0|V|W)\s[0-9]
+[^O].*\s.{2}
+\s\s?\s?\s?.\s.{0,5}
+
+Y[^DAF]+
+(D|N)E{1,12}(N|D)
+[OTTER\s]{4}
+[I GO TO LAUZHACK\s]+
+[CNBC I\s FAKE NEWS]+
+\d{2}.\!
+
+.[DOAUF]{2,3}\s?
+[^LAUZHACK]+
+[TODLER\s]*
+[IT\s GOOD]+.*
+(X*)N\s[^NKAFE]{2}
+\d{2}\s.
+
+[\sYNWVZ]{3}.*
+..[TICK].*[^1-9]
+.*[^ERT\s].B.*
+.[^N].*[IWQS][CZ]\!

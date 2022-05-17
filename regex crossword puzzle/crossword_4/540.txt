@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/575cea14d6783
+
+A*Z+.?[.]$
+(?![\r\n\t])\s.
+
+.\s
+.*(\.?)\1
+
+[A-Z]\s
+(\.*?)\1
+
+^([A-Z]*|Z+).{0,1}
+\s[.]

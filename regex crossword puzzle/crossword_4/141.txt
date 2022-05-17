@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/569519a061622
+
+(?=.*Z$)[AR-Z\s]+
+R[NSO]+
+
+[A-Z]+.*
+[\s]+.*
+[ABZ][MNR]*[A-O]+
+
+^.*A.*
+\s+[R-T]
+.*[OPQ]+
+
+.*
+.*

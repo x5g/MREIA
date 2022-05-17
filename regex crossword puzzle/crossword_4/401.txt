@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/5d8148c971066
+
+&.*[OUT]*&
+&.*[ON THE]*
+&.*[FIRE]*
+&.*[ESCAPE]*
+.*[TALKING]*&
+
+.*&*[THE]*
+[BOY].*
+.*[DONE]*
+.*[GOOD]*
+
+[^THE]?.*&
+B[GIR]LL.
+B[^DONE]*
+&*[^BETTER]*&
+
+[GREETINGS]?&B..
+&[TO]?I?K?R!
+[THE]?(&|!)LA\1
+&[NEW]?.*G!
+[BRUNETTE]*(&|!)YG\1

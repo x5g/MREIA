@@ -1,0 +1,20 @@
+https://regexcrossword.com/playerpuzzles/569de51a398cf
+
+C  L  A  S  S     M  A  D                        
+S  H  A  R  E  D     S  U  B     M  A  I  N  (  )
+D  I  M     X  =  "  "                           
+D  I  M     Y  (  )  =  {  _                     
+8  4  ,  7  2  ,  7  3  ,  8  3  ,  3  2  ,  _   
+7  3  ,  8  3  ,  3  2  ,  7  3  ,  7  8  ,  _   
+8  3  ,  6  5  ,  7  8  ,  7  3  ,  8  4  ,  _   
+8  9  ,  3  3  }                                 
+D  I  M     T                                    
+F  O  R     E  A  C  H     T     I  N     Y      
+X  =  X     &     S  Y  S  T  E  M  .  _         
+C  O  N  V  E  R  T  .  _                        
+T  O  S  T  R  I  N  G  (  C  H  R  (  T  )  )   
+N  E  X  T                                       
+S  Y  S  T  E  M  .  C  O  N  S  O  L  E  .  _   
+W  R  I  T  E  L  I  N  E  (  X  )               
+E  N  D     S  U  B                              
+E  N  D     C  L  A  S  S                        

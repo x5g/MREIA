@@ -1,0 +1,19 @@
+https://regexcrossword.com/playerpuzzles/58668c429c026
+
+[R B-G]+
+\W?[FAN]+\.?
+[Q-Z](E|R)+
+(I|LC|O|MM|EN|DA|T|O|R|E!)+
+
+(O|N|E)+\w(O|N|E)
+\W?[A-G]{1,2}[J-Z]
+(.)[A|B|O|U|T](\1)+[I1Q]
+
+[OZONE]+
+[FIRE\W]+
+[AIR]+
+
+\w\W\w
+\w*
+\w*
+\w*

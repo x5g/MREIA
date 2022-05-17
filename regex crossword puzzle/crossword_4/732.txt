@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/6054800acbb5b
+
+[A-F]
+(F|A|Q)
+[COVID]
+[I0IOI0IO]
+[GOOD]
+
+[\w]{3,}.
+
+([^WEFXYZ]).V.\1
+
+[^CBA]
+[\s;,\.BAERT]
+[^1-9]
+[H-M]
+[^NOT]

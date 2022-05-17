@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/58ef16f2-7a05-4033-a665-f53e87cd51c9
+
+[JAPANESE][BUDO]
+(U|N|O)[KIMONO]
+
+[JIGORO][^KANO]
+(DO|JO)
+
+.[^GEISHA]
+\w*
+
+[^SUMO].
+.*

@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5695128fe72f0
+
+^T.*B$
+[IO]+
+
+(?=.*I)[I-T]+
+[ABCNOP]*
+
+.*I$
+.*O.*
+
+.*
+.*

@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5791b7d5d2481
+
+H
+
+.
+
+.*
+
+.*

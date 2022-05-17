@@ -1,0 +1,7 @@
+https://regexcrossword.com/playerpuzzles/5b5b0086f3402
+
+      .  .           .        .
+   .     .     .     .     .   
+   .     .           .     .   
+   .     .     .  .  .     .   
+      .  .     .  .  .        .

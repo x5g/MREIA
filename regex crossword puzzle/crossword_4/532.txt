@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/56afe6830657b
+
+([A-M])\1
+[GONE][VOID]
+[FAT](W|T)
+\W?[SHELL]S?
+
+[HOW]*[WIKI\s]?[Q-U]+
+[SHOUT]{4}
+
+.*
+.*
+
+.*
+.*
+.*
+.*

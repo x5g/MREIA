@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5688bcd879f21
+
+          
+   -  -  -   
+   /  -  -  \   
+   |     -     |   
+   \  -  -  /   
+   -  -  -   
+          

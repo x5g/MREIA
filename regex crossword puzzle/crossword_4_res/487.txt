@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/1b7b964a-f600-4698-9a55-b062d9383372
+
+O  O  O  O  O  O  O     O  O  O  O  O  O  O
+O  O  O  O  O  O           O  O  O  O  O  O
+O  O     O  O  O           O  O  O     O  O
+O  O  O  O  O                 O  O  O  O  O
+O  O  O  O  O                 O  O  O  O  O
+                  O     O                  
+O                 O     O                 O
+O  O              O     O              O  O
+O  O  O                             O  O  O
+O     O  O           D           O  O     O
+O  O  O           O     J           O  O  O
+O  O  O        O           O        O  O  O
+O  O        G        O        B        O  O
+O  O              O  O  O              O  O
+O           O  O  O  O  O  O  O           O

@@ -1,0 +1,7 @@
+https://regexcrossword.com/playerpuzzles/b1c01a4d-008b-4b0e-ba90-2c1eb3893705
+
+   -  -  >
+/  N  O  I
+|  S  J  3
+\  ^  N  I
+   -  4  X

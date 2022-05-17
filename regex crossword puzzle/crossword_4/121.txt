@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/1f205cd9-3555-4c6f-8415-892d3870cf9e
+
+A*
+
+A
+
+.*
+
+.*

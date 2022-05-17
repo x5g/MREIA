@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5c8e7fb04956f
+
+1
+
+(?=\w)(?!\d)(?!.?[^;<_>\{-\}].?).?
+
+(?![N-Pa-z]).?(?=[^A-Z]).?
+
+(?!.?[G-L]).

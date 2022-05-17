@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5dbd8eaada9e8
+
+[^A-Z_][THEYDONT]?[NONE]\s?
+(\d)?([3-5])(\2)\s?
+[^2-46-8D-Z]+7?
+
+[^67B]+
+[NEVER1-9]+
+[^89E]+
+
+[^1-57-9A-Z]+[^AB5-9]?
+[PL3AS3DONTL13]+
+\s?[NEAR]?9?3?[3-9]
+
+\w{2,3}[^\s]+
+[^AXY6]+
+[167B][1CD]?[B78][9AC]?

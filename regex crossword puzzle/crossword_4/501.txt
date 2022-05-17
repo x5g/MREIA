@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5cdc599d5e10b
+
+[BQC](PR|RU)
+[MENI]+
+
+[ECE]+
+[ARP]+I
+(PM|UM|UP)
+
+.*
+.*
+.*
+
+.*
+.*

@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5cebabb32c272
+
+[ANDR]+[OID]{0}
+(WE|BM|OB|IL|ED|AT|A)
+
+[COMPUTING]+(A|C|E|[AGE])
+\W?[KEYWOR]D?\W?
+
+.*
+.*
+
+.*
+.*

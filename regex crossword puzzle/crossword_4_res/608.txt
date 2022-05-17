@@ -1,0 +1,5 @@
+https://regexcrossword.com/challenges/palindromeda/puzzles/1
+
+N  E  T
+E  W  E
+T  E  N

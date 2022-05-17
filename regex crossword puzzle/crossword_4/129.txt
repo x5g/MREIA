@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/56e71db536d46
+
+(IL|LI)O?
+C?[OS]*
+S*[LCK]+
+
+[L](C|CS)
+.[^POC][MICH]
+(O)\1[L]
+
+.*
+.*
+.*
+
+.*
+.*
+.*

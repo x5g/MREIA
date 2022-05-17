@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5b4f2d9257f32
+
+([^\w])(?=\1)\1
+.*
+
+.*
+[ ]{2}
+
+(\s)?(?<=\s).
+.*
+
+.*
+(?![\*])?\s.

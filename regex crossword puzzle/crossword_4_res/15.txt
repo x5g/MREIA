@@ -1,0 +1,8 @@
+https://regexcrossword.com/playerpuzzles/58b927663a9cc
+
+A  A  A  A  A  H
+A  A  A  A  A  H
+A  A  A  H  H  H
+A  A  A  H  H  H
+A  H  H  H  H  H
+A  H  H  H  H  H

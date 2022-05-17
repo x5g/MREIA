@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5e3e479498772
+
+[B|J]+
+KA|PS|KS
+K1|J2|K8
+
+[^J|P]+
+[JUST101]+
+
+.*
+.*
+
+.*
+.*
+.*

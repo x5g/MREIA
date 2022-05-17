@@ -1,0 +1,21 @@
+﻿https://regexcrossword.com/playerpuzzles/57b63cc9de480
+
+([^\u9e25])(\1)\2[^AND THIS MYSTERY EXPLORE]
+([^LET ME SEE, THEN,])([^WHAT THEREAT IS,])\2\1
+([^IS SOMETHING AT MY WINDOW LATTICE;])(\1)\2\2
+([^“SURELY,”])(\1)[^SAID I, “SURELY THAT]\2
+
+([^\u9e27])([^LET MY HEART BE STILL A MOMENT])\2\1
+([^AND THIS MYSTERY EXPLORE;])\1[^\u9e28][^\x46]
+.([^’TIS THE WIND AND NOTHING MORE!”])[^Q\x4a]\1
+([^ZKV])\1([’A-Z!,“\u9e25-\u9e28”;])\2
+
+.*
+.*
+.*
+.*
+
+.*
+.*
+.*
+.*

@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/8a7d23cf-747f-4776-8c9c-08d8771053fd
+
+(TE|WA|HO)
+[BOW]+[SAY]+
+[^WITH]+
+[?\s][M-Z]
+
+[WOOT\s]+
+[YES]*A[YES]*
+
+.(H|O|W|TO)\1[^NOT]
+[A-L]+[M-Z]+
+
+.*
+(OA|BY|WS)
+[STOP]*
+[Y\sTHAT?]*

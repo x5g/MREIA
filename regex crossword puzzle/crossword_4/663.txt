@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5b05b004e262f
+
+(ND|EL|AY|I)*
+.[^DIVER]+
+[PR|O|M|E|P]+
+
+[^TIME]*(EO|FA)+
+(ME|LA|DY|ER|M)+
+[^LEND]+
+
+[MONEY][^SNOW](O|P)
+[^WEATHER]+
+[^LOSE]+
+
+[^PLAY]+
+.+(UO|Y|PO)+[UNDER]
+[HOME]+

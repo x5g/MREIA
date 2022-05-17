@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/df2cdc4c-a6bc-47c8-85c1-424e3b417e1f
+
+[BNABCXES]
+
+[O-Z]
+
+[^CJ]
+
+[^BJS]

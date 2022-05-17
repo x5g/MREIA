@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5a23ace9b4162
+
+[^BO0M]
+
+[1-B]
+
+[^\d]
+
+[BANG]

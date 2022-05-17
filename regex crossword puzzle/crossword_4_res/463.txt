@@ -1,0 +1,7 @@
+https://regexcrossword.com/playerpuzzles/492e1ec8-51f9-42fa-83a9-b7e771b9bd49
+
+E  |  P  S  I  >
+=  [  P  ^  2  /
+(  2  M  )  +  V
+(  X  ,  T  )  ]
+|  P  S  I  >   

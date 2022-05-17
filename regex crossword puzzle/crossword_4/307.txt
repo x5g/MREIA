@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5d5adc9b44ab9
+
+(?!O)[^[XRAYS]+
+(.)\1[^COOL]
+
+[NOVOLAR]*
+[AMS]?[LGWLHR]?[NOX][^[ARN]?
+[UNTIE][CONZOS]
+
+[Q-Y][M-T]
+(?![WSNKR])[GOONS]*
+X?[NOT][SAFER]
+
+[^POLICE `SECURITY']*
+(R+)?[SOS]*([TERRAHERTZ])*

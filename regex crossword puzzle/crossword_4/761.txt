@@ -1,0 +1,25 @@
+https://regexcrossword.com/playerpuzzles/5d6bcd384e974
+
+[ARe_You_q00l}{acker?]*
+[yEs ya_CRo0Toi]+
+.[GG]+[VErTUS]+[PRO]
+[ETO_STrAShNO]{4}
+[PoFLeXXXSim?]+
+[{]*[_]+[o0Oo][}]{1}
+
+[BCFHTxYZ{]{6}
+[RRRR]+[HEX_is_GOOD]*
+[I_AM_SORE]+
+[LOL_KECk]*[}]{1}
+
+[Yummy]+[Tacos]+[COOl]+.*
+.*
+.*
+[^E]+
+
+[YRA]{2}[A?]{1}[PRIBET_)]+
+[TYT]+[EST]+[CARTA]{2}
+[CTFeR]+[EGOR]{3}
+[TETRA]+[_]{1}[O123]
+.*
+.*

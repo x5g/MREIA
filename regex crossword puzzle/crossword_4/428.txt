@@ -1,0 +1,35 @@
+https://regexcrossword.com/playerpuzzles/5c840a879913b
+
+[^YARUSHINA]+
+[A-E][poRgY]*[and]?[bess]?H
+U[A-K]+
+R[eLLiot][ nesS]+
+[EnYa]+ [delFonics]+
+[B-KN-Q][F-HKMP-Z]+U
+[I G.]+
+[Heebie][Jeebies][A-H]+
+[BED_G-IT-Z]+
+[sLeepwALker]+E[S-z]
+[N0 LUCK]+
+
+([ReAdY or Not, HeRe I]|[^E])*
+([COME YOU CAN'T]|[^I_CD_MOST])*AN
+([HIDE GONNA FIND]|[^FiND])*
+([YOU and TAKE IT]|.)+([ SLOWLY]|E){4}
+
+([ENYA]|[RULE])+\s(HIDE|HIGH|HILL|HIPS|HIT)?
+[WHY]+C([DELFONICS]|[JAIl\s])+
+[RAPS]+ [MIC]{3}H[LOVE]+
+(THE ([rUFFHoUSE]|G)+ )
+
+.*
+.*
+.*
+.*
+.*
+.*
+.*
+.*
+.*
+.*
+.*

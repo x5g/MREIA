@@ -1,0 +1,7 @@
+https://regexcrossword.com/playerpuzzles/56a9d1a7ab6ca
+
+8  2  0  4  8
+1  8  9  5  2
+7  1  5  2  0
+.  8  4  3  6
+2  2  8  5  3

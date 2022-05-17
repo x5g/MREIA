@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5d7523bfcbd66
+
+UL+L
+KA+S
+ES+A
+
+UK+E
+LA+S
+LS+A
+
+.*
+.*
+.*
+
+.*
+.*
+.*

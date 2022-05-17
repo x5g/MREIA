@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5d75993c3a7a4
+
+[\u672c\u8a9e\u65e5]+
+
+.*
+.*
+.*
+
+[\u306b\u65e5]+
+[\u307b\u3093\u672c]+
+[\u3054\u8a9e]+
+
+[^A-Z0-9]+

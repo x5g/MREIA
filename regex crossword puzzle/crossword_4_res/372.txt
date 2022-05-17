@@ -1,0 +1,8 @@
+https://regexcrossword.com/playerpuzzles/5fe1f45a1f1c7
+
+6  .  2  8  3  1
+8  5  3  0  7  1
+7  9  5  8  6  4
+7  6  9  2  5  2
+8  6  7  6  6  5
+5  9  0  0  5  7

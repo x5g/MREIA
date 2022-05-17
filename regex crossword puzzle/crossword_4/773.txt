@@ -1,0 +1,31 @@
+https://regexcrossword.com/playerpuzzles/5a4687ded8d23
+
+(?!.*(.).*\1)[BOTSWANA]+
+(.)[RAT]+\1B
+(.)\s(.)\1\2
+(?!.*(.).*\1)[PEERTHROUGH]+
+(?!.*(.).*\1)\w[^FREEMAN]+
+(?!.*(.).*\1)[^GORDON]+
+(?!.*(.).*\1)[\w\s[DANGLING]+
+[^G-MAN][RIGGED\s]+[^0-24-9]
+
+(?!.*(.).*\1)[SAILORWBEWARE]+
+(.)\D{2}H\1W\s\w
+.T\w(.)\1[^G-MAN]+\s
+(?!=\W)W\w(.)\1[ALYX][SIGN]+
+(?!.*(.).*\1)[THE LUVBOAT]+\d
+
+\w[M-P][SUPERCALIFRAGIL]+
+[O-R]+\s[SHOW IT]+
+S[TORPEDO]+\s
+\w[ORTIGAUNT JOY]+
+\w{2}[THROUGH]+[HULL]+\d
+
+\w[^KLEINER][SAW]+
+[ROBOT]+
+[ROAM ]+
+E[^NOVA][PROSPEKT]+U
+A[^TVANCE]+T
+L[^AMBDA][HE IS]+
+[DINAL ]+
+[SIGIL ]+[^IMPOSSIBLE]\d

@@ -1,0 +1,15 @@
+https://regexcrossword.com/challenges/intermediate/puzzles/1
+
+UB|IE|AW
+[TUBE]*
+[BORF].
+
+[NOTAD]*
+WEL|BAL|EAR
+
+.*
+.*
+
+.*
+.*
+.*

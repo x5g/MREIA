@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/56ab2b8e5ce56
+
+1
+
+(\$[\-1]?)$
+
+\$$
+
+^[\d]?(\W)$

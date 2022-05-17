@@ -1,0 +1,13 @@
+https://m.regexcrossword.com/puzzles/85b1c976-6c89-4d3a-9a2a-f90a6a12a564
+
+.?.+
+.+
+
+[*]+
+/+
+
+.*
+.*
+
+.*
+.*

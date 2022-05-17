@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/5e0e70f516316
+
+3 4 5 4 3
+
+P?(L|AN|E)*
+[IN CASE]*
+[THE]SU?PR[EME LEADER]
+([SEEKS])\1[TO]\1
+[FLEE]*
+
+[SEND]*A?
+[CLASS]*
+(FO|UR)[SPY]*
+[TO]*|[ISRAEL]*
+([EMIGRATE]) \1
+
+[SAFELY]*
+.[ROLL|OUT]*
+(SL|EE)P[ER AGENTS]*
+[AL]+[SO]*
+(PRE)|[PARE A]*

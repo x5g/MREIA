@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/5888d9aa962f1
+
+.*G.*
+(.)\1\1.
+.F?G?..
+.E?T.*
+U?A?M?C?(.)?.?\1(?=.?).
+
+(DE|ME|KI|EM)*(MI|LD|DU|VI)*.
+[JEG][VIL][FINDE][DET][BEDSTE]
+D(?=KYS)?[MIG]*(?=LOV)?.[E]
+(DM|AM|EM|GE)I[GTMD]?\?
+
+.?(\u0056)E*.*$
+.( ͡° ͜ʖ ͡°)?.+.?E?.*(　＾∇＾)?
+[\w]*[L]*[L]*[L]*.
+(A|B|\w|.)*[G]*[G]+[G]*[\W]*
+
+.?.+.?(DU|ER)*([DEJLIG])\2
+O?\(?((<====8))?.*
+.?F?.*G+.*.?.?
+(DE|AT|DT|TM|MG|LM|BE|DT|MT)*
+V?(U(<=E)|U)...*

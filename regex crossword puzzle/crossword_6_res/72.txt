@@ -1,0 +1,9 @@
+https://regexcrossword.com/challenges/hexagonal/puzzles/4
+
+S     E   
+A  S  V  T  L
+"  O  E  T  "  L
+B     S  =         
+Y  S  O  E  I  Y
+V  T  T  E  M
+F  R     A

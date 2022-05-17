@@ -1,0 +1,6 @@
+https://regexcrossword.com/challenges/volapuk/puzzles/4
+
+7  0  M  W
+/  D  B  E
+1     S  P
+:  X  N  A

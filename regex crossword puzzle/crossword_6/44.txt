@@ -1,0 +1,11 @@
+https://regexcrossword.com/playerpuzzles/5d75ebeee6f42
+
+2
+
+ML
+
+M+
+[^MIP]
+
+(M|L)
+[^LIP]

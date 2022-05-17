@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5d69a40511648
+
+.
+H
+.
+
+[^KANNABIS]+
+
+T[C-H][^BD]
+
+.*
+.*
+C

@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5d4c264860067
+
+LF*
+E*V*F
+[MAN]*C+
+
+[CLF]{3}
+
+.*
+
+.*
+.*
+.*

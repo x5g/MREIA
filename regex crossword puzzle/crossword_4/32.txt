@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5bb797d7615b7
+
+(.)N
+[LOS][ANGELES]
+E[A-Z]+
+
+([A-J])L\1
+(NA|AO|O)+
+
+(E)[D-P]\1
+.*O
+
+[A-R]+
+L.+
+.{1}O

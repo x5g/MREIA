@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/575b1d393c00a
+
+A|Z
+
+N|Z
+
+.*
+
+.*

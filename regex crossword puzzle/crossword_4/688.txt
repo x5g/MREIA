@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5d755e2debb23
+
+UF+L
+LW+L
+YT+L
+
+UL+Y
+FW+T
+LLL
+
+.*
+.*
+.*
+
+.*
+.*
+.*

@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/57dbcac2-b898-4cee-bef2-a4d5f6d7723e
+
+[^RETURN][LS|LPR]+
+[EMACS|VIM][O!|\ 0][TY|IPO]+
+[SEMA|PHORE][CD|COUT][VZ|!?*][A-C]
+[D|E|AD][KR|KL][EC|HO].
+
+[DU|GREP][THREAD]+
+[LIN|UX][N-P][^\ \+!][SDK]
+[^!\+?][GUID|SGUID][VEZ|CSH]+
+[LOG|IN][O|0][^ABD-Z][KEY]+
+
+[B-D][^AMP][?A!\+D]+
+[STL][VMO][\-C][J-M]
+[LI]*[^A-UW-Z\|][KERNEL]
+[TROLL][^\d][BSH|KC]+
+
+[!)\-D]([^A-KM-Z])\1\1
+[META][^\ ][SOFT|LINK][0O?!]
+[APTI|TUDE][CIN]*[VI|FVL]*[CSH|BASH]
+[^EA][^!\+\-][E-F].

@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5e2ce39500f1e
+
+[A-D]
+(A|B|\s)+
+[aLaSKa]
+\w
+[^SLED]*O+
+
+\D{2}.(T|C)+[M-P]*
+
+[TACOBEL]*L?
+
+(4|0|B)*
+[^KBIL]
+\S
+[^ABC]
+(D|O|G)

@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5696da68f2a5c
+
+.*
+.*
+.*
+
+([^DH-OGI]){3}
+[^C-KM-P]+[N-Z]*
+
+.*
+.*
+
+(KR|CL|BN)
+I*M*|EO|DI
+[GOODY][BLAND]

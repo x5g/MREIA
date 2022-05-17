@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5b4fb761b8dc5
+
+[DESENVOLVIMENTO]+
+[GEOLOCATION]+
+[SOURCE]+[^E-R]
+
+[SIMPLE]+[PREPROD].
+[TEXT LENGTH]+
+[GOLANG]{2}[EXPORT]*
+
+[AUTOSCALING]+
+[NEXT](GE|TT|ER)
+[LOGGED]+[CLOUD].
+
+[DOWNLOAD]*[\x4F]
+[^A-G]T*[LANGUAGE]+
+[REGEX PUZZLE]+

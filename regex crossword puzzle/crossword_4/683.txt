@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5df013392f5ce
+
+(O|OX|XO)*X?
+O?(X)+
+[^HUGSNKISS]+
+
+O+X?
+X+O?
+(OX|XO|O)+X
+
+[O]{2}X*
+[X]{2}O*
+[^TIE]+
+
+[^GIN]+
+[^N0WIN]+
+[XO]+

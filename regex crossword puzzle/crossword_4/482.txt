@@ -1,0 +1,29 @@
+https://regexcrossword.com/playerpuzzles/5bba7ecc7e9f7
+
+(?=[MY]).
+(?=[SNARKY]).
+(?=[ANSWER]).
+(?=[TO]).
+(?=[THE]).
+(?=[REMARKABLY]).
+(?=[BORING]).
+(?![RARE]).
+(?=[EARTH]).
+(?![METALS]).
+(?=[PUZZLES]).
+
+(?=.*A)(?=(.*[UNIqUE]){6})(?!(.*[MATERIAL]){6}).*
+
+(?!(.*[OF HUMOROUS]){5})(?!(.*[ESSENCE]){3}).*B.*
+
+(?=[NO MATTER HOW MUCH]).
+(?=[U WANT IT]).
+(?=[AND]).
+(?=[NO]).
+(?=[MATTER]).
+(?![HOW]).
+(?![MUCH]).
+(?![HARDER]).
+(?![YOU KEEP TRYING]).
+(?=[TO GET IT]).
+(?=[YOU JUST CAN'T HAVE IT]).

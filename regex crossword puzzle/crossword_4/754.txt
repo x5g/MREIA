@@ -1,0 +1,11 @@
+https://regexcrossword.com/playerpuzzles/3cef9abc-62ed-4d2b-b952-6360f5a20406
+
+[HG2G]?[\d]|[001]\s?
+([1D]|[O586]|[0N2]|[189T])*
+
+[PARANOID]*\d?\w?
+
+[09876S-Z]?5*4+3*2*1*
+
+[^0\-1][\sANDROID]?
+[^0\-1]?[PANIC]?

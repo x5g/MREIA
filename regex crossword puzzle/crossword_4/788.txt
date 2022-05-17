@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5b2d07cb244f3
+
+[HATE]*(T|W)+
+[TW]+[LOVE]*
+(I|R|L)*
+[R-T]S
+
+(.)[WISH]+\1
+(H|A|T)[ERS]+(RT|LK)*
+
+.*
+.*
+
+.*
+.*
+.*
+.*

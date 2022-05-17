@@ -1,0 +1,43 @@
+https://regexcrossword.com/playerpuzzles/5660bf6f8cdaa
+
+[GOOGLEPLEX][STARTHINKER][AFA]+ME\s*
+I[AM](FR|OO|DY).*[^THRA][^SHBAR]G.
+.A.[Dolphins].*
+.R?.*
+.T.*[PRAK]V\W+.
+.H[HOOPY]{2}[^I].*[YOU]{2}
+.U.*[WOW] [BAGGER]\s
+.R.*
+[BIRD ]+.\W{2}.
+[DARE]{4,}[SHALTANACS]\s.*
+
+[TRILLIAN]+
+[AURTHuR]+
+[FORD]+
+[ZAPHOD]+[BYE ]{4}
+[MARVIN]+[MICE]{3,}
+[SUB ETHA]{3}[WHALE].*
+\s[BABEL 'FISH]{6}.\s\\?S
+\s[GALAKXEY ]+
+\s\S.*
+
+(.)(.)\1\1\2(.)(.)\3\2\4
+(.)\1+...(R)\2\2?
+.(..)\1\wR(D)\2+
+(.)\w+[HINGEFREEL](\w)\2[SLARTIBARTFAST].\W\w
+([IMPROBABLE])([INFINITE])+[DRIVE]\2([^N])\1\3.
+(.)([^E])\2[BOWL]\W.+\1\1\W
+(.)[LEFT][BRAIN]\1\W[^LEB]\1U\1.
+(.)(.)\1[KRIKKIT]\1[PERFECTLY NORMAL BEAST]\2E\1\2
+(.).\1\1.+\1.+
+
+.+[FAME]{4}.*
+\w\w[VOGON]{3}.*[MATTRESS]{2}[GOLGAFRINCHAM]L
+.*[MAGRATHEAN]\wB\W{2}
+.{3}([HOOLOOVOO]).[ POGHRILS]+[CAKE]\s
+.*[TOWEL]{2}.+,'\sB
+R.*\s[GREBULONS][HRARF-HRARFY]U
+.*[RATCHET SCREWDRIVER FRUIT]+...
+(.)\1[FROODY]{2}.*[EU]{3}C
+I.*K
+A.*[BETELGEUSIANS]{2}!

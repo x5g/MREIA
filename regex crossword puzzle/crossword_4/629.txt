@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5962252ca1ddd
+
+[IKS]+.
+[<>](UE|FL|MU)+
+[0-9].[FTR]*
+
+[HIJ]+[^>][3LOVE]
+[RSTUV]+M
+(ME|SU)[^FT]
+
+.*
+.*
+.*
+
+.*
+.*
+.*

@@ -1,0 +1,19 @@
+https://regexcrossword.com/playerpuzzles/5645f36e70634
+
+2 3 4 3 2
+
+[Everyone<Audrey!!][^4-9]
+(SI|TU|\s(AVA)*I\s)?(C0MME|JE|T'AIME!)?
+[LORSQUE]+[JE(TE)VOIS]*
+(MONCOEUR)?(\s)['YMMOBI(LISE)]\2
+[TUES]*T?(OU)*[CEDONTJ'AI]*((BE|SO|IN)!*)?
+
+I?[\sLO]+(VE)*(YOURSMELL)?
+[^AndEverythIngelseAbout]*[YOU\s!]+
+(<|\s)[VI]+[^\1!]
+[^TS]\s\d
+
+(TU|[EST])\s(U[PER(BE)]*)
+[\sVY]+(O|0)
+[I3-5O\s]+
+(\s|\W)?\s+L

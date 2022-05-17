@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5fd91de18c41b
+
+LH|LK|LC
+AT|IT|AM
+G??S?
+
+[GLISTEN]+
+[SANTAHAT]+
+
+.*
+.*
+
+.*
+.*
+.*

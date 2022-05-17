@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5b06bfc27bcb8
+
+\s[^QPRTV][^QPRTV]
+[^ABCUV][L-P][M-P]
+[^ABCGJ][^JK]\s
+
+\s[T-V](G|H)
+[T-V][^MNOP](I|J)
+[T-V][^LNOP]\s
+
+.*
+.*
+.*
+
+.*
+.*
+.*

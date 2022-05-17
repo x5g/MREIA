@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5b05af8114222
+
+(CU|RU|C|UR)*
+[MICE]+
+
+(C|U|T)?.*
+[RICE]+
+[CRUMB]+
+
+[^F-SU]*
+.*
+[BRUM]*
+
+.[REUSE]+
+(EI|RM|M)*

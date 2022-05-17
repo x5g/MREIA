@@ -1,0 +1,13 @@
+https://m.regexcrossword.com/puzzles/475e811a-da59-4ce8-9b80-3124b33cc041
+
+[^SPEAK]+
+EP|IP|EF
+
+HE|LL|O+
+[PLEASE]+
+
+.*
+.*
+
+.*
+.*

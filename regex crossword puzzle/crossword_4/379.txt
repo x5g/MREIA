@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5b61a9e066239
+
+(.).*\1
+(.).*\1
+(.).*\1
+
+(.).*\1
+(.).*\1
+(.).*\1
+
+[ABCF]*
+[BDGJ]*
+[A-J]*
+
+[CDEH]*
+[EFGI]*
+[A-I]*

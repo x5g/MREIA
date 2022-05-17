@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5e3c66b50ebc4
+
+(AC|M)*
+(AV|.X|I)*
+E+M*[^EM]
+
+(.+)\1.*
+[^MX]*
+([^I]|IN)*
+
+.*
+.*
+.*
+
+.*
+.*
+.*

@@ -1,0 +1,6 @@
+https://regexcrossword.com/playerpuzzles/5e0e48640f3a5
+
+R  =  9  G
+M  $  3  A
+-  H  S  <
+?  B  _  ?

@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/5cd4f8d25f033
+
+[^SOS][SOS]
+.*
+(A|E|I|O|U)+
+[KOREAN]+
+[BEAUTIFUL]+
+.*
+
+(HE|OR|SHE)[ART]{3}\W?
+[REKAHSWP]+
+
+(?!.*(.).*\1).*
+(?!.*(.).*\1)\w*
+
+.*
+.[HOT!]
+(?=.*(.).*\1).*
+.*
+.*
+[EAR ]+

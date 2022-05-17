@@ -1,0 +1,6 @@
+https://regexcrossword.com/playerpuzzles/5a4552e39cca1
+
+N  E  S  0
+N  R  C  1
+A  U  H  8
+U  U  2  !

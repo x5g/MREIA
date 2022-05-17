@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/16beb9ab-ba91-40e3-bfd9-3ccb110a1872
+
+[@-^]? [<-?]?
+
+[#->]? [%-/]?
+
+[^<v>\^]
+
+.*

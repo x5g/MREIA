@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5e59402bed9f6
+
+[^G-J]*[^LET]*
+T?.?[TRYING]
+
+[A-W].*
+[STAND]+
+
+[ET|T3|E3]*
+[^/sMELTAN]*[TALLY]
+
+[M-U](S|T)
+\d[^REGEX]

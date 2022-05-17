@@ -1,0 +1,9 @@
+https://regexcrossword.com/challenges/tutorial/puzzles/9
+
+A|\s
+
+\s
+
+.*
+
+.*

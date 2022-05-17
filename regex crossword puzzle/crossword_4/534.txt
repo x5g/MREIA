@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/78eaf85e-1d63-44c4-8931-e3cb94df896f
+
+.*[A-Z]{1}
+
+[0-9]?[^D]+
+
+[^ACE]|\s
+
+[^F]*[BCE]+.*

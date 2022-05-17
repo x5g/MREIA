@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/56c5c1cb2c33c
+
+1 2 1
+
+[KUBA]*
+(KA|AK)
+[S-Z]
+
+.*
+[^TAR][^RAT]
+
+[KUBA]+
+[A-H]{0,100}

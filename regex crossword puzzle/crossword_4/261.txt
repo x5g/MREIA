@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/565f3f35b68cc
+
+[A\-EUZ]*[OVER][NEWB]*
+[RAND]+[\dnIcEmEmE]
+([MARTH])\s[Q\-Z]\1
+[4QWXRH5566YSMBB65]{2,}
+
+[ANT][KILN][ROCK][LOBBY]
+[DOOK DOOK]{1,}[SNAKE]+
+[V-ZA]*[RADICLE]+
+[(A)(v(F(3))(\]))\\s\-3uvR\[ NA]{4}\d?
+
+[TANK]*[GNARLY]*
+[OVERDOSE ]*
+[WESTBALL-Z]*
+[DONT EVEN CARE\w\s\d]*
+
+[^\s]+\w?
+(?!(COOL))\w+.
+(.)(.).\2?\1?
+..(.)\1?

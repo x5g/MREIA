@@ -1,0 +1,27 @@
+https://regexcrossword.com/playerpuzzles/a33133eb-55f6-4dde-b386-701b3b13a1e7
+
+.*A[FIRE]+(IN|THE)*[HOLE]+
+.?[LOOLZ]+R?U?\\?\**$
+(OUR)?[FUNERAL]*
+[\]\[ARE MADE\soon]+
+.?I(18n)?(AS|SA)?\sE*
+[NOTHING]{1,3}[TO BE]+
+
+[ALIEN]*(L|I|N|E|S)\1[^YOU]*
+[^A-D31337ER-ZG-O].?[ROM]?[MY].*
+[AEIOU]+[^AEIOU]{1,2}\W[^AEIOU]+
+(C|W|SH)?(OULD)U?\s[B-E]?
+.?\*[REFER]*
+
+...([\sin SIN]+)+
+.*[DOT].*(AT)$
+I[I]?.*[^\[\]][ASH][HASH]+$
+^[\w]+[^\w]+[2B|!2B]?
+.*[FOR]+(.)\1.*
+
+^.{2,4}(?:([$_GET]))$
+(SAY)*(LO|OU|UD)+.?
+.*[HUNT].[4 FUN]*
+(.)[MURDER]?(\1\s?)[DRUM]*
+.*(S|\s|s){2}.*
+\s?[NOT]+[HOT]+\s?..

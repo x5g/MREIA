@@ -1,0 +1,11 @@
+https://regexcrossword.com/playerpuzzles/59e565c95008d
+
+Z  Z  X  E  Z
+B  Z  X  X  Z  Y
+F  M  X  E  X  Y  F
+D  D  M  O  X  N  Z  H
+Z  B  X  X  Y  X  X  Y  C
+C  B  A  Y  O  G  F  H
+M  X  X  R  X  X  R
+E  Z  E  Z  E  Z
+B  Y  H  H  Z

@@ -1,0 +1,33 @@
+https://regexcrossword.com/playerpuzzles/613aa33bdfb6a
+
+[HMNU]+O[AEIP]+
+[AE]{2}[NOTA\s]*V
+[ABC\s]+CODE
+[I|V|B]+H\s[IG|LG]+
+[AEIOU]{2}[A-N]*
+[O-Z\s]+
+[CUNA\s]+.*
+
+[A-I]+[U-W\s]+
+(NA|NO)\s(VA|VE)[Z\s]*
+[^ABCRST]+ [ABCRST]+
+O[CHO ]+H[QUIZ]+
+I[N-U]+[NO\s]*
+[^AVERAGE]+[A-I]+[NO\s]+
+[AVERAGE]+\.
+
+.*
+[ANTES]+[EFJVZ\s]+
+[BUEN\s]+[CAR]+
+.*
+.*
+[OPQ]+[^J-P]+[^D-LP-S]+
+[0-9A-Z\.]+
+
+.*
+.*
+.*
+.*
+.*
+.*
+.*

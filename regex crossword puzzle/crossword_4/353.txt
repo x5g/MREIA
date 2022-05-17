@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5d549a4548ea3
+
+B?AAA
+B+D*
+\d+
+
+AB0{1,}.?
+.+0
+(\d|C|B|A)+
+
+.*
+.*
+.*
+
+.*
+.*
+(.).\1

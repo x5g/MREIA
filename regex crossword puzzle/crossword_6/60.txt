@@ -1,0 +1,27 @@
+https://regexcrossword.com/playerpuzzles/593f19ffb5589
+
+4 5 6 7 6 5 4
+
+[UPS ]{3,}
+(?:[IONIZE] ?)*
+[HELLO](.)[PALESTINE]{2}\1Z
+(.)\1 (.)[IS]{2}\2
+[ACLU]*A[ARE\s]*
+[NIL ']*
+[SO]* [SO]*
+
+(?:OL|SN|UT)*
+[SALT]* [EARTH]*
+(\d|\s)(?:AN|NA)\1(.)\2
+(.)[RAIL]*\1O\1
+['?!\.] (?:PIN|PNI|IPN|INP|NIP|NPI)\W
+[E N T E R P R I S E]*
+[LEFT](.)\1[UP]
+
+.E[^E].
+.(?:S | S|SS)(?:I | I|II)
+[N-Z](.)\1[RUNS]*
+[^P]\s[APPLE]*.O
+[A-Q](?:NS|SN|NN|SS) (?:AL|LA|AA|LL)
+.[ONTARIO]*[UTAH]*
+[SIT]*[HI]*[SIT]*

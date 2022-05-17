@@ -1,0 +1,29 @@
+https://regexcrossword.com/playerpuzzles/5cdc6e4fb5a57
+
+([5PIRAL2]| |R(OTAT)?E)*
+[COOL][PUN\s]*[BRO]
+(.)\W[7T]+\W\1
+[REGEX]{4}.[AEIOU]
+[1 ONE]{1,}
+PRIME?[13] ?
+
+[^ ]+ [^ ]
+[ORDINAL\s]+
+(.)\1.+(E1|7I).??
+[^4-9]\D\d?\D.*
+R-?U-?D-?E-?.
+.[NUMB]+ ?
+
+5[POEM\s]{5}
+([ROT4TING]{2}| [MIRROR]{3})+
+(  |[17][IE])*
+[^ROUNDABOU7\s]+
+.*(2|3|5|7)
+[FEW &][FAR BETWEEN].+
+
+[25SZ][1IL][\s\S][25SZ]RED?
+(ONE?| [PRIME][NUMBER]*)+
+[^CROSSWORD]+
+...[BOX]...?
+\D{2}\d{2}\D{2}
+P[^UZZLE]+

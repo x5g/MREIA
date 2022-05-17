@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/5b27a8fde74c3
+
+(.)1\1\s
+\s\d[M-T]+
+[3F]*(.)(\1)
+[U ]{2}[NA](NA)?(KISS)?[HIM]
+[^GOOD][BYE](.)\1
+
+[A CRUEL]+.[CRUEL]+[^SUMMER]
+(?!.*(^\d).*\1)(I WANT)?(YOU)?.*[BACK]
+.(..)\1
+\W[^LAST THING]([^ON])[MY](MIND)?\1
+
+[^G-Z\d]*[VENUS]{2}
+[^LOVEINTHEFIRSTDEGREE]*\s[^MORE MORE MORE]
+(..)\1[A-Z]
+[I HEARD A RUMOUR]+
+
+[^SHY BOY]+.
+(NR|IC|EC|RE|EA|M!| 2){2}
+.*3[\?-D].*
+.[^\S][L-Z]+
+[^VIVA].*

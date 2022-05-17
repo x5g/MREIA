@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5d768fdb99ac9
+
+1
+
+[^F]
+
+(E|G)
+
+[^G]

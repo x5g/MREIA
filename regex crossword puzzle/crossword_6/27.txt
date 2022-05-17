@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/5eac34bd09565
+
+1 2 3 4 3 2 1
+
+(N|E|W)
+[A-S][H-K]
+T(E)(A|R)
+(\-|\?)(I*N)(\-|\!)
+F+(OR)|(TRA)*(N\!)*
+(TOO)*E(A)*S*Y*(\?)*
+[t-zT-Z]
+
+.*
+.*
+.*
+.*
+
+\-(TXT|OR\?|RST)
+[RIGHT]NO[AEIOU]
+[AEIOU]*(F|I|N|E)
+(DRQS)|[U-Z](RT)(\-|\\)

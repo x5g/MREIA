@@ -1,0 +1,41 @@
+https://regexcrossword.com/playerpuzzles/b0c9b961-1126-4c17-b607-0a116ceb5599
+
+[BOAT TIME]+
+([^ER]|ER|RE)+
+([^AEIOUY][AEIOUY]|E)+
+[ROMEO AND JULIET]+
+(.)(.)(.)[SUMO]+\3\2\1
+[\s]*[PIE/CAKE]+[\s]*
+(?!.*(.).*\1).*
+(A.+){3}
+[APPLES]+[ORANGES\s]+
+
+([S\s]T?|AB|AP|PLE|BE|ES)*
+(OR?E?|\s)+
+[STAR WARS TIE]+.
+([TEQUILA]*.?){3,4}
+(...)[^KICKER]*\1
+[MORE ]+I[OR LESS]+
+[POMEGRANATES\s]+
+(..?).*\1.*
+([TOIL\s][MINER\s][ESCAPE])+
+
+[^\s]{4}[^S]*
+(.?...\w)+
+[A-D][J-T]{2}[E-H][H-R][^AEIOU][T-Z][A-M][M-Q]
+[^A-M]{2}.[^S-Z]U[AN]*.
+[^A]*A[^A]*
+([^MORSE]|RS|ME|MO)+
+[^TNG]+
+[F-L].[B-F][\W]{2}[B-F].[^P]O
+[TIL](.).(.)\2\1.[H-S]+
+
+[^AE]..[^TO][^BMET].[^AERO\s]+[M-Z]
+..[^T][^QU]..[^\sPAMS]+
+[^B][^O][^A-S][^EAU][^NAGS][^O][^MORSE\s].+
+.+[^LEMONADE SIR?]+.\w\W+
+.[^ROW].+[^N-Z]+O.+
+([^PIE]|PIE)+.
+.*N.*A.*
+.R[^EA].+\s.+P[^RINSE]+
+.[^OP]{2}\s+[^KOREA\s].+

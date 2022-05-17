@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5d750d13e3707
+
+D+T
+O+H
+
+D+O
+T+H
+
+.*
+.*
+
+.*
+.*

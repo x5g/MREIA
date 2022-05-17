@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/ebb0a08a-4ede-4f11-ab28-3215b11b61ca
+
+AB
+AX
+
+AA
+BX
+
+.*
+.*
+
+.*
+.*

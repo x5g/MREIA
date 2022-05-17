@@ -1,0 +1,19 @@
+https://regexcrossword.com/playerpuzzles/5d7f9181be88a
+
+4 5 4
+
+[KAURI]+
+[\[\s]+[CONE\s\]]{3}
+[AUST][R][ALIA]+
+
+[SAUROPOD]\s
+[\[KAURI]*
+[JURaSSIC]*
+[A][RAUCARI\]][A]
+[\sAUROPOD]*
+
+[BUNYA\s]*
+[PINUS\]]*
+[ARAUCANA]*
+[\[ERA]*
+[P1NALE\s]*

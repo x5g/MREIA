@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5afd854ec9e69
+
+[C-C][^AEIOU]+
+[\/\-\s\[]+S[\/\-\s\[]+
+(.)\1[2]
+
+[^APPLE]([^\S]){2}
+(.)S\1
+[1\s2-3\s5\s6-9]+
+
+[CONCORD\sGRAPE]+
+[^PURA-Z]+[^PLEA-R]+
+[^0-9][024\s]{2}
+
+[A-Y]+.*
+(.*).*(.*).*\1
+([\\\s])([\s])([1-7])

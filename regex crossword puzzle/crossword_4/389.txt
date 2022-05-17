@@ -1,0 +1,41 @@
+https://regexcrossword.com/playerpuzzles/02e36e69-a93d-4e67-85ff-d521acb21226
+
+[OMG DTF!]+
+[ZERO]+
+[G0LD]?[AU CONTRAIRE]+?.*
+(.)[MENIAL]+\1
+(.)(.)\2\1
+[C.I.S.S.P.]+
+[NEAT]+[AND][CLEAN]+
+[H1N1 PATIENT 0]+
+[INDI]+[G0G0]
+[OSO]{3,3}[^\s\d]
+[T.S. Eliot]+
+[P\sssst...]+
+[MARBLE]+S?A?\WA?Y?
+([OREO])[OREO]\1[ & MILK.]+
+
+[HAZMAT]+\d(.)\1{2}.[^AEIOU][AEIOU].*\S[^AEIOU].
+[MARGE]{4} [CAN][^DENT][NO]{3,}[^ BEES.] .*
+[^\w!][ROE][AEIOU]\w..[^ACDC]\W[ID].*
+[DEEP]{2}(\S)(\W)(.)[DEEP]+\d+\1\2+\3$
+
+[A-M]+.*(.)\1\1[^AMEN][A-M]+[Q-Z] [A PROCESS]{3,}
+[^M][^E][^RE][^EA](TER OF)?.*[BEES]{2}
+.[^ZOE][RUM]([^A-M]).[^COPS.]\1.[DOPE](.).*\2
+^[^P]+(.)(\1)\1[^D]+(\d)\3\2+[G-HP-QS-Z.]$
+
+[MACHINATION]?.*
+.*[TRICK]*.*
+..?[BLUFF].*?\.
+.*[...SMOKE SCREEN...]*.*
+.*[C0nTrIvaNCe]*.*
+.*[ARTIFICE]*.*
+..[^SUBTERFUGE]{1,4}?.*
+[PRETENCE\x20\x30\x48\x4E]*
+([DISTRACTION].)*
+[SHAM WOW]+.*
+[ SPACE! ].[^E.T. Phone Home!].*
+.(.)\1.
+.[BLAMO][^LITTLE BEAR PAWS]+.
+[RED HERRING]*.*

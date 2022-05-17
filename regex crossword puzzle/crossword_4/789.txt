@@ -1,0 +1,15 @@
+https://regexcrossword.com/challenges/volapuk/puzzles/1
+
+[GRAPEZ]+
+[^ION\sS]+
+(ZO|OS|OP)
+
+(PO|R|G|E)*
+(Z|OO)[KINZS]+
+
+[GRA]P+.*
+(X|Y|Z)[KIS\s]+
+
+[GIN].
+[SPIK\s]*
+[^ZYP]+

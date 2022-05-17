@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5a588eb742c17
+
+(\w).*(\1)
+(DA|AD|HA)((((S|O))))
+[^E%&=\?S$\s]*
+
+[A-P]+(\W)
+(NAB|NAS|E)*(\?|\!)*(ABD)*
+[^A-MT-Z\W]*
+
+[^PEBHG\s]+
+[NES]*.[^LKIH56]
+[^Q\dPQRQ]*
+
+[O-Z]*..
+[^FCKN].[^MONG0]*
+[\s\!\?].[^DOIT_]*

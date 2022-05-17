@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/588b878aca26b
+
+[PREMIUM]*[OWNER]+
+[COORDINATE]*(G|P|S)
+[D-T][BYOP][TFTC]
+
+[UNKNOWN]*[DNF]+
+[SPOILER]*
+[\WAYPOINT]*[STF]{2,}
+
+[TRAVEL BUG][TNLN][^NotFind]
+[CACHE][^LONGITUDE]*
+(C|I|T|O)\1?[TRACKABLES]*
+
+.*
+.*
+.*

@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/911f14da-d911-42e9-a6c2-e20d2baf27b9
+
+([A-F])*(\1|\s|\d)
+(\s|\W|\d)\1
+
+[^B-D]*
+([5])\1
+
+(A|G|C)\d
+(\d)\1
+
+(\s|A|K|G).
+(\s|5)\d

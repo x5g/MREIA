@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5cdc57fd9626b
+
+(T|H|L)[S-V][M-N]
+(AU|AH|HA)[ABGHUV]
+(AMD|NDM|NAM|ANM)
+
+[LAN](A|B)(C|N|B)
+(H|T)(HA|AA|BC|LN)
+(A|B|N|C)[^ABGHV]*
+
+.*
+.*
+.*
+
+.*
+.*
+.*

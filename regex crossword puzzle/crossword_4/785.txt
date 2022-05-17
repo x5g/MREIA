@@ -1,0 +1,11 @@
+https://regexcrossword.com/challenges/tutorial/puzzles/7
+
+(A)\1
+
+A|B
+A|B
+
+.*
+.*
+
+.*

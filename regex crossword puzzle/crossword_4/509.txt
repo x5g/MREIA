@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/56e7151243436
+
+(NVE|VEN)
+(E)\1[ART]
+[KIRITO].(R|F)
+
+.[DEATH][RSQUE]
+[^AEIOU][ONLINE]G?
+[REALITE][ASUNA][RPG]
+
+.*
+.*
+.*
+
+.*
+.*
+.*

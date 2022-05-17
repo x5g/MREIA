@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/60f2ef96a6abf
+
+(AB|C|D|EF)*[ABCDEFGHIJ]?
+(.)\1
+(AL|BM|CN|DO|FP)
+
+(.OC)|(D.D)|(.OR)|(FR?E.C?H?)
+[A-H][L-Q]+
+
+.*
+.*
+
+[^ADAMANTIUM][^BACKGROUND_FEMALE]
+[PIG_IN_FRENCH_LMNOPQ]+
+.*

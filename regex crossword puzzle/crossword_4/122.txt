@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5c52178f0a247
+
+[D-L]?
+
+[E-M?]
+
+[A-G]?
+
+[^EG]+

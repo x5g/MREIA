@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/56ebf06b853d7
+
+[C]{1,2}[AEGCD]+
+[AEIOU]*
+[A-P].[^2-9]
+
+(CU|UC)[P-Z]
+(ACK|CAK|KCA)
+[EFSHgcd][^AEIU][1-9]
+
+.*
+.*
+.*
+
+.*
+.*
+.*

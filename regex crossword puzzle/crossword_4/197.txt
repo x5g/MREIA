@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5913de5ec0a8d
+
+(P|T|H)[Y]\1
+(A|E|I|O|U)\1[NA]
+
+[START][STOP]
+[YOUR][OWN]
+[^ENGINES]+
+
+.*
+.*
+.*
+
+.*
+.*

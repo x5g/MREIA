@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5d7848e67142c
+
+[DO]*
+(...)*OO
+
+DO
+OO
+
+.*
+.*
+
+DO|OO
+(OO)

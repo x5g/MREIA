@@ -1,0 +1,17 @@
+﻿https://regexcrossword.com/playerpuzzles/5791964dee8d2
+
+[ T R A S P A R   E N T ]+
+[ H I D   D E N ]+
+[ I N V S I   B L E ]+
+
+(?!.*(.)\1.*)[\what_i\s_it?]+
+(?!.*(.)\1.*)[\what_i\s_it?]+
+(?!.*(.)\1.*)[\what_i\s_it?]+
+
+[^ ][^ ][^    ]
+[^ ][^ ][^  ]
+[^ ][^ ][^    ]
+
+[^TRANSPARENT ]+
+[^HIDDEN ]+
+[^INVISIBLE ]+

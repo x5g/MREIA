@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/5db20efef3610
+
+(DU|ICH|WIR).[ABC]{2}HI?
+(\s|0|O)[FHK\-]+\1
+([ABC]|[XYZ])+-[NET]+
+
+[A-D]?[CO]+
+\w?F+[Y]?
+[ ]*(HA|HI|HO)
+[CK]+-
+A[T\-]+
+[^ABC]?.[M-N]+
+
+.*
+.*
+.*
+.*
+.*
+.*
+
+.*
+.*
+.*

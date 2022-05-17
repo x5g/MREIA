@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5a5b6aa1bad35
+
+[A-Z]
+
+[^R-Z]
+
+[^A-P]
+
+.*

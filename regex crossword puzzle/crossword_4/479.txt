@@ -1,0 +1,13 @@
+https://regexcrossword.com/challenges/beginner/puzzles/5
+
+\d[2480]
+56|94|73
+
+18|19|20
+[6789]\d
+
+.*
+.*
+
+.*
+.*

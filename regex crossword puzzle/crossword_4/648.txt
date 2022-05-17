@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5df1c04827dd5
+
+[NY][MTL]*[WTC]
+[LDA](AI|ML)[S-V]
+
+NL[U|P]?
+[MaskGAN]*?
+([TF]|[IDF])+
+[COMPSCI]+
+
+.*
+.*
+.*
+.*
+
+.*
+.*

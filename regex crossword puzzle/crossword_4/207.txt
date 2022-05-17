@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/6c122cf9-fd8b-4735-8e89-24b899d1007d
+
+L[OFAS]*
+(FO|O|L|E|Y)+
+[MASA]*(R|O)*(VAT){0,2}
+
+.[GOO]{2}[RIS]*
+(GÚ|ER|I|S){2,3}
+
+.*
+.*
+
+.*
+.*
+.*

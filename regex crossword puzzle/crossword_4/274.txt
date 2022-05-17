@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5e3e68718721b
+
+(A|B|C)\1
+(AB|AY|SK)
+
+.*M?A.*
+(AN|FE|BY)
+
+.*
+.*
+
+.*
+.*

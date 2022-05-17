@@ -1,0 +1,7 @@
+https://regexcrossword.com/playerpuzzles/5707701091081
+
+1  0  0  0  0
+1  0  0  0  1
+1  0  0  1  0
+1  0  1  0  0
+1  1  0  0  0

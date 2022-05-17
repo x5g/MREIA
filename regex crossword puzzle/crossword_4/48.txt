@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/58a890d08139b
+
+(?![AEIOUY]).*
+[SOMMER].[WINTER]
+[FAXA BAY]*.
+
+[GEYSIR]*
+.*[JACK]{3}.*
+[^FAMINE]*[KISS]*
+
+[^MIDNIGHT SUN]*
+(.)(?!\1)([^C])(?!(\1|\2)).
+(?=^[SGNIKIV]*$).*
+
+(?=.[LAKI]).*[VOLCANO]
+[^SPRING]+[^AUTUMN]?
+.*[^ISLAND]

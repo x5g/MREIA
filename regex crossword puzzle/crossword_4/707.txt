@@ -1,0 +1,25 @@
+https://regexcrossword.com/playerpuzzles/2e360d7c-a576-4bb4-b357-a0307c0b11d0
+
+[FATE]+
+(.)\1..\1
+[HERE\s]+[JOHNNY!]
+(.).\1.*[^CHUCKY]
+[MR HYDE]+
+
+[ AF]{2}[RAID]+
+[\sCARY]+[^MURDERER ]
+[WRAITH\s]+
+[^ZOMBIES].*[EEK!]
+[DARKNE\s\s]+[HATE]+
+
+[FREDDY ]{3}[^KRUEGER ]+
+.{1}[ _ ]{3}.
+[THE ]+[THING]{2}[^ ]
+.{1}[ _ ]{3}.
+[OMEN ]{3}[LIGHT]+
+
+.*(.)\1.*
+.*(.)\1.
+[HANNIBAL LECTER]+
+.*[GHOST ]{2}
+[DR JEKYLL]+.

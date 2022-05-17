@@ -1,0 +1,19 @@
+https://regexcrossword.com/playerpuzzles/59b7d83fe4439
+
+[ORA PAGE6]*#[LITERAL]*
+(4Z|5I|8X)[^SBC #MDL,X]
+([PAGES0RAM])+\1
+(SED impl)*[2-5][MICRO]*
+
+(STA abs)*\d+[0-2]
+(RI|RA)([STY,X])(6|C)
+[LDA AS,X#]*[MEM]*
+
+.*
+.*
+.*
+
+.*
+.*
+.*
+.*

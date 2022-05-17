@@ -1,0 +1,17 @@
+https://regexcrossword.com/challenges/palindromeda/puzzles/2
+
+(GE|PE)[AL]*
+[EAF]+(YE|AB)*
+(QR|LE)(G|I|M|P)
+
+(L|E|D|G|Y)*
+(A|E|J)*Y.*
+[FLEDG]*
+
+.*
+.*
+.*
+
+.*
+.*
+.*

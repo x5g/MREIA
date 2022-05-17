@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5c7b03ac5d27c
+
+A?[DERT1]*
+[A-D].*
+(?=.[789].*)[C-R]?\d*
+(?![I](A-QS-9))\w*
+
+[A|P|1]+I{1}
+[^D]\w*\d?R?\w?
+
+\d?\w*
+\w\d?\w*
+
+\d*
+\w?(BO|R|DP)
+[A-I|R-Y]?[^0-8]*
+(?=.*(R).*)\w*

@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/6003dddb665b5
+
+)  %  (  *  {  -  )  ?  {  /  }
+%  [  %  ]  /  [  &  <  \  >  =
+5  _  3  =  4  |  2  `  1  ~  6
+6  H  5  G  7  E  8  F  "  '  "
+'  "  '  Q  V  S  X  T  W  R  U
+A  F  Z  C  Y  E  I  D  S  B  D
+^  |  ^  }  *  (  +  )  |  {  ?
+6  +  3  *  4  |  5  ?  @  X  7
+@  ?  J  P  K  M  I  N  @  L  O
+_  |  _  D  X  A  W  C  Y  B  Z
+|  !  /  .  '  :  "  ,  ~  ;  ^

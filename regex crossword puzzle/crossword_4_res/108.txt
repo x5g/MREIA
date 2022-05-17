@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/ec1ab6dc-1d45-4b49-8747-cc1c11e6344b
+
+X  X  X  X  X  X  X     X  X  X  X  X  X  X
+X  X  X  X  X  X           X  X  X  X  X  X
+X  X  X  X  X  X           X  X  X  X  X  X
+X  X  X  X  X  X           X  X  X  X  X  X
+X  X  X  X  X                 X  X  X  X  X
+X  X  X                 X  X        X  X  X
+X  X                          X  X     X  X
+X                                X  X     X
+               X           X        X      
+            X     X     X     X            
+               X           X               
+            X                 X            
+X              X  X  X  X  X              X
+X  X                                   X  X
+X  X  X  X                       X  X  X  X

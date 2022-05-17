@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5d84a0a71c302
+
+2 3 2
+
+[POLLEN]+
+[FURROW\s]+
+[GREW]+
+
+[FROST]+
+[PETAL\s]+
+[H2WO]+
+
+[WATER]+
+[ROSE\s]+
+[ALFALFA]+

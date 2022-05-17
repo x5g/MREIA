@@ -1,0 +1,21 @@
+﻿https://regexcrossword.com/playerpuzzles/5a099f03d3693
+
+(?!.*\u0001.*).(?!I)[C-J]+
+(.)(\1)\2
+(?!.*\u0001.*)[K-P]⌀[@-C]
+[TOLERANCE]+[MICRON]+
+[REAM]+[=\s]+
+
+(?!.*\u0001.*)[^E]*E(?=LT)..(?!E).
+(?!.*\u0001.*).*D.[^\d\w](?=.*=).*
+(?!.*\u0001.*).*A(?=M).*\u0020
+
+[D-H]+L[Q-U]+
+.[\u2300O=E]+
+[ISO128][EMAI ]+
+
+[HELICAL][DRAWING]*
+.*
+[3RDANGLE\S]+
+[^E]+
+.*

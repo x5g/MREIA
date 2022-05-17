@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5d8695e645ae0
+
+[AEIOU]+
+[RUN]+
+(NT|OT|NV)
+
+[SWIM]([M-O])\1
+[DO][^NR][UT]
+
+.*
+.*
+
+.*
+.*
+.*

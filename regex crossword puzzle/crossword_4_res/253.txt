@@ -1,0 +1,6 @@
+https://regexcrossword.com/playerpuzzles/567058dd63419
+
+6  .  8  6
+.        .
+8        8
+6  .  8  6

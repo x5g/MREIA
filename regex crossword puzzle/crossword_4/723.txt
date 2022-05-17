@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5cdc5cbc32ff9
+
+.*
+.*
+.*
+
+.*
+.*
+.*
+
+(.)(TM|TP|RS)
+[^N]UB
+(EM|I)(TY|IB)
+
+(NI|RI|E)+
+(.)(E|U|Y)\1
+[MOBES]{2}Y

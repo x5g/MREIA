@@ -1,0 +1,17 @@
+https://regexcrossword.com/challenges/cities/puzzles/3
+
+[NAYE]*
+(EO|N\s)
+[WRONG]*
+(K|R|I|M|\s)+
+
+(W\s|NE|PS)*
+[YOU]{2}[ARK]+
+
+[END\sWITH]+
+.+R.*
+
+[YEN]+
+[ETPHONE\s]+
+[^GONE\s]+
+[\sANKT]+

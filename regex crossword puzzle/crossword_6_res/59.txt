@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5a7ed792493c1
+
+F  N  V  S
+O  A  .  3  .
+R  T  E  S  2  4
+E  E  F  N  R  5  0
+N  F  E  E  1  1
+E  I  F  1  5
+I  N  W  N

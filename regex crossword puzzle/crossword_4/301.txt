@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5aeac33a11cf8
+
+[^4-9].*
+\WO
+\d.*
+
+.*[<\d>\>].*
+[XYZ].*
+
+.*<[^0-2|\^7-9\^]
+.*[4-9A-U]
+
+(IY|YI|\d)
+[MO<3]{2}
+[^4-9][U-Z]

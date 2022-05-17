@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/5e3c5f9991a79
+
+3 4 5 4 3
+
+(WC|LO|A|T)+[0-9]*
+[BIKLOTX]*
+[ADEST]*
+(SK|TO|AT)+[13579]*
+[0-5]*[ABCEF]
+
+[13579]*S*
+0[ABK]+
+[BDF]+[0-3]*[EROTW]+
+[24567]*[CDX]*
+.*4
+
+E[0-5]*[DEF]*
+(ID|AT|BE)[0189]{2}
+[0-9]*.*T.*[24567]+
+[ACOS]*
+[BSW]*

@@ -1,0 +1,13 @@
+https://regexcrossword.com/challenges/beginner/puzzles/1
+
+[^SPEAK]+
+EP|IP|EF
+
+HE|LL|O+
+[PLEASE]+
+
+.*
+.*
+
+.*
+.*

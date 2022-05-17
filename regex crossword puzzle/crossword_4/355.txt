@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/82ee47ca-6f1d-4f33-8a57-7fd6bd9173a5
+
+[A-Q]
+
+[^N]
+
+[M-Z]
+
+[^OPQ]

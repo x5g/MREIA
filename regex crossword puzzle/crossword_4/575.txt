@@ -1,0 +1,19 @@
+https://regexcrossword.com/playerpuzzles/56b3a42ebf73e
+
+[SO MUCH]*..
+[AEIOU]*
+(T|RA|I|L\s)+
+
+[A-L]*
+\s[F-N]\s
+[FROTHY]*
+[TRAIN]*
+
+[CRAZY]*.
+.*
+.*
+[^A]*.
+
+..[FUN]*
+.*
+[^TIME]*

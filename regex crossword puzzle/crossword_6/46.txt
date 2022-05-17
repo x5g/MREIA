@@ -1,0 +1,11 @@
+https://regexcrossword.com/playerpuzzles/5d767610c85f0
+
+2
+
+UE
+
+U+
+E+
+
+[^CD]
+[^ST]

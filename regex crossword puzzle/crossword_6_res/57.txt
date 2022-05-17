@@ -1,0 +1,7 @@
+https://regexcrossword.com/challenges/hexagonal/puzzles/3
+
+S  E  S
+A  "  E  D
+.  B  .  B   
+I     D  "
+R  .  N

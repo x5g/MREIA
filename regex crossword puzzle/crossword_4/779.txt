@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/58924afbe1405
+
+[^A-C]
+A?D?
+D?A?
+A?\s?
+
+[DRUNK].*
+
+.*A.*
+
+[^E-W]
+S?A?
+[^A-C]
+\S

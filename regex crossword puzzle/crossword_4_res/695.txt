@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5cbee87f6bf85
+
+T  W  I  C  E     T
+W  I  C  E     T  W
+I  C  E     T  W  I
+C  E     T  W  I  C
+E     T  W  I  C  E
+   T  W  I  C  E   
+T  W  I  C  E     T

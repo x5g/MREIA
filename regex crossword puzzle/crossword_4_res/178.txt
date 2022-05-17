@@ -1,0 +1,6 @@
+https://regexcrossword.com/playerpuzzles/5db41ffde90da
+
+A  B  B  B  A
+A  A  B  C  A
+B  A  B  A  C
+B  D  E  A  C

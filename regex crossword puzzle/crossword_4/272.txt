@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5e3e5431eae92
+
+IJ|JS
+TS|DD|DF
+J2|JS|S1
+
+[OTIS]+
+[^OTABDF]+
+
+.*
+.*
+
+.*
+.*
+.*

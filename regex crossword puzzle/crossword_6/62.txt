@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/59e76811836a3
+
+2 3 2
+
+[AS]*
+.*
+(MX|LP)
+
+[^S]*
+.*X.*
+[ARP]*
+
+(.).*\1
+.*
+[SE]*

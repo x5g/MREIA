@@ -1,0 +1,14 @@
+https://regexcrossword.com/playerpuzzles/5ada23bfded1e
+
+   .     .     .     .     .     .
+   .     .  .  .  .  .  .  .      
+   .  .  .  .           .  .     .
+         .  .           .  .      
+   .  .     .  .     .        .  .
+                  .  .  .         
+            .  .  .  .        .  .
+      .  .  .        .        .   
+   .  .              .  .        .
+   .        .        .        .   
+   .  .     .        .     .     .
+                                  

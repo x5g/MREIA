@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/56b3c1b575353
+
+([L-Z]|\s)*
+[CREAMING]*
+[THUS]*
+[THUS]*
+[FEAST ]*
+
+.*M[^MERCI][^ ]*
+([^L-Z]|U)*[^A-T]
+[^GRIM TRANCE]+[STEAL]+
+
+..([^UH])\1.
+.[CANT]*[HURT]*.
+(.)[^A](.)\2\1
+
+.*\s.*
+(EN|I|AC)+.*
+[^T]*H.*
+.*U[^S]*
+.*E.*

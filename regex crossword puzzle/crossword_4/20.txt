@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/602f97946b5ea
+
+[^HAPPY]
+[IGOR]
+[^FROM]
+A|P|[^N]
+[IDKFA]
+
+([CP](O|A))+[G-Z]
+
+\w*
+
+[^BIRTHDAY]
+[GLOOSHENKOV]
+[DEVEXPERTS]
+\x4F
+[^IDDQD]

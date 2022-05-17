@@ -1,0 +1,5 @@
+https://regexcrossword.com/playerpuzzles/5e2287249f2cb
+
+A  C  0  F  F  E  E
+D  E  A  D  B  E  E  F
+B  A  D  C  0  D  E

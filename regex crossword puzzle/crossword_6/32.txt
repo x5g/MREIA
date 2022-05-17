@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/2df29966-eab5-4fbf-9176-b8fd6036fcc2
+
+3 4 5 4 3
+
+[LEDIAN]+
+[JIGGLYPUFF]+
+[LUXRAY ]+
+[DUSKNOIR]+
+[AZELF]+
+
+[FEAROW]+
+[FURRET ]+
+[DRAGONAIR]+
+[DEWGONG ]+
+[VULPIX]+
+
+[XERNEAS]+
+[TABUNNE ]+
+[GROTLE]+
+[GOLEM ]+
+[AZELF]+

@@ -1,0 +1,17 @@
+https://regexcrossword.com/challenges/doublecross/puzzles/3
+
+.*[GAF]*
+(P|ET|O|TEA)*
+[RUSH]+
+
+[ONE]*[SKA]
+.*(RE|ER)
+A+[TUB]*
+
+.*(O|S)*
+[^GOA]*
+[STUPA]+
+
+(NF|FA|A|FN)+
+.*(A|E|I).*
+[SUPER]*

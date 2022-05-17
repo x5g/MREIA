@@ -1,0 +1,33 @@
+https://regexcrossword.com/playerpuzzles/59f77214b402d
+
+([IMAGINARY])?\1\W.*
+[F77]?[I]?[J]+.*K
+(WHA?T)*[PURE]?[JK]+.*I
+[XYZ360]?(.)\1.*
+[XYZ360]?(.)\1.*
+[XYZ360]?(.)\1.*
+[TOMB RAIDER]?=+\.+
+([-])\+(.)[\u210D]+\2
+\d[\.1JZ]+\.+
+
+(\u210D)*(.)\2(.)\3(.)\4+[=1\-]+
+(\u210D)?(I((J)(K)))\3\5[=\-+]+\4
+(((N)(O)(N)), \3\4 \2)?(ZERO)?=+\.*
+[DETERMINANT]?-[+]{2}-{3}.+\.+
+(\u210D)*(1)KI\2\2\2(.)\3\3
+
+(.)\1(.)\2(.)\3\W\W\d
+(.*[IJKZ]$|IJ&K=PURE)
+((.).)\1\2\2(\.){3}
+.*[BROOM+-\.]*
+(.)(.)(.)(.)\4\4(\.){3}
+
+[^\[\]|]*[THEMATRIXHASYOU]*
+(.*$| PURE)
+(.*$| PURE)
+(.*$|¬PURE)[DETH]*
+(.*$|¬PURE)[VECTORTIAL]*
+(.*$|¬PURE)[ASTROMETRY]*
+([=\.]*|[TCSDEROTGLITCH]*)
+.*[UNITY]?
+[\.IJ1]+[3DMATRIXGLITCH]*

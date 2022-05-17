@@ -1,0 +1,5 @@
+https://regexcrossword.com/challenges/hexagonal/puzzles/2
+
+F  L
+R  O  !
+W  E

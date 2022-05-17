@@ -1,0 +1,13 @@
+https://regexcrossword.com/challenges/hexagonal/puzzles/1
+
+1 2 1
+
+[HAIR]*(D|O)*
+(\W|\w)?[CLVST3R]*
+[HAV3N]?[REA]*
+
+[EVA]?[MASONIC\s]?
+[STARV3]*(O|H)?
+
+(VE|IL?|\sS)*[DIES]?
+[HELP]*(Y|QU|I)?

@@ -1,0 +1,35 @@
+https://regexcrossword.com/playerpuzzles/5a78da991d393
+
+[^ESMT]{0}[\x45]S*S*S(RE|RR|RW)
+[^3-7]{0}(?!PPH)[XIG]G\s{0}\s[MOP]
+(MB|KL|LK)\s?[^A-LNQ-Z]
+[!\s]{0,2}(\s)!\1[OPIUM]
+[^CO|OC](FC|CF)[5-8XCO)]T{0}O{0}
+([^\w\t\r\n])[AFHX]\1[BV]
+[^Press here].(?:XT|RF|ZV)
+(?=\s)(\u0020)[\sS|S\s]\1[^VWA-EJ-UX-Z]
+(IS|SU|SF)(?=U)(FU|UF|F)
+(H)T(?![A-GI-PR-UW-Z])\1(IH|H){0}[AEI]
+([I]F){0}I[^1-8].?[GHH-H-ZA]
+
+[A MATHEMATICIAN NAMED HALL]+.*
+[^HAD A HEXADROHENICAL BALL]+
+(?:[THE CUBE OF ITS WEIGHT       R])+
+[^TIMES HIS PECKER PLUS EIGHT]+
+
+(E)(.)(.)(\s)\1\4\3\4\2(?:IH|HI)
+.{4}(\x46)\1T[\u0053]{2}TF
+(P|Q|R)(\s|\S)\2{2}C\2\1\2.(GH|HH)
+[^V]O{4}\u0056([^A-EG-I])(\1)\2(A)\3
+
+.*
+.*
+.*
+.*
+.*
+.*
+.*
+.*
+.*
+.*
+.*

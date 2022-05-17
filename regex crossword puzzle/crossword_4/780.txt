@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5840a83655567
+
+[JEB][JFB][BIA]
+[AEO][ALI][FLA]
+[FLQ][QTL][LJF]
+
+[FJO][ELI][IFO]
+[FIQ][ITQ][QIO]
+[BRO][BAT][LIT]
+
+.*
+.*
+.*
+
+.*
+.*
+.*

@@ -1,0 +1,3 @@
+https://regexcrossword.com/playerpuzzles/5b7452efa582e
+
+E  ^  (  I  *  P  I  )

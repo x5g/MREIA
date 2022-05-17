@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/56e60fc485df2
+
+[SC]+K*O?
+(RS|SR)[O-T]
+OW?D+
+
+C*[OR]+
+S{0,3}[^DS]*
+[ONE][^OPQST]\w
+
+.*
+.*
+.*
+
+.*
+.*
+.*

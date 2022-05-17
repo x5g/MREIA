@@ -1,0 +1,1136 @@
+((?<=\()[A-Za-z][A-Za-z0-9\+\.\-]*:([A-Za-z0-9\.\-_~:/\?#\[\]@!\$&'\(\)\*\+,;=]|%[A-Fa-f0-9]{2})+(?=\)))|([A-Za-z][A-Za-z0-9\+\.\-]*:([A-Za-z0-9\.\-_~:/\?#\[\]@!\$&'\(\)\*\+,;=]|%[A-Fa-f0-9]{2})+)|\bmailto:\S*[^\s\W]|\b\S+@\S+\.\S*[^\s\W]|((?<=\()(www|ftp)\.([A-Za-z0-9\.\-_~:/\?#\[\]@!\$&'\(\)\*\+,;=]|%[A-Fa-f0-9]{2})+(?=\)))|((www|ftp)\.([A-Za-z0-9\.\-_~:/\?#\[\]@!\$&'\(\)\*\+,;=]|%[A-Fa-f0-9]{2})+\.([A-Za-z0-9\.\-_~:/\?#\[\]@!\$&'\(\)\*\+,;=]|%[A-Fa-f0-9]{2})+)
+(?<=SECRET_KEY = ')'
+\n        ^\n        \s*\n        (?P<operator>(~=|==|!=|<=|>=|<|>|===))\n        (?P<version>\n            (?:\n                # The identity operators allow for an escape hatch that will\n                # do an exact string match of the version you wish to install.\n                # This will not be parsed by PEP 440 and we cannot determine\n                # any semantic meaning from it. This operator is discouraged\n                # but included entirely as an escape hatch.\n                (?<====)  # Only match for the identity operator\n                \s*\n                [^\s]*    # We just match everything, except for whitespace\n                          # since we are only testing for strict identity.\n            )\n            |\n            (?:\n                # The (non)equality operators allow for wild card and local\n                # versions to be specified so we have to define these two\n                # operators separately to enable that.\n                (?<===|!=)            # Only match for equals and not equals\n\n                \s*\n                v?\n                (?:[0-9]+!)?          # epoch\n                [0-9]+(?:\.[0-9]+)*   # release\n                (?:                   # pre release\n                    [-_\.]?\n                    (a|b|c|rc|alpha|beta|pre|preview)\n                    [-_\.]?\n                    [0-9]*\n                )?\n                (?:                   # post release\n                    (?:-[0-9]+)|(?:[-_\.]?(post|rev|r)[-_\.]?[0-9]*)\n                )?\n\n                # You cannot use a wild card and a dev or local version\n                # together so group them with a | and make them optional.\n                (?:\n                    (?:[-_\.]?dev[-_\.]?[0-9]*)?         # dev release\n                    (?:\+[a-z0-9]+(?:[-_\.][a-z0-9]+)*)? # local\n                    |\n                    \.\*  # Wild card syntax of .*\n                )?\n            )\n            |\n            (?:\n                # The compatible operator requires at least two digits in the\n                # release segment.\n                (?<=~=)               # Only match for the compatible operator\n\n                \s*\n                v?\n                (?:[0-9]+!)?          # epoch\n                [0-9]+(?:\.[0-9]+)+   # release  (We have a + instead of a *)\n                (?:                   # pre release\n                    [-_\.]?\n                    (a|b|c|rc|alpha|beta|pre|preview)\n                    [-_\.]?\n                    [0-9]*\n                )?\n                (?:                                   # post release\n                    (?:-[0-9]+)|(?:[-_\.]?(post|rev|r)[-_\.]?[0-9]*)\n                )?\n                (?:[-_\.]?dev[-_\.]?[0-9]*)?          # dev release\n            )\n            |\n            (?:\n                # All other operators only allow a sub set of what the\n                # (non)equality operators do. Specifically they do not allow\n                # local versions to be specified nor do they allow the prefix\n                # matching wild cards.\n                (?<!==|!=|~=)         # We have special cases for these\n                                      # operators so we want to make sure they\n                                      # don't match here.\n\n                \s*\n                v?\n                (?:[0-9]+!)?          # epoch\n                [0-9]+(?:\.[0-9]+)*   # release\n                (?:                   # pre release\n                    [-_\.]?\n                    (a|b|c|rc|alpha|beta|pre|preview)\n                    [-_\.]?\n                    [0-9]*\n                )?\n                (?:                                   # post release\n                    (?:-[0-9]+)|(?:[-_\.]?(post|rev|r)[-_\.]?[0-9]*)\n                )?\n                (?:[-_\.]?dev[-_\.]?[0-9]*)?          # dev release\n            )\n        )\n        \s*\n        $\n
+(((?<=[a-z])[A-Z])|([A-Z](?![A-Z]|$)))
+((?!.*::.*::)(?:(?!:)|:(?=:))(?:[0-9a-f]{0,4}(?:(?<=::)|(?<!::):)){6}(?:[0-9a-f]{0,4}(?:(?<=::)|(?<!::):)[0-9a-f]{0,4}(?:(?<=::)|(?<!:)|(?<=:)(?<!::) :)|(?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)(?: \.(?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))(?:\:(\d+))?(?:\:([\/\\w+.\w+.\-]+))?
+((?<=>)\s+)*\n*(\s+(?=<))*
+((?<=[\\'"\s/])[^\s/>][^\s/=>]*)(\s*=+\s*(\\'[^\\']*\\'|"[^"]*"|(?![\\'"])[^>\s]*))?(?:\s|/(?!>))*
+((?<=[a-z])[A-Z]|(?<!\A)[A-Z](?=[a-z]))
+((?<=\s)\d{4}|^\d{4})
+((?<=\n)\n)?zip_safe flag not set; analyzing archive contents...\n
+(?:^|(?<=[\.\?\!] ))([a-z])
+(?<=  \[)(.+)(?=\])
+(?<= line )\d+
+(?<="v8_revision": ")([0-9]+)(?=")
+(?<=/)[a-z,0-9,A-Z]*.nii
+(?<=/)\d+$
+(?<=@)[^.]+\.\w+
+(?<=Authority: ).+
+(?<=BYTSRCVD\()\w+
+(?<=BYTSSENT\()\w+
+(?<=MSGS\()\w+
+(?<=Mono JIT compiler version ).+(?= \(tarball)
+(?<=NodeName=)\S+
+(?<=Package name: ).+
+(?<=STATUS\()\w+
+(?<=[^a-zA-Z0-9_-])%(?=[^:])
+(?<=\()(?:[^()]+|\([^)]+\))*(?=\))
+(?<=\()\w*\,?\s*
+(?<=\(|\))?[a-z|A-Z|0-9]*(?=\()
+(?<=\(|\))[a-z|A-Z]*(?=\()
+(?<=\))#.*$
+(?<=\-)\d+
+(?<=\S)\n(?=\S)
+(?<=\W)\w
+(?<=\W)\w+\W*$
+(?<=\\u)([0-9a-f]{4})|(?<=\\U)([0-9a-f]{8})
+(?<=\n)[ ]+(?!\s)
+(?<=\n)\.\.\s+[^:]+:\s+(https?://.+)$
+(?<=\n)\[.*?\]:\s?(https?://.+)$
+(?<=\n)\s*#[^#]
+(?<=\n)--\n
+(?<=^<span class="..">)-\+|(?<=^<span class="..">)-|(?<=^<span class="..">)\+
+(?<=^<span\sclass="..">@@\s-)\d+,\d+|\d+,\d+(?=\s@@</span>$)
+(?<=^PLATFORM_VERSION=).*
+(?<=^TARGET_BUILD_VARIANT=).*
+(?<=^TARGET_PRODUCT=).*
+(?<=content-type:\s).*?(?=\r\n|$)
+(?<=kernel:)/.*(?:>)
+(?<=nm|tt|ch)([0-9]{7})\b
+(?<=source\.)[\w+#]+
+(?<=tcp://).+?(?=/)
+(?<={)@(?P<name>[a-zA-Z]+)
+(?<={)[a-zA-Z_ 0-9]+(?=})
+(?<=})\w+
+(?P<fence>^(?:~{3,}|`{3,}))[ ]*(\{?\.?(?P<lang>[a-zA-Z0-9_+-]*)\}?)?[ ]*\n(?P<code>.*?)(?<=\n)(?P=fence)[ ]*$
+(?P<wikilink>(^|(?<=[^A-Za-z]))[!]?[A-Z][a-z/]+(?:[A-Z][a-z/]+)+)
+(?s)(?<=\n)([|][|].*?[|][|])(?=\n[^|]|\n[|][^|])
+(?s)(?<=\|\|)(.*?)(?=\|\|)
+(\*\*|__) (?=\S) (.+?[*_]*) (?<=\S) \1
+(\*|_) (?=\S) (.+?) (?<=\S) \1
+(\s+|(?<=[\w\!\"\\'\&\.\,\?])-{2,}(?=\w))
+(\s+|(?<=\s)(?::[a-z-]+:)?`\S+|[^\s\w]*\w+[a-zA-Z]-(?=\w+[a-zA-Z])|(?<=[\w\!\"\\'\&\.\,\?])-{2,}(?=\w))
+(\s+|-*\w{2,}-(?=\w{2,})|(?<=[\w\!\"\\'\&\.\,\?])-{2,}(?=\w))
+(\s+|[^\s\w]*\w+[^0-9\W]-(?=\w+[^0-9\W])|(?<=[\w\!\"\\'\&\.\,\?])-{2,}(?=\w))
+(\s+|[^\s\w]*\w+[a-zA-Z]-(?=\w+[a-zA-Z])|(?<=[\w\!\"\\'\&\.\,\?])-{2,}(?=\w))
+(\s+|[^\s\w]*\w{2,}-(?=\w{2,})|(?<=[\w\!\"\\'\&\.\,\?])-{2,}(?=\w))
+(^|(?<=\s))@(?P<name>[a-zA-Z]+)
+.*(?<=}<!>)
+.+(?<=afisha/afisha_)
+.+(?<=archives/)
+.+(?<=id=)
+.+(?<=spektakl/)
+.+(?<=vk.com/)
+/(?<=,)(?! )/
+Resolution: (?<=\dx)\d{1,4}|(?<=\d\dx)\d{1,4}|(?<=\d\d\dx)\d{1,4}|(?<=\d\d\d\dx)\d{1,4}
+\\((?![enr\d]))
+\s*((?<=[\\'"\s])[^\s/>][^\s/=>]*)(\s*=+\s*(\\'[^\\']*\\'|"[^"]*"|(?![\\'"])[^>\s]*))?
+\n        ^\n        \s*                         # Leading whitespace\n        (?!.*::.*::)                # Only a single whildcard allowed\n        (?:(?!:)|:(?=:))            # Colon iff it would be part of a wildcard\n        (?:                         # Repeat 6 times:\n            [0-9a-f]{0,4}           #   A group of at most four hexadecimal digits\n            (?:(?<=::)|(?<!::):)    #   Colon unless preceeded by wildcard\n        ){6}                        #\n        (?:                         # Either\n            [0-9a-f]{0,4}           #   Another group\n            (?:(?<=::)|(?<!::):)    #   Colon unless preceeded by wildcard\n            [0-9a-f]{0,4}           #   Last group\n            (?: (?<=::)             #   Colon iff preceeded by exacly one colon\n             |  (?<!:)              #\n             |  (?<=:) (?<!::) :    #\n             )                      # OR\n         |                          #   A v4 address with NO leading zeros \n            (?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)\n            (?: \.\n                (?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)\n            ){3}\n        )\n        \s*                         # Trailing whitespace\n        $\n
+\n    ^\n    \s*                         # Leading whitespace\n    (?!.*::.*::)                # Only a single wildcard allowed\n    (?:(?!:)|:(?=:))            # Colon iff it would be part of a wildcard\n    (?:                         # Repeat 6 times:\n        [0-9a-f]{0,4}           #   A group of at most four hexadecimal digits\n        (?:(?<=::)|(?<!::):)    #   Colon unless preceeded by wildcard\n    ){6}                        #\n    (?:                         # Either\n        [0-9a-f]{0,4}           #   Another group\n        (?:(?<=::)|(?<!::):)    #   Colon unless preceeded by wildcard\n        [0-9a-f]{0,4}           #   Last group\n        (?: (?<=::)             #   Colon iff preceeded by exacly one colon\n         |  (?<!:)              #\n         |  (?<=:) (?<!::) :    #\n         )                      # OR\n     |                          #   A v4 address with NO leading zeros \n        (?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)\n        (?: \.\n            (?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)\n        ){3}\n    )\n    \s*                         # Trailing whitespace\n    $\n
+^(?:\s*(?:,\s*)?([^ \t\r\n=]+)\s*=\s*\"?((?<=\")(?:[^\\\"]|\\.)*?(?=\")|(?<!\")[^ \t\r\n,]+(?!\"))\"?)(.*)$
+^(?:\s*(?:,\s*)?([^\0-\x1f\x7f-\xff()<>@,;:\\\"/[\]?={} \t]+)\s*=\s*\"?((?<=\")(?:[^\0-\x08\x0A-\x1f\x7f-\xff\\\"]|\\[\0-\x7f])*?(?=\")|(?<!\")[^\0-\x1f\x7f-\xff()<>@,;:\\\"/[\]?={} \t]+(?!\"))\"?)(.*)$
+^(?:#(\{set\}|set)((?=[ \t]*\()))
+^(?:#(\{foreach\}|foreach)((?=[ \t]*\()))
+^(?:#(\{([a-zA-Z_][a-zA-Z0-9-_]*)\}|([a-zA-Z_][a-zA-Z0-9-_]*))((?=[ \t]*\()))
+(!?\[.*?\]\()((?!\/|data:|http:\/\/|https:\/\/|file:\/\/).+?)((?=\)))
+;((?! }))
+^(?:continue((?![a-zA-Z0-9_$])))
+^(?:#(\{macro\}|macro)((?=[ \t]*\()))
+^(?:default((?![a-zA-Z0-9_$])))
+^(?:mixin((?![a-zA-Z0-9_$])))
+^(?:pass((?![a-zA-Z0-9_$])))
+(?<=[.])\d{1,}$
+^(?:doctype((?![a-zA-Z0-9_$])))
+^(?:else((?![a-zA-Z0-9_$])))
+test\/path3\/((?!.*--abc\.)).*\/files
+^(?:null((?![a-zA-Z0-9_$])))
+^(?:#(\{if\}|if)((?=[ \t]*\()))
+\b((?!(do|if|in|for|let|new|try|var|case|else|enum|eval|false|null|this|true|void|with|break|catch|class|const|super|throw|while|yield|delete|export|import|public|return|static|switch|typeof|default|extends|finally|package|private|continue|debugger|function|arguments|interface|protected|implements|instanceof)\b))[$A-Z\_a-z\xaa\xb5\xba\xc0-\xd6\xd8-\xf6\xf8-\u02c1\u02c6-\u02d1\u02e0-\u02e4\u02ec\u02ee\u0370-\u0374\u0376\u0377\u037a-\u037d\u0386\u0388-\u038a\u038c\u038e-\u03a1\u03a3-\u03f5\u03f7-\u0481\u048a-\u0527\u0531-\u0556\u0559\u0561-\u0587\u05d0-\u05ea\u05f0-\u05f2\u0620-\u064a\u066e\u066f\u0671-\u06d3\u06d5\u06e5\u06e6\u06ee\u06ef\u06fa-\u06fc\u06ff\u0710\u0712-\u072f\u074d-\u07a5\u07b1\u07ca-\u07ea\u07f4\u07f5\u07fa\u0800-\u0815\u081a\u0824\u0828\u0840-\u0858\u08a0\u08a2-\u08ac\u0904-\u0939\u093d\u0950\u0958-\u0961\u0971-\u0977\u0979-\u097f\u0985-\u098c\u098f\u0990\u0993-\u09a8\u09aa-\u09b0\u09b2\u09b6-\u09b9\u09bd\u09ce\u09dc\u09dd\u09df-\u09e1\u09f0\u09f1\u0a05-\u0a0a\u0a0f\u0a10\u0a13-\u0a28\u0a2a-\u0a30\u0a32\u0a33\u0a35\u0a36\u0a38\u0a39\u0a59-\u0a5c\u0a5e\u0a72-\u0a74\u0a85-\u0a8d\u0a8f-\u0a91\u0a93-\u0aa8\u0aaa-\u0ab0\u0ab2\u0ab3\u0ab5-\u0ab9\u0abd\u0ad0\u0ae0\u0ae1\u0b05-\u0b0c\u0b0f\u0b10\u0b13-\u0b28\u0b2a-\u0b30\u0b32\u0b33\u0b35-\u0b39\u0b3d\u0b5c\u0b5d\u0b5f-\u0b61\u0b71\u0b83\u0b85-\u0b8a\u0b8e-\u0b90\u0b92-\u0b95\u0b99\u0b9a\u0b9c\u0b9e\u0b9f\u0ba3\u0ba4\u0ba8-\u0baa\u0bae-\u0bb9\u0bd0\u0c05-\u0c0c\u0c0e-\u0c10\u0c12-\u0c28\u0c2a-\u0c33\u0c35-\u0c39\u0c3d\u0c58\u0c59\u0c60\u0c61\u0c85-\u0c8c\u0c8e-\u0c90\u0c92-\u0ca8\u0caa-\u0cb3\u0cb5-\u0cb9\u0cbd\u0cde\u0ce0\u0ce1\u0cf1\u0cf2\u0d05-\u0d0c\u0d0e-\u0d10\u0d12-\u0d3a\u0d3d\u0d4e\u0d60\u0d61\u0d7a-\u0d7f\u0d85-\u0d96\u0d9a-\u0db1\u0db3-\u0dbb\u0dbd\u0dc0-\u0dc6\u0e01-\u0e30\u0e32\u0e33\u0e40-\u0e46\u0e81\u0e82\u0e84\u0e87\u0e88\u0e8a\u0e8d\u0e94-\u0e97\u0e99-\u0e9f\u0ea1-\u0ea3\u0ea5\u0ea7\u0eaa\u0eab\u0ead-\u0eb0\u0eb2\u0eb3\u0ebd\u0ec0-\u0ec4\u0ec6\u0edc-\u0edf\u0f00\u0f40-\u0f47\u0f49-\u0f6c\u0f88-\u0f8c\u1000-\u102a\u103f\u1050-\u1055\u105a-\u105d\u1061\u1065\u1066\u106e-\u1070\u1075-\u1081\u108e\u10a0-\u10c5\u10c7\u10cd\u10d0-\u10fa\u10fc-\u1248\u124a-\u124d\u1250-\u1256\u1258\u125a-\u125d\u1260-\u1288\u128a-\u128d\u1290-\u12b0\u12b2-\u12b5\u12b8-\u12be\u12c0\u12c2-\u12c5\u12c8-\u12d6\u12d8-\u1310\u1312-\u1315\u1318-\u135a\u1380-\u138f\u13a0-\u13f4\u1401-\u166c\u166f-\u167f\u1681-\u169a\u16a0-\u16ea\u16ee-\u16f0\u1700-\u170c\u170e-\u1711\u1720-\u1731\u1740-\u1751\u1760-\u176c\u176e-\u1770\u1780-\u17b3\u17d7\u17dc\u1820-\u1877\u1880-\u18a8\u18aa\u18b0-\u18f5\u1900-\u191c\u1950-\u196d\u1970-\u1974\u1980-\u19ab\u19c1-\u19c7\u1a00-\u1a16\u1a20-\u1a54\u1aa7\u1b05-\u1b33\u1b45-\u1b4b\u1b83-\u1ba0\u1bae\u1baf\u1bba-\u1be5\u1c00-\u1c23\u1c4d-\u1c4f\u1c5a-\u1c7d\u1ce9-\u1cec\u1cee-\u1cf1\u1cf5\u1cf6\u1d00-\u1dbf\u1e00-\u1f15\u1f18-\u1f1d\u1f20-\u1f45\u1f48-\u1f4d\u1f50-\u1f57\u1f59\u1f5b\u1f5d\u1f5f-\u1f7d\u1f80-\u1fb4\u1fb6-\u1fbc\u1fbe\u1fc2-\u1fc4\u1fc6-\u1fcc\u1fd0-\u1fd3\u1fd6-\u1fdb\u1fe0-\u1fec\u1ff2-\u1ff4\u1ff6-\u1ffc\u2071\u207f\u2090-\u209c\u2102\u2107\u210a-\u2113\u2115\u2119-\u211d\u2124\u2126\u2128\u212a-\u212d\u212f-\u2139\u213c-\u213f\u2145-\u2149\u214e\u2160-\u2188\u2c00-\u2c2e\u2c30-\u2c5e\u2c60-\u2ce4\u2ceb-\u2cee\u2cf2\u2cf3\u2d00-\u2d25\u2d27\u2d2d\u2d30-\u2d67\u2d6f\u2d80-\u2d96\u2da0-\u2da6\u2da8-\u2dae\u2db0-\u2db6\u2db8-\u2dbe\u2dc0-\u2dc6\u2dc8-\u2dce\u2dd0-\u2dd6\u2dd8-\u2dde\u2e2f\u3005-\u3007\u3021-\u3029\u3031-\u3035\u3038-\u303c\u3041-\u3096\u309d-\u309f\u30a1-\u30fa\u30fc-\u30ff\u3105-\u312d\u3131-\u318e\u31a0-\u31ba\u31f0-\u31ff\u3400-\u4db5\u4e00-\u9fcc\ua000-\ua48c\ua4d0-\ua4fd\ua500-\ua60c\ua610-\ua61f\ua62a\ua62b\ua640-\ua66e\ua67f-\ua697\ua6a0-\ua6ef\ua717-\ua71f\ua722-\ua788\ua78b-\ua78e\ua790-\ua793\ua7a0-\ua7aa\ua7f8-\ua801\ua803-\ua805\ua807-\ua80a\ua80c-\ua822\ua840-\ua873\ua882-\ua8b3\ua8f2-\ua8f7\ua8fb\ua90a-\ua925\ua930-\ua946\ua960-\ua97c\ua984-\ua9b2\ua9cf\uaa00-\uaa28\uaa40-\uaa42\uaa44-\uaa4b\uaa60-\uaa76\uaa7a\uaa80-\uaaaf\uaab1\uaab5\uaab6\uaab9-\uaabd\uaac0\uaac2\uaadb-\uaadd\uaae0-\uaaea\uaaf2-\uaaf4\uab01-\uab06\uab09-\uab0e\uab11-\uab16\uab20-\uab26\uab28-\uab2e\uabc0-\uabe2\uac00-\ud7a3\ud7b0-\ud7c6\ud7cb-\ud7fb\uf900-\ufa6d\ufa70-\ufad9\ufb00-\ufb06\ufb13-\ufb17\ufb1d\ufb1f-\ufb28\ufb2a-\ufb36\ufb38-\ufb3c\ufb3e\ufb40\ufb41\ufb43\ufb44\ufb46-\ufbb1\ufbd3-\ufd3d\ufd50-\ufd8f\ufd92-\ufdc7\ufdf0-\ufdfb\ufe70-\ufe74\ufe76-\ufefc\uff21-\uff3a\uff41-\uff5a\uff66-\uffbe\uffc2-\uffc7\uffca-\uffcf\uffd2-\uffd7\uffda-\uffdc][$A-Z\_a-z\xaa\xb5\xba\xc0-\xd6\xd8-\xf6\xf8-\u02c1\u02c6-\u02d1\u02e0-\u02e4\u02ec\u02ee\u0370-\u0374\u0376\u0377\u037a-\u037d\u0386\u0388-\u038a\u038c\u038e-\u03a1\u03a3-\u03f5\u03f7-\u0481\u048a-\u0527\u0531-\u0556\u0559\u0561-\u0587\u05d0-\u05ea\u05f0-\u05f2\u0620-\u064a\u066e\u066f\u0671-\u06d3\u06d5\u06e5\u06e6\u06ee\u06ef\u06fa-\u06fc\u06ff\u0710\u0712-\u072f\u074d-\u07a5\u07b1\u07ca-\u07ea\u07f4\u07f5\u07fa\u0800-\u0815\u081a\u0824\u0828\u0840-\u0858\u08a0\u08a2-\u08ac\u0904-\u0939\u093d\u0950\u0958-\u0961\u0971-\u0977\u0979-\u097f\u0985-\u098c\u098f\u0990\u0993-\u09a8\u09aa-\u09b0\u09b2\u09b6-\u09b9\u09bd\u09ce\u09dc\u09dd\u09df-\u09e1\u09f0\u09f1\u0a05-\u0a0a\u0a0f\u0a10\u0a13-\u0a28\u0a2a-\u0a30\u0a32\u0a33\u0a35\u0a36\u0a38\u0a39\u0a59-\u0a5c\u0a5e\u0a72-\u0a74\u0a85-\u0a8d\u0a8f-\u0a91\u0a93-\u0aa8\u0aaa-\u0ab0\u0ab2\u0ab3\u0ab5-\u0ab9\u0abd\u0ad0\u0ae0\u0ae1\u0b05-\u0b0c\u0b0f\u0b10\u0b13-\u0b28\u0b2a-\u0b30\u0b32\u0b33\u0b35-\u0b39\u0b3d\u0b5c\u0b5d\u0b5f-\u0b61\u0b71\u0b83\u0b85-\u0b8a\u0b8e-\u0b90\u0b92-\u0b95\u0b99\u0b9a\u0b9c\u0b9e\u0b9f\u0ba3\u0ba4\u0ba8-\u0baa\u0bae-\u0bb9\u0bd0\u0c05-\u0c0c\u0c0e-\u0c10\u0c12-\u0c28\u0c2a-\u0c33\u0c35-\u0c39\u0c3d\u0c58\u0c59\u0c60\u0c61\u0c85-\u0c8c\u0c8e-\u0c90\u0c92-\u0ca8\u0caa-\u0cb3\u0cb5-\u0cb9\u0cbd\u0cde\u0ce0\u0ce1\u0cf1\u0cf2\u0d05-\u0d0c\u0d0e-\u0d10\u0d12-\u0d3a\u0d3d\u0d4e\u0d60\u0d61\u0d7a-\u0d7f\u0d85-\u0d96\u0d9a-\u0db1\u0db3-\u0dbb\u0dbd\u0dc0-\u0dc6\u0e01-\u0e30\u0e32\u0e33\u0e40-\u0e46\u0e81\u0e82\u0e84\u0e87\u0e88\u0e8a\u0e8d\u0e94-\u0e97\u0e99-\u0e9f\u0ea1-\u0ea3\u0ea5\u0ea7\u0eaa\u0eab\u0ead-\u0eb0\u0eb2\u0eb3\u0ebd\u0ec0-\u0ec4\u0ec6\u0edc-\u0edf\u0f00\u0f40-\u0f47\u0f49-\u0f6c\u0f88-\u0f8c\u1000-\u102a\u103f\u1050-\u1055\u105a-\u105d\u1061\u1065\u1066\u106e-\u1070\u1075-\u1081\u108e\u10a0-\u10c5\u10c7\u10cd\u10d0-\u10fa\u10fc-\u1248\u124a-\u124d\u1250-\u1256\u1258\u125a-\u125d\u1260-\u1288\u128a-\u128d\u1290-\u12b0\u12b2-\u12b5\u12b8-\u12be\u12c0\u12c2-\u12c5\u12c8-\u12d6\u12d8-\u1310\u1312-\u1315\u1318-\u135a\u1380-\u138f\u13a0-\u13f4\u1401-\u166c\u166f-\u167f\u1681-\u169a\u16a0-\u16ea\u16ee-\u16f0\u1700-\u170c\u170e-\u1711\u1720-\u1731\u1740-\u1751\u1760-\u176c\u176e-\u1770\u1780-\u17b3\u17d7\u17dc\u1820-\u1877\u1880-\u18a8\u18aa\u18b0-\u18f5\u1900-\u191c\u1950-\u196d\u1970-\u1974\u1980-\u19ab\u19c1-\u19c7\u1a00-\u1a16\u1a20-\u1a54\u1aa7\u1b05-\u1b33\u1b45-\u1b4b\u1b83-\u1ba0\u1bae\u1baf\u1bba-\u1be5\u1c00-\u1c23\u1c4d-\u1c4f\u1c5a-\u1c7d\u1ce9-\u1cec\u1cee-\u1cf1\u1cf5\u1cf6\u1d00-\u1dbf\u1e00-\u1f15\u1f18-\u1f1d\u1f20-\u1f45\u1f48-\u1f4d\u1f50-\u1f57\u1f59\u1f5b\u1f5d\u1f5f-\u1f7d\u1f80-\u1fb4\u1fb6-\u1fbc\u1fbe\u1fc2-\u1fc4\u1fc6-\u1fcc\u1fd0-\u1fd3\u1fd6-\u1fdb\u1fe0-\u1fec\u1ff2-\u1ff4\u1ff6-\u1ffc\u2071\u207f\u2090-\u209c\u2102\u2107\u210a-\u2113\u2115\u2119-\u211d\u2124\u2126\u2128\u212a-\u212d\u212f-\u2139\u213c-\u213f\u2145-\u2149\u214e\u2160-\u2188\u2c00-\u2c2e\u2c30-\u2c5e\u2c60-\u2ce4\u2ceb-\u2cee\u2cf2\u2cf3\u2d00-\u2d25\u2d27\u2d2d\u2d30-\u2d67\u2d6f\u2d80-\u2d96\u2da0-\u2da6\u2da8-\u2dae\u2db0-\u2db6\u2db8-\u2dbe\u2dc0-\u2dc6\u2dc8-\u2dce\u2dd0-\u2dd6\u2dd8-\u2dde\u2e2f\u3005-\u3007\u3021-\u3029\u3031-\u3035\u3038-\u303c\u3041-\u3096\u309d-\u309f\u30a1-\u30fa\u30fc-\u30ff\u3105-\u312d\u3131-\u318e\u31a0-\u31ba\u31f0-\u31ff\u3400-\u4db5\u4e00-\u9fcc\ua000-\ua48c\ua4d0-\ua4fd\ua500-\ua60c\ua610-\ua61f\ua62a\ua62b\ua640-\ua66e\ua67f-\ua697\ua6a0-\ua6ef\ua717-\ua71f\ua722-\ua788\ua78b-\ua78e\ua790-\ua793\ua7a0-\ua7aa\ua7f8-\ua801\ua803-\ua805\ua807-\ua80a\ua80c-\ua822\ua840-\ua873\ua882-\ua8b3\ua8f2-\ua8f7\ua8fb\ua90a-\ua925\ua930-\ua946\ua960-\ua97c\ua984-\ua9b2\ua9cf\uaa00-\uaa28\uaa40-\uaa42\uaa44-\uaa4b\uaa60-\uaa76\uaa7a\uaa80-\uaaaf\uaab1\uaab5\uaab6\uaab9-\uaabd\uaac0\uaac2\uaadb-\uaadd\uaae0-\uaaea\uaaf2-\uaaf4\uab01-\uab06\uab09-\uab0e\uab11-\uab16\uab20-\uab26\uab28-\uab2e\uabc0-\uabe2\uac00-\ud7a3\ud7b0-\ud7c6\ud7cb-\ud7fb\uf900-\ufa6d\ufa70-\ufad9\ufb00-\ufb06\ufb13-\ufb17\ufb1d\ufb1f-\ufb28\ufb2a-\ufb36\ufb38-\ufb3c\ufb3e\ufb40\ufb41\ufb43\ufb44\ufb46-\ufbb1\ufbd3-\ufd3d\ufd50-\ufd8f\ufd92-\ufdc7\ufdf0-\ufdfb\ufe70-\ufe74\ufe76-\ufefc\uff21-\uff3a\uff41-\uff5a\uff66-\uffbe\uffc2-\uffc7\uffca-\uffcf\uffd2-\uffd7\uffda-\uffdc0-9\u0300-\u036f\u0483-\u0487\u0591-\u05bd\u05bf\u05c1\u05c2\u05c4\u05c5\u05c7\u0610-\u061a\u064b-\u0669\u0670\u06d6-\u06dc\u06df-\u06e4\u06e7\u06e8\u06ea-\u06ed\u06f0-\u06f9\u0711\u0730-\u074a\u07a6-\u07b0\u07c0-\u07c9\u07eb-\u07f3\u0816-\u0819\u081b-\u0823\u0825-\u0827\u0829-\u082d\u0859-\u085b\u08e4-\u08fe\u0900-\u0903\u093a-\u093c\u093e-\u094f\u0951-\u0957\u0962\u0963\u0966-\u096f\u0981-\u0983\u09bc\u09be-\u09c4\u09c7\u09c8\u09cb-\u09cd\u09d7\u09e2\u09e3\u09e6-\u09ef\u0a01-\u0a03\u0a3c\u0a3e-\u0a42\u0a47\u0a48\u0a4b-\u0a4d\u0a51\u0a66-\u0a71\u0a75\u0a81-\u0a83\u0abc\u0abe-\u0ac5\u0ac7-\u0ac9\u0acb-\u0acd\u0ae2\u0ae3\u0ae6-\u0aef\u0b01-\u0b03\u0b3c\u0b3e-\u0b44\u0b47\u0b48\u0b4b-\u0b4d\u0b56\u0b57\u0b62\u0b63\u0b66-\u0b6f\u0b82\u0bbe-\u0bc2\u0bc6-\u0bc8\u0bca-\u0bcd\u0bd7\u0be6-\u0bef\u0c01-\u0c03\u0c3e-\u0c44\u0c46-\u0c48\u0c4a-\u0c4d\u0c55\u0c56\u0c62\u0c63\u0c66-\u0c6f\u0c82\u0c83\u0cbc\u0cbe-\u0cc4\u0cc6-\u0cc8\u0cca-\u0ccd\u0cd5\u0cd6\u0ce2\u0ce3\u0ce6-\u0cef\u0d02\u0d03\u0d3e-\u0d44\u0d46-\u0d48\u0d4a-\u0d4d\u0d57\u0d62\u0d63\u0d66-\u0d6f\u0d82\u0d83\u0dca\u0dcf-\u0dd4\u0dd6\u0dd8-\u0ddf\u0df2\u0df3\u0e31\u0e34-\u0e3a\u0e47-\u0e4e\u0e50-\u0e59\u0eb1\u0eb4-\u0eb9\u0ebb\u0ebc\u0ec8-\u0ecd\u0ed0-\u0ed9\u0f18\u0f19\u0f20-\u0f29\u0f35\u0f37\u0f39\u0f3e\u0f3f\u0f71-\u0f84\u0f86\u0f87\u0f8d-\u0f97\u0f99-\u0fbc\u0fc6\u102b-\u103e\u1040-\u1049\u1056-\u1059\u105e-\u1060\u1062-\u1064\u1067-\u106d\u1071-\u1074\u1082-\u108d\u108f-\u109d\u135d-\u135f\u1712-\u1714\u1732-\u1734\u1752\u1753\u1772\u1773\u17b4-\u17d3\u17dd\u17e0-\u17e9\u180b-\u180d\u1810-\u1819\u18a9\u1920-\u192b\u1930-\u193b\u1946-\u194f\u19b0-\u19c0\u19c8\u19c9\u19d0-\u19d9\u1a17-\u1a1b\u1a55-\u1a5e\u1a60-\u1a7c\u1a7f-\u1a89\u1a90-\u1a99\u1b00-\u1b04\u1b34-\u1b44\u1b50-\u1b59\u1b6b-\u1b73\u1b80-\u1b82\u1ba1-\u1bad\u1bb0-\u1bb9\u1be6-\u1bf3\u1c24-\u1c37\u1c40-\u1c49\u1c50-\u1c59\u1cd0-\u1cd2\u1cd4-\u1ce8\u1ced\u1cf2-\u1cf4\u1dc0-\u1de6\u1dfc-\u1dff\u200c\u200d\u203f\u2040\u2054\u20d0-\u20dc\u20e1\u20e5-\u20f0\u2cef-\u2cf1\u2d7f\u2de0-\u2dff\u302a-\u302f\u3099\u309a\ua620-\ua629\ua66f\ua674-\ua67d\ua69f\ua6f0\ua6f1\ua802\ua806\ua80b\ua823-\ua827\ua880\ua881\ua8b4-\ua8c4\ua8d0-\ua8d9\ua8e0-\ua8f1\ua900-\ua909\ua926-\ua92d\ua947-\ua953\ua980-\ua983\ua9b3-\ua9c0\ua9d0-\ua9d9\uaa29-\uaa36\uaa43\uaa4c\uaa4d\uaa50-\uaa59\uaa7b\uaab0\uaab2-\uaab4\uaab7\uaab8\uaabe\uaabf\uaac1\uaaeb-\uaaef\uaaf5\uaaf6\uabe3-\uabea\uabec\uabed\uabf0-\uabf9\ufb1e\ufe00-\ufe0f\ufe20-\ufe26\ufe33\ufe34\ufe4d-\ufe4f\uff10-\uff19\uff3f]*\b
+^(?:#@(\{([a-zA-Z])+\}|([a-zA-Z])+)((?=[ \t]*\()))
+^(?:#(\{([a-zA-Z])+\}|([a-zA-Z])+)((?=[ \t]*\()))
+^(?:prepend((?![a-zA-Z0-9_$])))
+^(?:append((?![a-zA-Z0-9_$])))
+^(?:(?:except|wait|error)((?![a-zA-Z0-9_$])))
+^(?:yield((?![a-zA-Z0-9_$])))
+^(?:#(\{evaluate\}|evaluate)((?=[ \t]*\()))
+^(?:false((?![a-zA-Z0-9_$])))
+^(?:typeof((?![a-zA-Z0-9_$])))
+^(?:(?:if|unless|while|else([ \t])*if|when|case)((?![a-zA-Z0-9_$])))
+^(?:#(\{define\}|define)((?=[ \t]*\()))
+^(?:#@(\{([a-zA-Z_][a-zA-Z0-9-_]*)\}|([a-zA-Z_][a-zA-Z0-9-_]*))((?=[ \t]*\()))
+\s?\w*\=((\\"|\')\s*?(\\"|\')((\s+?(?=\>))?)|((?=\>))|(\s+?(?=\>)))
+^(?:in((?![a-zA-Z0-9_$])))
+((?!\\))\?
+^(?:instanceof((?![a-zA-Z0-9_$])))
+(?<=http:[/][/]dx.doi.org[/])[\d.]+?[/][\w\d.]+
+(!\[.*?\]\()(file:\/\/\/.+?)((?=\)))
+^(?::((?![a-zA-Z0-9_$])))
+^(?:delete((?![a-zA-Z0-9_$])))
+^(?:(?:extend|include)((?![a-zA-Z0-9_$])))
+^(?:let((?![a-zA-Z0-9_$])))
+^(?:break((?![a-zA-Z0-9_$])))
+^(?:&attributes((?![a-zA-Z0-9_$])))
+^((?!-))[a-zA-Z0-9][a-zA-Z0-9-_]{0,61}[a-zA-Z0-9]?\.([a-zA-Z0-9\-]{1,61}|[a-zA-Z0-9-]{1,30}\.[a-zA-Z]{2,})$
+^(?:true((?![a-zA-Z0-9_$])))
+^(?:block((?![a-zA-Z0-9_$])))
+d+((?!\w*(?=')))|d$
+test\/path2\/((?!.*--abc\.)).*\/files
+^(?:#(\{include\}|include)((?=[ \t]*\()))
+^(?:superblock((?![a-zA-Z0-9_$])))
+^(?:new((?![a-zA-Z0-9_$])))
+^(?:(?:for|each)((?![a-zA-Z0-9_$])))
+(?<=\n)
+^(?:var((?![a-zA-Z0-9_$])))
+(?<=hyperdocs).*
+^(?:#(\{parse\}|parse)((?=[ \t]*\()))
+^(?:#(\{elseif\}|elseif)((?=[ \t]*\()))
+^(?:if((?![a-zA-Z0-9_$])))
+(?i)(?<=[^\s|^])-(?=[^\s])
+(?<=resource-group=)(.*)[&\b$]?
+(?<=.{50})\s+(?=[\x17-\x1F]*\S{1,6}[\x17-\x1F]*$)
+(?<=<form\smethod=\\"post\\"\saction=\\").*(?=\\")
+(?<=://).*
+(?<=\): )(Normal )(\(Waiting\))
+(?<=\.\d{2})E
+((?<=\s)|\b|^)---(?=[ ]|\b|$)
+^(?P<fence>(?:`{3,}))[ ]*(?P<lang>[a-z0-9_+-]*)[ ]*(?P<code>.*?)(?<=\n)(?P=fence)[ ]*$
+(?<=forum_id': ')\d+
+(?:zero|oh|(?:(?<=[0-9])(o+?))|(?:o(?=[0-9]))|(?:(?<=[o\s])o(?=[o\s])))
+(?<=Dimension=\")(.+?)(\"+?)
+(?:^|(?<=\s))#([?!<])\s*([^\n]*)
+(?xms) (?<= \. ) \s+
+(?<=<)\.+?(?=>)
+(\s+|(?<=[\w\!\\"\'\&\.\,\?])-{2,}(?=\w))
+(?:(?<=^)|(?<=\s))\[(.+)\]((?:http(?:s?):\/\/|\/)\S+)(?=\s|$)
+(?<=[.?!])[\s]+(?=[A-Z])
+(?<=start=)\d+
+(?<=https://www.scribd.com/doc/)\w+
+(?<=\u102f\u1036)\u1037
+(?<=[:])(.*)
+(?<=.)([A-Z])
+(?<=up).+(?=,\s+\d+\s+user)
+((?<=[R])?.*?[R](?![P]))
+((?<=\[) *[^\]]+( +\S+)* *(?=\]))
+(?<=Night Assistant:)[a-z\s]{1,30}(?=[\t|\r|\n|,])
+(?<=gon\.rank_wr=)[\[\],.\d\s]+?(?=;)
+\s+|-|(?<=[A-Z]{3})\.
+(?P<fence>^(?:~{3,}|`{3,}))[ ]*(?P<lang>[a-z0-9_+-]*)(?P<linenums>#)?[ ]*\n(?P<code>.*?)(?<=\n)(?P=fence)[ ]*$
+(?<=data-context-item-id=\")[\w-]{11}(?=\")
+(?<={)\w+}
+(?<=\s)[0-9a-fA-F:]{3,}(?=/[0-9]{1,3}\s)
+(?<=dir=\"ltr\">).*(?=</a><span)
+(?<=dicdir:\s).*
+(?<=email:)(.*)
+(?<=[\.\?\!])[ \,]
+(?<=\S)(\s{2,})(?=\S)
+(?<=size)\s*(>|<|=|>=|<=)\s*[0-9]+[A-z]+
+(?<=[^_])_(?=[^_])
+(?<=([\u1000-\u101c\u101e-\u102a\u102c\u102e-\u103d\u104c-\u109f\s]))(\u1047)
+([^\047\"/\000-\040]+)|((?:(?:\047[^\047\\\r\n]*(?:\\(?:[^\r\n]|\r?\n|\r)[^\047\\\r\n]*)*\047)|(?:\"[^\"\\\r\n]*(?:\\(?:[^\r\n]|\r?\n|\r)[^\"\\\r\n]*)*\"))[^\047\"/\000-\040]*)|(?:(?<=[(,=:\[!&|?{};\r\n])(?:[\000-\011\013\014\016-\040]|(?:/\*[^*]*\*+(?:[^/*][^*]*\*+)*/))*((?:/(?![\r\n/*])[^/\\\[\r\n]*(?:(?:\\[^\r\n]|(?:\[[^\\\]\r\n]*(?:\\[^\r\n][^\\\]\r\n]*)*\]))[^/\\\[\r\n]*)*/)[^\047\"/\000-\040]*))|(?:(?<=[\000-#%-,./:-@\[-^`{-~-]return)(?:[\000-\011\013\014\016-\040]|(?:/\*[^*]*\*+(?:[^/*][^*]*\*+)*/))*((?:/(?![\r\n/*])[^/\\\[\r\n]*(?:(?:\\[^\r\n]|(?:\[[^\\\]\r\n]*(?:\\[^\r\n][^\\\]\r\n]*)*\]))[^/\\\[\r\n]*)*/)[^\047\"/\000-\040]*))|(?<=[^\000-!#%&(*,./:-@\[\\^`{|~])(?:[\000-\011\013\014\016-\040]|(?:/\*[^*]*\*+(?:[^/*][^*]*\*+)*/))*(?:((?:(?://[^\r\n]*)?[\r\n]))(?:[\000-\011\013\014\016-\040]|(?:/\*[^*]*\*+(?:[^/*][^*]*\*+)*/))*)+(?=[^\000-#%-\047)*,./:-@\\-^`|-~])|(?<=[^\000-#%-,./:-@\[-^`{-~-])((?:[\000-\011\013\014\016-\040]|(?:/\*[^*]*\*+(?:[^/*][^*]*\*+)*/)))+(?=[^\000-#%-,./:-@\[-^`{-~-])|(?<=\+)((?:[\000-\011\013\014\016-\040]|(?:/\*[^*]*\*+(?:[^/*][^*]*\*+)*/)))+(?=\+\+)|(?<=-)((?:[\000-\011\013\014\016-\040]|(?:/\*[^*]*\*+(?:[^/*][^*]*\*+)*/)))+(?=--)|(?:[\000-\011\013\014\016-\040]|(?:/\*[^*]*\*+(?:[^/*][^*]*\*+)*/))+|(?:(?:(?://[^\r\n]*)?[\r\n])(?:[\000-\011\013\014\016-\040]|(?:/\*[^*]*\*+(?:[^/*][^*]*\*+)*/))*)+
+(?<=at\W)([^\;]*)
+(?<=^vlan\s)(\d+)
+(?<=[\u1001\u1002\u1004\u1005\u1007\u1012\u1013\u108f\u1015\u1016\u1017\u1019\u101d])\u1071
+((?<=\S)|(?<=\S ))\(R\)
+(?<=[^.])\.(?=[^.])
+(?:^|(?<=\s))[$]([^\n]*?)(?<![\\])[$](?:$|(?=\s|[.,;\\]))
+(?<=<).*(?=>$)
+(?<=\.\d{1})E
+\B((?<=[a-z])[A-Z]|[A-Z](?=[a-z]))
+(?<=[=+}])\s*(?:([\d.]+)\s+)?([A-Z]\S+)[ ]*(?=[^:+*]+:)
+(?<= ),
+(?<=stars)\s*(>|<|=|>=|<=)\s*[0-9]+
+(?:^|(?<=[^\w@.)]))([\w+-](\.(?!\.))?)*?[\w+-]@(?:\w-?)*?\w+(\.([a-z]{2,})){1,3}(?:$|(?=\b))
+(?<=[.])[0-9]
+(?<=[\u103b\u103c][\u103d])\u1030
+(?<=&page=)[0-9]{1,20}
+^(?:\s*(?:,\s*)?([^\0-\x1f\x7f-\xff()<>@,;:\\\\"/[\]?={} \t]+)\s*=\s*\\"?((?<=\\")(?:[^\0-\x08\x0A-\x1f\x7f-\xff\\\\"]|\\[\0-\x7f])*?(?=\\")|(?<!\\")[^\0-\x1f\x7f-\xff()<>@,;:\\\\"/[\]?={} \t]+(?!\\"))\\"?)(.*)$
+(?<=[^\\])%.*|\A%.*
+(?<=[^\W_])_(?=[^\W_])
+(?<=[\u103b\u103c][\u102d\u1036])\u1030
+[\s/]*((?<=[\'\"\s/])[^\s/>][^\s/=>]*)(\s*=+\s*(\'[^\']*\'|\"[^\"]*\"|(?![\'\"])[^>\s]*))?(?:\s|/(?!>))*
+(?<=vulgar:).*(?=\n)
+(?<=[J])c
+(?<=\n)( )+
+(?<=Owner == \")\w+
+(?<=[\d ])-(?=[\d ]|$)
+(((?<=[a-z])[A-Z])|([A-Z](?![A-Z]|$)))
+(?<=,)(\s*)
+(?<=g)\d+
+(?:^|(?<=[\.\?\!] ))([a-z])
+(?<=[;{}])\n
+(?<=(\u1039[\u1000-\u1021])[\u102d\u1036])\u1030
+(?<=beg-statuscode ).+(?= end-statuscode)
+((?<=\n)|(?<=^))(?P<title>\[Searches\]:) *(?P<tagString>( *?@\S*(\(.*?\))?)+)?(?P<content>(\n(    |\t).*)*)
+(?<=\buse\s)(?P<module>\s*\w+)
+(?<=[\u103c\u103d\u108a])\u1037
+(?<=[aAiIuUeEoOyrlvZL])t(?=[aAiIuUeEoO])
+(?<=\S)\n(?=\S)
+(?<=%\().+?(?=\)s)
+\n\n    (            # one of the following:\n\n      (?<=[a-z)][.?!])      # lowercase letter + punctuation\n      |\n      (?<=[a-z0-9][.?!]\\")  # lowercase letter/number + punctuation + quote\n\n    )\n\n    (\s)          # any whitespace\n\n    (?=\\"?[A-Z])  # optional quote + an upppercase letter\n\n
+(?<=>)worker-[0-9\-.]*
+(?<=branch=)master|(?<=/)stable|(?<=version=)stable
+^(?:\s*(?:,\s*)?([^ \t\r\n=]+)\s*=\s*\\"?((?<=\\")(?:[^\\\\"]|\\.)*?(?=\\")|(?<!\\")[^ \t\r\n,]+(?!\\"))\\"?)(.*)$
+(?<=\btag: )([^,]+)\b
+(?<=protectedItems/)[^/]+
+(?<=\u103b[\u1032\u1036])\u1037
+(?<=Repository/)[0-9]+/(.+)
+((?<=\n)|(?<=^))(?P<title>\S(?<!-)((?!(: +@|: *\n|: *$)).)*)\s*?(\n|$)(?P<tagString>&&&)?(?P<content>&&&)?
+(?<=/az/hprichbg/rb/).+?(?=_)
+(?<=[GJnVmN])p
+(?<=[\u100a\u100c\u1020\u1025\u1029])\u102f
+(?<=\[)(?:'|\")([^'\"]*)(?:'|\")(?=\])
+(?<=(\u1039[\u1000-\u1021])[\u102d\u1036])\u102f
+([\{-\~\[-\` -\&\(-\+\:-\@\/])|(?:(?<![0-9])([\.,]))|(?:([\.,])(?![0-9]))|(?:(?<=[0-9])(-))
+(?<=\[)\d+(?=\])
+(?<=\[).(?=\])
+(?<=INVALID {{ )((?:.(?!}}))*?) }}
+\n                        (?<=[^!*+,/:;<=>@\\\\_|-])  # cannot be before\n                        --\n                        (?=[^!*+,/:;<=>@\\\\_|-])   # cannot be after\n
+(?<=[NVmn])k(?=[aAuUeEoO])
+\n                        (?<=.{50})\n                        \s+\n                        (?=[\x17-\x1F]*\S{1,6}[\x17-\x1F]*$)\n
+^[+]?1[*]|^[+](?=\d)|(?<=[+-])1[*]
+(?<=%\()(.+?)(?=\))
+(?<=\[\<).+(?=\>\])
+(?<=(\w|\d))'(?=\w)
+(?<=Weather:).+(?=[\t|\r|\n|,])
+(?<=[0-9])(?:st|nd|rd|th)
+(?<=[aA]ttendance\s)(\d*\,?\d*)
+(?<=\u100a)\u103d
+(?<=[\(\[])\n\s+
+(?:(?<=\n)|(?<=\A)) {4}
+(?<=\.\d{3})\d+
+(?<=format=)\w+
+(?<=\")(.*?)(?=\")
+((?<=[a-z0-9])[A-Z]|(?<!^)[A-Z](?=[a-z]))
+(?<=\()[^)]+(?=\))
+(?<=[(\s,\-+*/%])(?<![\[.])[A-Za-z]+[\w\d_]*
+((?<=\D)|^)(\d{10,19})((?=\D)|$)
+(?<=/\*\* ).*(?= \*/)
+(?<={)\w+
+(?:^|(?<=>))([\s\S]*?)(?:(?=<)|$)
+(?<=<strong>).*(?=<\/strong>)
+\n         (\'.*?(?<=[^\\])\')             |       # single-quoted strings\n         (\\".*?(?<=[^\\])\\")             |       # double-quoted strings\n         ((?<![\*\/])\/(?![\/\*]).*?(?<![\\])\/) # JS regexes, trying hard not to be tripped up by comments\n
+\n  (?<= ..\s)  \s* # Link targets and images starts like comments\n  (image ::)  \s* # \1 is an image \"tag\"\n  ([^:/][^:]*) $  # \2 is the url\n
+(?<=@)[^.]+\.\w+
+(.*?)((?<=[^\s])\s*(?!.))
+(?<=\u001b\[)3(?=[0-7]m\s+\u001b\[0m)
+(?<=\n)
+(?<=\.)n(?=\.)|(?<=\.)n(?=>)
+(?<=\=\=).*\Z
+(?<=,)[^\s=]+=\"[^\"]+\"
+(((?<=[a-z])[A-Z1-9])|([A-Z1-9](?![A-Z1-9]|$)))
+(?<=^__version__ = \')[\w\.]+(?=\'$)
+(?<=[\u100a\u100c\u1020\u1025\u1029][\u102d\u1036])\u1030
+(?<=-Build)[0-9@]+
+(?<=RH:)[0-9-]+%
+(?<=\{[\{%])(.*?)(?=[\}%]})
+(?<=Observer:)[a-z\s]{1,30}(?=[\t|\r|\n|,])
+(?<=\w)(?=(\w\w)+$)
+(?<=\S)\s{2,}(?=\S)
+(?<=[N])T
+(?<=\w)\'s\b|(?<=\w)s\'(?!\w)
+(?<=queryId:\")[0-9]{17,17}
+(?<=django\.contrib\.sessions\.cache)[0-9a-z]{32}\b
+\n    (?:^|(?<=[{;}]))            # the character just before it should be a '{', a ';' or a '}'\n    \s*                         # ...followed by any number of spaces\n    (?:\n        (?:\n            \+\n        |\n            @include\n        |\n            @warn\n        |\n            @mixin\n        |\n            @function\n        |\n            @if\n        |\n            @else\n        |\n            @for\n        |\n            @each\n        )\n        (?![^(:;}]*['\"])\n    |\n        @import\n    )\n
+(?:(?<=([0-9yneorxt]| ))one|(?:(?<=[ils])[i]((?=[ils])|$)))
+(?<=django\.contrib\.sessions\.cached_db)[0-9a-z]{32}\b
+\n  <[a-zA-Z][-.a-zA-Z0-9:_]*          # tag name\n  (?:[\s/]*                          # optional whitespace before attribute name\n    (?:(?<=['\"\s/])[^\s/>][^\s/=>]*  # attribute name\n      (?:\s*=+\s*                    # value indicator\n        (?:'[^']*'                   # LITA-enclosed value\n          |\"[^\"]*\"                   # LIT-enclosed value\n          |(?!['\"])[^>\s]*           # bare value\n         )\n       )?(?:\s|/(?!>))*\n     )*\n   )?\n  \s*                                # trailing whitespace\n
+(?<= - - \[).+(?=\] )
+((?<=[^\\]\u02ce)|(?<=^\u02ce))[^\u02ce]*(?=\u02ce)
+(?<=typedef const struct )\w+
+(?<=SUFFIX)\s*(\w+)
+(?<=^\[).+([0-9]*).+(?=\]$)
+((?<=~)\d{8})(-\d{6}\.)
+((?<=\n)\n)?zip_safe flag not set; analyzing archive contents...\n
+(?<=[\u103b\u103c][\u103d][\u103e][\u102d\u1036])\u1030
+(?P<before>.)(?<=[A-Z])(?P<caps>[A-Z][a-z]+)
+(?<=\u103d[\u1032])\u1037
+(?<=backtestId=)\w+
+(?<=>)\s*?(?=<)
+(?<=DataONE-GMN:).+
+(?<=Array\[).*\]
+(\s+|[^\s\w]*\w+[a-zA-Z]-(?=\w+[a-zA-Z])|(?<=[\w\!\\"\'\&\.\,\?])-{2,}(?=\w))
+(?<=(\u101d))(\u1040)(?=\s)?
+(?<=[\w\)\]])\s*((?<!\*)\*(?!\*)|(?<!/)/(?!/))(?=[\s\w\(])
+(?<=\(0x{1})([0-9A-Fa-f]*)(?=\))
+(?<=Author: ).*
+(?<=\[)[^\[\]]*(?=\])
+(?<=[yrlvZL])p
+(?<=ID=)[^\s,]+
+(?<=http://)(.*):
+(?<=~)[IL]*
+(?<=[A-Z])\.(?=[A-Z])
+(?<=\/)?[^\s\/]+(?=[\/ ])?
+(?<=[ilo0-9])ten(?=[ \b0-9])
+\*(?=\S)(.+?)(?<=\S)\*
+(?<=%\(levelname\))(-?\d*)(?=(?:\.\d+)?s)
+(?<=top:)[^px]*
+(?<=city_name: ').*?(?=')
+(?<=<span class=\"video-time\" aria-hidden=\"true\">)[0-9]?[0-9]?:?[0-5]?[0-9]:[0-5][0-9](?=</span>)
+(?<=Duration:)(?:\D*)([\d:\.]*)
+~~(?=\S)(.+?)(?<=\S)~~
+(?<=_)\d+(?=\.png)
+(?<=/)\w+(?:\s|$)
+((?<=[AFYWLIV])?.*?[AFYWLIV])
+\n(?P<fence>^(?:!{3,}))\W(?P<type>\w+)\W*\n\n(?P<content>.*?)(?<=\n)\n(?P=fence)[ ]*$
+(?<=[b\u028b\u03b2pm])\u028a(\s)
+(?<=\uff08).*(?=\uff09)
+(?<=Dropbox/).*
+(?<=\d)x(?=[ ,.]|$)
+(?<=[\u100a\u100c\u1020\u1025\u1029])\u1030
+(?<=\.include).*
+(?<=Seeing):\d+\.\d*\\"(?=[\t|\r|\n|,])
+(?<=g/)([0-9]+)/([a-zA-Z0-9]+)
+(?<=^interface\s)([Et|Po].+)$
+(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|!)\s
+^\w[-+.\w]*(?<=\w)(?::\w[-+.\w]*(?<=\w))*$
+\n                    (?<=[\d ])      # numbers or space before\n                    -\n                    (?=[\d ]|$)     # numbers or space after\n
+(?<=SHA1 Fingerprint=)(.*)
+(?<=\u1014[\u103a\u1032])\u1037
+(?<=[^eEdD])(?=[+-])
+(?<=post_id: ).*
+(?<=\w)\s*(\*,)\s*
+(?<=\[\-)[^\s\]]+
+(?<=Gene:)(.*?)(?=,)
+(?P<fence>^(?:~{3,}|`{3,}))[ ]*(\{?\.?(?P<lang>[a-zA-Z0-9_-]*)\}?)?[ ]*\n(?P<code>.*?)(?<=\n)(?P=fence)[ ]*$
+(?<=/\*\*)[ \t]*(?:\n|\r|\r\n)(.*?)(?=\*/)
+(?<=vaults/)[^/]+
+(?<=[aAiIuUeEoO])N(?=[aAiIuUeEoO])
+(?<=cityName: ').*?(?=')
+(?<=Content-Type:).*
+[(){}\n]|(?<=[\n ])\[\d+
+(?:\bzero\b|(?<=[0-9])o+\b|\bo+(?=[0-9])|\boh\b|(?:(?<=[o\s])o(?=[o\s])))
+(?<=__).*?(?=__)
+\n        ^\n        \s*\n        (?P<operator>(~=|==|!=|<=|>=|<|>|===))\n        (?P<version>\n            (?:\n                # The identity operators allow for an escape hatch that will\n                # do an exact string match of the version you wish to install.\n                # This will not be parsed by PEP 440 and we cannot determine\n                # any semantic meaning from it. This operator is discouraged\n                # but included entirely as an escape hatch.\n                (?<====)  # Only match for the identity operator\n                \s*\n                [^\s]*    # We just match everything, except for whitespace\n                          # since we are only testing for strict identity.\n            )\n            |\n            (?:\n                # The (non)equality operators allow for wild card and local\n                # versions to be specified so we have to define these two\n                # operators separately to enable that.\n                (?<===|!=)            # Only match for equals and not equals\n\n                \s*\n                v?\n                (?:[0-9]+!)?          # epoch\n                [0-9]+(?:\.[0-9]+)*   # release\n                (?:                   # pre release\n                    [-_\.]?\n                    (a|b|c|rc|alpha|beta|pre|preview)\n                    [-_\.]?\n                    [0-9]*\n                )?\n                (?:                   # post release\n                    (?:-[0-9]+)|(?:[-_\.]?(post|rev|r)[-_\.]?[0-9]*)\n                )?\n\n                # You cannot use a wild card and a dev or local version\n                # together so group them with a | and make them optional.\n                (?:\n                    (?:[-_\.]?dev[-_\.]?[0-9]*)?         # dev release\n                    (?:\+[a-z0-9]+(?:[-_\.][a-z0-9]+)*)? # local\n                    |\n                    \.\*  # Wild card syntax of .*\n                )?\n            )\n            |\n            (?:\n                # The compatible operator requires at least two digits in the\n                # release segment.\n                (?<=~=)               # Only match for the compatible operator\n\n                \s*\n                v?\n                (?:[0-9]+!)?          # epoch\n                [0-9]+(?:\.[0-9]+)+   # release  (We have a + instead of a *)\n                (?:                   # pre release\n                    [-_\.]?\n                    (a|b|c|rc|alpha|beta|pre|preview)\n                    [-_\.]?\n                    [0-9]*\n                )?\n                (?:                                   # post release\n                    (?:-[0-9]+)|(?:[-_\.]?(post|rev|r)[-_\.]?[0-9]*)\n                )?\n                (?:[-_\.]?dev[-_\.]?[0-9]*)?          # dev release\n            )\n            |\n            (?:\n                # All other operators only allow a sub set of what the\n                # (non)equality operators do. Specifically they do not allow\n                # local versions to be specified nor do they allow the prefix\n                # matching wild cards.\n                (?<!==|!=|~=)         # We have special cases for these\n                                      # operators so we want to make sure they\n                                      # don't match here.\n\n                \s*\n                v?\n                (?:[0-9]+!)?          # epoch\n                [0-9]+(?:\.[0-9]+)*   # release\n                (?:                   # pre release\n                    [-_\.]?\n                    (a|b|c|rc|alpha|beta|pre|preview)\n                    [-_\.]?\n                    [0-9]*\n                )?\n                (?:                                   # post release\n                    (?:-[0-9]+)|(?:[-_\.]?(post|rev|r)[-_\.]?[0-9]*)\n                )?\n                (?:[-_\.]?dev[-_\.]?[0-9]*)?          # dev release\n            )\n        )\n        \s*\n        $\n
+(?<=boundary=)[0-9a-fA-F]+
+(?<=height:)[^px]*
+(?<=[\w\d_])\.(\w+)
+(?<=.{3})[0-9](?=.{2})
+(?<=<nowiki>)(.*?)(?=</nowiki>)</nowiki>
+(?<=inet )(.*)(?=\/)
+(?<=<title>).+(?=\u7684\u8d34\u5427</title>)
+(?<=^interface\s)(.+)$
+(?<=###Out_)[0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f](?<!###)
+(?<=^ohead)[0-9]{1,2}$
+(?<=typedef struct )\w+
+(?<=[aAiIuUeEoO])T(?=[aAiIuUeEoO])
+(?<=\W)bstdict(?=\W)
+(?<=\u1034)\u1094
+(?<=\()[a-zA-Z0-9&.,' ]*(?=\))
+(?<=[0-9])[xXeE][0-9]+(?:[xXeE_.-][0-9]+)*
+(?<=\/)(\d+)(?=(\/|\Z))
+(?<=[^\\])\"
+((?<=\w)\'\ss\s|(?<=\w)\s\'s(?=\w)|(?<=\w)\s\'s\s(?=\w))
+(?<=Global net ELEC energy =)\s+[+\-]?(?:0|[1-9]\d*)(?:\.\d*)?(?:[eE][+\-]?\d+)?
+(?<=\u102f)\u1037
+(?<=\n)[ \t\r]*\n
+((?<=[FL])?.*?[FL])
+((?<=\S)|(?<=\S ))\(TM\)
+(?<=\d)(st|nd|rd|th)
+(?<=\${)[^\"]*?(?=})
+(?<=[^A-Z])[A-Z]
+(?<=<b>imagecount:</b>\ ).*
+(?<=})([^:]+)(?=:)
+(?<=\u1033[\u1036])\u1094
+(?<=select)(?s)(.*)(?=from)
+(?<=[\[ ])(..)(?=[\] ])
+(?<=^\/)\/+|\/+$
+(?<=!\$\$SOF)[\s\S]*$
+(?<=[^\s(/A-Z])[A-Z]
+(?<=^tail)[0-9]{1,2}$
+(?<=[0-9]{1})[;\s]
+(?<=[\u103b\u103c][\u103d][\u103e])\u1030
+((?<=\()[0-9a-zA-Z\.\*]{0,}(?=\)))+
+((?<=[a-z])[A-Z]|(?<!\A)[A-Z](?=[a-z]))
+(?<=\w)([A-Z])
+(?<=[\s^\<])(?P<link>https?\:\/\/.*?)(?=[\s\>$])
+(?<=[\"'=])/[^\"']+
+(?<=\s)\s+
+(^\.+\s*|(?<=\.)\.+|\s*\.+$)
+(?<=//)(.*?):.*@
+(?<=\<tns:developerToken\>).*?(?=\</tns:developerToken\>)
+(?P<fields>((\\"([^\\"]|((?<=\\)\\"))*\\")|([^\t\\"])|((?<=\\)\\"))+)(\t|$)
+(?<=^{)(\d:\w+)(?=})
+((?<=[FLWYAEQ])?.*?[FLWYAEQ])
+(?<=://)[^/]+(?=/)
+(?<=[^:{\[,])\"(?![:,}\]])
+\n    (?:^|(?<=[{;}]))            # the character just before it should be a '{', a ';' or a '}'\n    \s*                         # ...followed by any number of spaces\n    (?:\n        (?:\n            \+\n        | @include\n        | @warn\n        | @mixin\n        | @function\n        | @if\n        | @else\n        | @for\n        | @each\n        )\n        (?![^(:;}]*['\"])\n    |\n        @import\n    )\n
+(?<=(\u1039[\u1000-\u1021]))\u102f
+(?<=BEGIN_DEPENDENCIES_SCHEMA_OUTPUT>).*(?=<END_DEPENDENCIES_SCHEMA_OUTPUT)
+(?<=HANGUL )(\w+)
+(?<=Size )[0-9.]+\s[KMGT]*[i ]*B
+(?<=[ .])[A-Z].+$
+(?<=\w)(?=(?:\w\w)+$)
+^((?!-))(xn--)?[a-z0-9][a-z0-9-_\.]{0,245}[a-z0-9]{0,1}\.(xn--)?([a-z0-9\-]{1,61}|[a-z0-9-]{1,30}\.[a-z]{2,})$
+(?<=,)[^\s=]+=[^\"\s,=]+
+(?<=>)(\S* at \S*|\S*@\S*)(?=<\/a>)
+(?<=\): )(Failed(?: \(.*)?)
+(?<=_)\w+
+(?<=[a-z])(?=[A-Z])
+(?<=m)\d+
+(?<=STATE)\s*\{(?P<st_txt>[^}]+)(?=\})
+(?<=\B@)\w+
+(?<=Quantity=\")(.+?)(\"+?)
+(?<=meta).+
+(?<=http://clicks.expresspigeontest.com/click\?v).*?(?=\">)
+\n    ^\n    \s*                         # Leading whitespace\n    (?!.*::.*::)                # Only a single wildcard allowed\n    (?:(?!:)|:(?=:))            # Colon iff it would be part of a wildcard\n    (?:                         # Repeat 6 times:\n        [0-9a-f]{0,4}           #   A group of at most four hexadecimal digits\n        (?:(?<=::)|(?<!::):)    #   Colon unless preceeded by wildcard\n    ){6}                        #\n    (?:                         # Either\n        [0-9a-f]{0,4}           #   Another group\n        (?:(?<=::)|(?<!::):)    #   Colon unless preceeded by wildcard\n        [0-9a-f]{0,4}           #   Last group\n        (?: (?<=::)             #   Colon iff preceeded by exacly one colon\n         |  (?<!:)              #\n         |  (?<=:) (?<!::) :    #\n         )                      # OR\n     |                          #   A v4 address with NO leading zeros \n        (?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)\n        (?: \.\n            (?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)\n        ){3}\n    )\n    \s*                         # Trailing whitespace\n    $\n
+(?<=virtualMachines/)[^/]+
+(?P<upper_letter>(?<=[a-z])[A-Z])
+(?<=protectionContainers/)[^/]+
+(?<=[/=])[-_0-9a-zA-Z]{5,64}={0,3}(?=[/&]|$)
+(?<=[^A-Z].[.?]) +(?=[A-Z])
+(?<=\S)\"(?=(\s|,|;|\.|\?|!|$))
+(?<=<title>).*(?=</title>)
+(?<=/)[^/]+(?=\?)
+(?<=patches_base=)[\w\.\+]+
+(?<=SECRET_KEY = ')'
+(?<=StreamTitle=').*(?=';)
+(?<=[\u103b\u103c\u103d])\u102f
+(?<={)(<[^>]*>)+(?=[\{%])|(?<=[%\}])(<[^>]*>)+(?=\})
+\s*(?!.*::.*::)(?:(?!:)|:(?=:))(?:[0-9a-f]{0,4}(?:(?<=::)|(?<!::):)){6}(?:[0-9a-f]{0,4}(?:(?<=::)|(?<!::):)[0-9a-f]{0,4}(?:(?<=::)|(?<!:)|(?<=:)(?<!::):)|(?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)(?:\.(?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)){3})\s*
+(?<=/)[^/]*\Z
+((?<=\n)|(?<=^))(?P<title>\[Searches\]:) *(?P<tagString>( *?@\S*(\(.*?\))?)+)?(?P<content>(\n( |\t).*)*)
+(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s
+(?<=[\s,;:\(\)\{\}\[\]\<\>])(?P<address>[A-Z0-9\._%+-]+@(?P<domain>[A-Z0-9\.-]+\.[A-Z0-9-]{2,}))
+(?:(?<= )|^)-[KORJ](?: +|$)
+((?<=[a-z0-9])[A-Z]|(?!^)[A-Z](?=[a-z]))
+(?<=http://data.worldbank.org/indicator/)[A-Za-z0-9\.]+(?=\">)
+(?<=[aAiIuUeEoO])[rX](?=[aAiIuUeEoO])
+(?<=[\u100a\u100c\u1020\u1025\u1029][\u102d\u1036])\u102f
+(?<=[\u103b\u103c][\u103e][\u102d\u1036])\u1030
+((?<=\!)[0-9A-Z]{4})+
+(?<=\()(.*)(?=\))
+(?<=jobmanager.rpc.address: )[ 0-9\.]*
+((?<=\S)\+(?=\S)|(?<=\S)\+\s|\s\+(?=\S)|(?<=\S)\-(?=\S)|(?<=\S)\-\s|\s\-(?=\S)|(?<=\S)/(?=\S)|(?<=\S)/\s|\s/(?=\S)|(?<=\S)\*(?=\S)|(?<=\S)\*\s|\s\*(?=\S)|(?<=\S)=(?=\S)|(?<=\S)=\s|\s=(?=\S)|\s\"[^\"]+\"(?=[^\s\?\.:!,;])|(?<=\S)\"[^\"]+\"\s|(?<=\S)\"[^\"]+\"(?=[^\s\?\.:!,;])|\s\([^\)]+\)(?=[^\s\?\.:!,;])|(?<=\S)\([^\)]+\)\s|(?<=\S)(\([^\)]+\))(?=[^\s\?\.:!,;]))
+\nTYPE\s+(\w+?)\s*=\s*((?:LIST|SET)\s*\[\d+:[\d?]+\]\s*OF)?(?:\s*UNIQUE)?\s*(\w+)   # TYPE foo = LIST[1:2] of blub\n(?:(?<=ENUMERATION)\s*OF\s*\((.*?)\))?\n.*?                                                                 #  skip the WHERE clause\nEND_TYPE;\n
+(?<=\S)\n(?=[^ \n\t\d\*\-=])
+((?<=_)(sp|sub|substr|subsp|str|strain)(?=_))
+(?<=:)(.*)
+(?<=^ip route) (\d+\.\d+\.\d+\.\d+\/\d+) (\d+\.\d+\.\d+\.\d+|\S+)(?: (\d+\.\d+\.\d+\.\d+))? (\d+)(?: tag (\d+))?(?: name (\S+))?
+\n        ^\n        \s*                         # Leading whitespace\n        (?!.*::.*::)                # Only a single whildcard allowed\n        (?:(?!:)|:(?=:))            # Colon iff it would be part of a wildcard\n        (?:                         # Repeat 6 times:\n            [0-9a-f]{0,4}           #   A group of at most four hexadecimal digits\n            (?:(?<=::)|(?<!::):)    #   Colon unless preceeded by wildcard\n        ){6}                        #\n        (?:                         # Either\n            [0-9a-f]{0,4}           #   Another group\n            (?:(?<=::)|(?<!::):)    #   Colon unless preceeded by wildcard\n            [0-9a-f]{0,4}           #   Last group\n            (?: (?<=::)             #   Colon iff preceeded by exacly one colon\n             |  (?<!:)              #\n             |  (?<=:) (?<!::) :    #\n             )                      # OR\n         |                          #   A v4 address with NO leading zeros\n            (?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)\n            (?: \.\n                (?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)\n            ){3}\n        )\n        \s*                         # Trailing whitespace\n        $\n
+^[+]1[*]|(?<=[+-])1[*]
+(?<=\S)\n(?=\S)
+(?<=[a-z\.])(?=[A-Z])
+\n(?P<fence>^\${3,})[ ]*         # Opening $$$\n(?:(?P<examplestyle>isolated|fullwidth)?[ ]*\n)\n(?P<html>.*?)(?<=\n)\n(?P=fence)[ ]*$
+(?<=[A-Z])\s+&\s+(?=[A-Z])
+ (?= )|(?<= )
+(?<={)@(?P<name>[a-zA-Z]+)
+\*\*(?=\S)(.+?[*_]*)(?<=\S)\*\*
+(?<=\S)'
+(?<=\]|\))\s*,\s*(?=[+-](?:\[|\())
+(\*\*|__)(?=\S)(.+?[*_]*)(?<=\S)\1
+(?<=[nV])t
+(?:^|(?<=\s))[0-9]*\.?[0-9]+(?=\s|$)
+(?<=left:)[^px]*
+(?<=~)[IOL]*
+((?<=[^\s\d]),(?=[^\s\d])|\s,\s|\s,(?=[^\s\d])|\s,(?!.)|(?<=[^\s\d\.])\.+(?=[^\s\d\.])|\s\.+\s|\s\.+(?=[^\s\d])|\s\.+(?!\.)|(?<=\S);(?=\S)|\s;\s|\s;(?=\S)|\s;(?!.)|(?<=\S):(?=\S)|\s:\s|\s:(?=\S)|\s:(?!.)|(?<=[^\s!])!+(?=[^\s!])|\s!+\s|\s!+(?=[^\s!])|\s!+(?!!)|(?<=[^\s\?])\?+(?=[^\s\?])|\s\?+\s|\s\?+(?=[^\s\?])|\s\?+(?!\?)|\d%(?=\S)|(?<=\d)\s%\s|(?<=\d)\s%(?=\S)|(?<=\d)\s%(?!.))
+(?:https?://(?:www\.)?|www\.|(?<=\s))github.com/[^\s]+
+(?<=(://))[^/]*(?=/)
+(?<=\()([^()]+?)(?=\))
+(?<=\s{3}min-links\s)(?P<value>.+)$
+(?<=github.com/)[^/]+/[^/]+
+(?<=\W)citedict(?=\W)
+(?<=,)\s+
+(?<=\]\()[^\(\)]*(?=\))
+(?<=[\u1001\u1002\u1004\u1005\u1007\u1012\u1013\u108f\u1015\u1016\u1017\u1019\u101d])\u1073
+(?<=\u1033)\u1094
+(?<=span=)\d+
+(?<=\): )(Normal \((?:Not-)?Monitored\))
+(^|(?<=\n))( {4}| {0,3}\t)[ \t]*
+(?<=\W)options(?=\W)
+(?P<fence>^(?:~{3,}|`{3,}))[ ]*\n(\{?\.?(?P<lang>[\w#.+-:]*))?[ ]*\n(hl_lines=(?P<quot>\"|')(?P<hl_lines>.*?)(?P=quot))?[ ]*\n}?[ ]*\n\n(?P<code>.*?)(?<=\n)\n(?P=fence)[ ]*$
+\n(?P<fence>^(?:~{3,}|`{3,}))[ ]*         # Opening ``` or ~~~\n(\{?\.?(?P<lang>[a-zA-Z0-9_+-]*))?[ ]*  # Optional {, and lang\n# Optional highlight lines, single- or double-quote-delimited\n(hl_lines=(?P<quot>\"|')(?P<hl_lines>.*?)(?P=quot))?[ ]*\n}?[ ]*\n                                # Optional closing }\n(?P<code>.*?)(?<=\n)\n(?P=fence)[ ]*$
+((?<=[RK])?.*?[RK](?![P]))
+\n            ^\n            \s*                         # Leading whitespace\n            (?!.*::.*::)                # Only a single whildcard allowed\n            (?:(?!:)|:(?=:))            # Colon iff it would be part of a wildcard\n            (?:                         # Repeat 6 times:\n                [0-9a-f]{0,4}           #   A group of at most four hexadecimal digits\n                (?:(?<=::)|(?<!::):)    #   Colon unless preceeded by wildcard\n            ){6}                        #\n            (?:                         # Either\n                [0-9a-f]{0,4}           #   Another group\n                (?:(?<=::)|(?<!::):)    #   Colon unless preceeded by wildcard\n                [0-9a-f]{0,4}           #   Last group\n                (?: (?<=::)             #   Colon iff preceeded by exacly one colon\n                |  (?<!:)              #\n                |  (?<=:) (?<!::) :    #\n                )                      # OR\n            |                          #   A v4 address with NO leading zeros \n                (?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)\n                (?: \.\n                    (?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)\n                ){3}\n            )\n            \s*                         # Trailing whitespace\n            $\n
+(?<=Total energy =)\s+[+\-]?(?:0|[1-9]\d*)(?:\.\d*)?(?:[eE][+\-]?\d+)?
+(?<=[xXeE_.-])[0-9]+
+(?<=Picture size:\s\s\s)([0-9]+)\s+([0-9]+)
+(?<=\[)(?:[^\r\n]*[?*][^\r\n]*)(?=\])|(?<=\[)(?:[^\r\n*?]+)(?=\])(?![^\[]*Comment=)
+(?<=\u103d)\u1037
+(?<=Ident=\")(.+?)(\"+?)
+((?<=\n)|(?<=^))(?P<title>(?!\[Searches\]|- )\S.*?:(?!\S)) *(?P<tagString>( *?@[^(\s]+(\([^)]*\))?)+)?(?P<content>(\n(( |\t)+\S.*)|\n( |\t)*|\n)+)
+((?<=/)/+|/+$)
+(?<=[\u103b\u103c][\u103d][\u102d\u1036])\u1030
+(?<=\S[\.\?!])(?:\s|$)
+(?<=DataONE-Python/).+
+(?<=-{3})(.*?)(?=-{3})-{3}
+^\n    %global\s+                   # beginning of definition\n    (?P<name>[^\s]+)\s+          # one-word name\n    (?P<value>(?:.|(?<=\\)\n)+)  # value including spaces and escaped newlines\n    $
+\n    ^\n    \s*                         # Leading whitespace\n    (?!.*::.*::)                # Only a single wildcard allowed\n    (?:(?!:)|:(?=:))            # Colon iff it would be part of a wildcard\n    (?:                         # Repeat 6 times:\n        [0-9a-f]{0,4}           #   A group of at most four hexadecimal digits\n        (?:(?<=::)|(?<!::):)    #   Colon unless preceeded by wildcard\n    ){6}                        #\n    (?:                         # Either\n        [0-9a-f]{0,4}           #   Another group\n        (?:(?<=::)|(?<!::):)    #   Colon unless preceeded by wildcard\n        [0-9a-f]{0,4}           #   Last group\n        (?: (?<=::)             #   Colon iff preceeded by exacly one colon\n         |  (?<!:)              #\n         |  (?<=:) (?<!::) :    #\n         )                      # OR\n     |                          #   A v4 address with NO leading zeros\n        (?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)\n        (?: \.\n            (?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)\n        ){3}\n    )\n    \s*                         # Trailing whitespace\n    $\n
+(?<=r)k(?=[aAuUeEoO])
+(?<=^otail)[0-9]{1,2}$
+<!((?!DOCTYPE|--|\[))
+(?<={source}.)\w+
+(?<=[a-z])([A-Z])
+(?<=\u1030)\u1037
+(?<=LibreSSL )(\d\.\d(\.\d)?)\b
+\n        \s*\n        (?:\n              (\n                    [,()\[\]|]\n                  | ->\n                  | (?<=\s)(?:or)\b\n              )  # operator\n            | ([a-zA-Z](?:\w|\.)*)  # name\n        )\n
+(?<=.. code:: ipython\d\n)(?s)(.+?)(?=\n\S+|$)
+(?<=[aAiIuUeEoO])k(?=[aAuUeEoO])
+(?<=}\n})\n(?=})
+(?<=\{).+(?=\})
+((?<=[\'\"\s/])[^\s/>][^\s/=>]*)(\s*=+\s*(\'[^\']*\'|\"[^\"]*\"|(?![\'\"])[^>\s]*))?(?:\s|/(?!>))*
+(?<=mean_volume:)(?:\D*)(\d*\.?\d+)
+(?<=\s)((t|seq|ix|pk|fk)_[A-Za-z0-9_]+)(?!\.)
+(?<=\s)(\w*)(?=\s*=\s*lambda)
+(?=\bat\b)[\s\w]*(?<=\bin\b)
+\n        # Split sentences on whitespace between them.\n        (?:               # Group for two positive lookbehinds.\n          (?<=[.!?])      # Either an end of sentence punct,\n        | (?<=[.!?]['\"])  # or end of sentence punct and quote.\n        )                 # End group of two positive lookbehinds.\n        (?<!  Mr\.   )    # Don't end sentence on \"Mr.\"\n        (?<!  Mrs\.  )    # Don't end sentence on \"Mrs.\"\n        (?<!  Jr\.   )    # Don't end sentence on \"Jr.\"\n        (?<!  Dr\.   )    # Don't end sentence on \"Dr.\"\n        (?<!  Prof\. )    # Don't end sentence on \"Prof.\"\n        (?<!  Sr\.   )    # Don't end sentence on \"Sr.\"\n        \s+               # Split on whitespace between sentences.\n
+(?<=\u103b)\u1037
+\n    (?:(?<=\n)|(?<=\A))     # begin at newline\n    ([^\n]+?)               # \1 is header title\n    [ \t]*(?:\n        \{\n        ([^\n]*)                # \2 is optional id/class attributes\n        \}\n    )?\n    \n\n    (=+|-+)                 # \3 is header underline style\n    (?=\n|\Z)               # must be followed by newline\n
+(?<=width:)[^px]*
+(?<=emailAddress=)(.*)
+(?<=http://open_tracker.expresspigeontest.com/opened\?v).*?(?=\")
+(?<=://).*@
+(^|(?<=\s))@(?P<name>[a-zA-Z]+)
+(?:^|(?<= ))(:.*|[^ ]+)
+(?<=[^\s][\/ ])\d+(?=\/)?
+(?<=[\"'=])\w+://[^\"']+
+(?<=[^!*+,/:;<=>@\\\\_|-])--(?=[^!*+,/:;<=>@\\\\_|-])
+(?<=_{3})(.*?)(?=_{3})_{3}
+(\s\"[^\"]+\"(?=[\?\.:!,;])|(?<=\S)\"[^\"]+\"\s|(?<=\S)\"[^\"]+\"(?=[\?\.:!,;])|\s\([^\)]+\)(?=[\?\.:!,;])|(?<=\S)\([^\)]+\)\s|(?<=\S)(\([^\)]+\))(?=[\?\.:!,;]))
+(?<=@protocol )\w+
+(?<=patches_base=)[\w.+?%{}]+
+((?<=[E])?.*?[E](?![PE]))
+\n        (?P<fence>^(?:~{3,}|`{3,}))[ ]*         # Opening ``` or ~~~\n        (\{?\.?(?P<lang>[\w#.+-]*))?[ ]*        # Optional {, and lang\n        # Optional highlight lines, single- or double-quote-delimited\n        (hl_lines=(?P<quot>\"|')(?P<hl_lines>.*?)(?P=quot))?[ ]*\n        # Optional tab label, single- or double-quote-delimited\n        (fct_label=(?P<fct_quot>\"|')(?P<fct_label>.*?)(?P=fct_quot))?[ ]*\n        }?[ ]*\n                                # Optional closing }\n        (?P<code>.*?)(?<=\n)\n        (?P=fence)[ ]*$
+(?<=[\u1001\u1002\u1004\u1005\u1007\u1012\u1013\u108f\u1015\u1016\u1017\u1019\u101d])\u1066
+(^|(?<=\s))#
+(?<=^head)[0-9]{1,2}$
+(?<=max_volume:)(?:\D*)(\d*\.?\d+)
+(\W|_)+|(?<=[^A-Z])(?=[A-Z])|(?<=\w)(?=[A-Z][a-z])
+\n(?P<fence>^(?:~{3,}|`{3,}))[ ]*         # Opening ``` or ~~~\n(\{?\.?(?P<lang>[a-zA-Z0-9_+-]*))?[ ]*  # Optional {, and lang\n}?[^\n]*\n                                # Optional closing }\n(?P<code>.*?)(?<=\n)\n(?P=fence)[ ]*$
+(?<=^vrf definition\s)(\w+)
+(?<=[\u103b\u103c][\u103e])\u1030
+(?<=/)\d+(/|$)
+(\*|_) (?=\S) (.+?) (?<=\S) \1
+((?<=[M])?.*?[M])
+(?<=\W)entry(?=\W)
+(?<=<entryId>)\d+
+(\*\*|__) (?=\S) (.+?[*_]*) (?<=\S) \1
+(?<=.. code:: python\n)(?s)(.+?)(?=\n\S+|$)
+(\w+)=\"?((?:(?<!\")[^\s|]+|(?<=\")(?:\\.|[^\"\\])*(?=\")))\"?
+(?<=')(.*?)(?=')
+(?<=[\&\?]page=)\d*
+(?<=v\=)[\w]+
+(?<=\d)x(?= |,|.|$)
+(?i)(?<=[.?!])\S+(?=[a-z])
+(?<=V)X
+(?<=[>\s])\n(?=[<\s])
+(?<=[\u103b\u103c])\u1030
+(?<=message_).+(?=_.{5}.txt)
+(?<=<wsnt:Topic).*>(?P<topic>.*)(?=<\/wsnt:Topic>)
+\n            ^\n            \s*                         # Leading whitespace\n            (?!.*::.*::)                # Only a single whildcard allowed\n            (?:(?!:)|:(?=:))            # Colon iff it would be part of a wildcard\n            (?:                         # Repeat 6 times:\n                [0-9a-f]{0,4}           #   A group of at most four hexadecimal digits\n                (?:(?<=::)|(?<!::):)    #   Colon unless preceeded by wildcard\n            ){6}                        #\n            (?:                         # Either\n                [0-9a-f]{0,4}           #   Another group\n                (?:(?<=::)|(?<!::):)    #   Colon unless preceeded by wildcard\n                [0-9a-f]{0,4}           #   Last group\n                (?: (?<=::)             #   Colon iff preceeded by exacly one colon\n                 |  (?<!:)              #\n                 |  (?<=:) (?<!::) :    #\n                 )                      # OR\n             |                          #   A v4 address with NO leading zeros \n                (?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)\n                (?: \.\n                    (?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)\n                ){3}\n            )\n            \s*                         # Trailing whitespace\n            $\n
+(?<={)[^}]+(?=})
+(?<=silence_start:)(?:\D*)(\d*\.?\d+)
+((?<=[D])?.*?[D])
+(?<=Uploaded ).+(?=\, Size)
+(?<=SNB.cubeInfo = ).*(?=;\n)
+(?<=Out_)[0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f]
+(?:(?<=\n)|(?<=\A))> ?
+(\s+|[^\s\w]*\w{2,}-(?=\w{2,})|(?<=[\w\!\\"\'\&\.\,\?])-{2,}(?=\w))
+(?<=>)[^<]*(?=</a>)
+(?<=key=)(\w|\d)+
+(?<=\:)\d{1,2}|\d{1,2}(?=\s+min)
+(?<=E\(B-V\)\s=\s)\d+\.\d+(?=\smag)
+((?<=\s)|\b|^)--(?=[ ]|\b|$)
+(?<=([\u1000-\u101c\u101e-\u102a\u102c\u102e-\u103d\u104c-\u109f]))(\u1040)(?=\s)?
+(\s+|(?<=\s)(?::[a-z-]+:)?`\S+|[^\s\w]*\w+[a-zA-Z]-(?=\w+[a-zA-Z])|(?<=[\w\!\\"\'\&\.\,\?])-{2,}(?=\w))
+(?<=[^\\])\$|\A\$
+\n  (?<= ..\s)  \s* # Link targets and images starts like comments\n  (_\S+  : |      # \1 is either a link target without spaces,\n   _`.+` : )  \s* #           or a link target enclosed within backticks\n  ([^:/][^:]*) $  # \2 is the url\n
+(?<=[\s])/[^\s]+
+(?<=(id: ))(.*)
+(?<=\d),(?=\d)
+(?<=\u1034[\u1036])\u1094
+(?<='{2})(.*?)(?='{2})'{2}
+(a)((?!(b)*))*
+(?:(?<=[^0-9])\.|\n)
+(?<=(\u1039[\u1000-\u1021]))\u1030
+(?<=[^\\])(?:\\x[0-9a-f]{2}|\\u[0-9a-f]{4})
+\n    (?<!\$)\$([a-zA-Z]+) # identifier\n    (:                   # initial widget value\n\n        (?: # grouping to avoid : to be treated as part of\n            # the left or operand\n\n            \"( # quoted string\n                (?:\n                    [^\"]|    # any character except \" or ...\n                    (?<=\\)\" # ... \" preceded by a backslash\n                )*\n            )\"|\n\n            ([a-zA-Z]+) # identifiers can be used instead of strings\n        )\n    )?|\n    (\$\$) # escaped $\n
+(?<=vo=)(.*)([&\b]{1})
+(?:^|(?<=[^\w)]))(\+?1[ .-]?)?(\(?\d{3}\)?[ .-]?)?(\d{3}[ .-]?\d{4})(\s?(?:ext\.?|[#x-])\s?\d{2,6})?(?:$|(?=\W))
+(?<=RelPath=\")((\w+)(\\)(\w+)(.\w+)*)
+(\*|_)(?=\S)(.+?)(?<=\S)\1
+(?<=pulls)\s*(>|<|=|>=|<=)\s*[0-9]+
+.+?(?:(?<=[a-z])(?=[A-Z])|(?<=[A-Z])(?=[A-Z][a-z])|$)
+(?<=inet6 )(.*)(?=\/)
+(?<='{3})(.*?)(?='{3})'{3}
+(?<=\s)u[\'\"](?!\)|,|$)
+(?<=[\u103b\u103c\u103d][\u102d\u1036])\u102f
+(?<=Python ITK ).+
+(?<=\u1030\u1036)\u1037
+((?<=\")[^\"]+(?=\")|(?<=\()[^\)]+(?=\)))
+((?<=RFunction\[StanFunction == \").+?(?=\")|(?<=grepl\(\").+?(?=\", StanFunction\))|(?<= \<\- \").+?(?=\"\)))|NA\_character\_
+(?<=\{\{ )\w+(?= \}\})
+(?<=\.[A-Z])\.
+(?<=\[\[).(?=\]\])
+(?<=apps\/)([0-9]{3,6})|(?<=subs\/)([0-9]{3,6})
+(?<=[^\u0410-\u042f\u0401].[^\u0410-\u042f\u0401][.?!;]) +(?=[\u0410-\u042f\u0401])
+(?<=[a-z])[A-Z]|(?<!^)[A-Z](?=[a-z])
+(?<=[aAiIuUeEoO])v(?=[aAiIuUeEoO])
+(^[ \t]+|[ \t]+$|(?<=[ \t])[ \t]+|\A[\r\n]+|[ \t\r\n]+\Z)
+(?<=`)(.*?)(?=`)
+(?<=\u103c)\u103e
+(?<=[ylvZL])k(?=[aAuUeEoO])
+(?<=<)\w+
+(?<= \)) \s*\n                             (?: = \s* 0)? \s* $
+(?<=\u1014)\u1037
+(?<=<)\.+?(?=.to_namelist\(\)>)
+(?<=[rylvZLGVNaAiIuUeEoO])k(?=[iI])
+(?:^|\n){{(drop\!?(?:(?<=\!)([_a-z0-9]+))?):[ \t]*([a-zA-Z0-9 \t]*)\n([^\n]*)\n([\s\S]*?)\n\1}}[^\n]*(?:\n|$)
+(?<=beg-timestamp ).+(?= end-timestamp)
+(?<=\bmodule\s)(?!\s*procedure)(\s*\w+)
+(?<=protectableItems/)[^/]+
+(?<=\.)[a-zA-Z0-9_]+(?='\>)
+(?<=SNB.cubeInfo = ).*(?=;[\s]SNB.cubePieData)
+(?<=\n)[ ]+(?!\s)
+((?<=\n)|(?<=^))(?P<title>- ((?! @).)*)( *(?P<tagString>( *?@[^(\s]+(\([^)]*\))?)+))?(?P<content>(\n(( |\t)+\S.*)|\n( |\t)*)*)
+(?<=[\w\)\]])(?<![\d\.][de])\s*(\+|-)\s*
+(?<=[aAiIuUeEoO])L(?=[aAiIuUeEoO])
+(?<=chrom=)\w+
+\n.+?                          # capture text instead of discarding (#1)\n(\n  (?:(?<=[a-z0-9]))          # non-capturing positive lookbehind assertion\n  (?=[A-Z])                  # match first uppercase letter without consuming\n|\n  (?<=[A-Z])                 # an upper char should prefix\n  (?=[A-Z][a-z0-9])          # an upper char, lookahead assertion: does not\n                             # consume the char\n|\n$                            # ignore capture text #1\n)
+{% ([^}])*}(?<= %})
+(?<=[\u103c\u103d\u108a][\u1032])\u1037
+(?<=INS)[A-Z0-9?*]+
+(?<=href=\"/decks/)[^/]+(?=/public_show)
+(?<=/)/
+(?<=/)\w+
+(?<=DEL)[A-Z]*
+(?<=resourceGroups/)[^/]+
+(?:\A|(?<=/))/
+\n            ^\n            \s*                         # Leading whitespace\n            (?!.*::.*::)                # Only a single whildcard allowed\n            (?:(?!:)|:(?=:))            # Colon iff it would be part of a wildcard\n            (?:                         # Repeat 6 times:\n                [0-9a-f]{0,4}           #   A group of at most four hexadecimal digits\n                (?:(?<=::)|(?<!::):)    #   Colon unless preceeded by wildcard\n            ){6}                        #\n            (?:                         # Either\n                [0-9a-f]{0,4}           #   Another group\n                (?:(?<=::)|(?<!::):)    #   Colon unless preceeded by wildcard\n                [0-9a-f]{0,4}           #   Last group\n                (?: (?<=::)             #   Colon iff preceeded by exacly one colon\n                 |  (?<!:)              #\n                 |  (?<=:) (?<!::) :    #\n                 )                      # OR\n             |                          #   A v4 address with NO leading zeros\n                (?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)\n                (?: \.\n                    (?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)\n                ){3}\n            )\n            \s*                         # Trailing whitespace\n            $\n
+(?<=k)k(?=[iI])
+\n    (?<=\])            # closing bracket (lookbehind)\n    , *                # comma and optional spaces\n    (?=\[)             # opening bracket (lookahead)
+((?<=[a-z0-9])[A-Z]|(?<!_)(?!^)[A-Z](?=[a-z]))
+(?<=[?&])bckey
+((?<=[K])?.*?[K])
+\n^\n(\d+!)?              # epoch\n(\d[.\d]*(?<= \d))   # release\n((?:[abc]|rc)\d+)?   # pre-release\n(?:(\.post\d+))?     # post-release\n(?:(\.dev\d+))?      # development release\n$\n
+(?<=size=)\w+
+(?<=\n)\*\*(\w+:)\*\*.*\n
+(?<=beg-ipaddr ).+(?= end-ipaddr)
+(?<=\.)\d+
+(?<={|,)([a-zA-Z][a-zA-Z0-9_]*)(?=:)
+(?<=content=)\w+
+(?<=[.;])\s
+(?<=@interface )\w+
+(?<=Date):\d+-\d+-\d+(?=[\t|\r|\n|,])
+(?<=.)(?=[.!?)(\";:,\u00ab\u00bb\-])
+(?<=/)E\d{3}(?=/)
+(?<=\().*(?=\))
+b(?<=\d.)a
+(?<=\n)\s*#[^#]
+(?<=PropertyOperation)=\"(?P<operation>\w+)\"
+^\d[\.\d]*(?<=\d)$
+(?<=nextPageToken\": )(?:\")?([0-9]*?:[0-9]*)|null
+(?:^|(?<=\W))(?:(?:(?:(?:[A-Z]\.?)+[a-z0-9&/-]?)+(?:[A-Z][s.]?|[0-9]s?))|(?:[0-9](?:\-?[A-Z])+))(?:$|(?=\W))
+(?:\A|(?<=\}\}))(?:[^\{]|(?:\{(?!\{)))*(?:(?=\{\{)|\Z)
+((?<=[FLMWY])?.*?(?:(?<![P])[Y](?![P])|[FLMW](?![P])))
+(?<=[?&])(videoI(d|D)|idVideo|bctid)
+(?<=\()[^)]*(?=\))|^[^(][^()]*
+(?<=[aAiIuUeEoO])p(?=[aAiIuUeEoO])
+(?<=href=\")(.*?)(?=\")
+(?<={)\w+(?=})
+(?<=_)(passed|softfailed)
+(?<=TPER)-?\d+
+(?:(?<=src=[\"\'])|(?<=href=[\"\']))((?:[^ \"\'/]|(?<![/\"\'])/)+)\.md\b
+(?<=[a-zA-Z0-9])([^a-zA-Z0-9])
+(?<=Change-Id: )\w+
+(?<=Institute:)[a-z\s]{1,30}(?=[\t|\r|\n|,])
+(?<=\s)[0-9a-fA-F:]{3,}(?=\s)
+(?<=step=)\d+
+(?<=TPE)-?\d+
+(?<=[aAiIuUeEoOl])c(?=[aAiIuUeEoO])
+(?<=\s)((from|join)\s+)([A-Za-z0-9_]+)(?=$|\s)
+(?<=[^_])([A-Z])
+(?<=commit )\w+
+(?<=p)\d+
+\s*((?<=[\'\"\s])[^\s/>][^\s/=>]*)(\s*=+\s*(\'[^\']*\'|\"[^\"]*\"|(?![\'\"])[^>\s]*))?
+(?<=test_fragment_volatile_)[0-9a-fA-F]+
+(?<=\[)(.*)(?=\])
+(?<=href=\"/linkout/\?t=[1-9]{1}&amp;url=)[^\"]+(?=\")
+(?<=href=\"http://)www.[^.]+.\.fr
+(?<=silence_end:)(?:\D*)(\d*\.?\d+)
+(?<=Leader Timeout\[)\d+(?= Seconds\])
+(?<=<value>hdfs://)(.*):.*(?=</value>)
+(?<=\u100a(?:[\u102d\u102e\u1036\u108b\u108c\u108d\u108e]))\u103d
+(?<=[^\W\d]) (-[^\W\d])
+(?<=[aAiIuUeEoO])k(?=[iI])
+(?<=Unit=\")(.+?)(\"+?)
+\n  <[a-zA-Z][-.a-zA-Z0-9:_]*          # tag name\n  (?:[\s/]*                          # optional whitespace before attribute name\n    (?:(?<=['\"\s/])[^\s/>][^\s/=>]*  # attribute name\n      (?:\s*=+\s*                    # value indicator\n        (?:'[^']*'                   # LITA-enclosed value\n          |\"[^\"]*\"                   # LIT-enclosed value\n          |(?!['\"])[^>\s]*           # bare value\n         )\n         (?:\s*,)*                   # possibly followed by a comma\n       )?(?:\s|/(?!>))*\n     )*\n   )?\n  \s*                                # trailing whitespace\n
+(?<=typedef enum )\w+
+(?<=\<)(.*)(?=\>)
+(?<=[-_])\d{2}(?=[_/])
+((?<=~\d{8}-)\d{6})(\.)
+(?<=====\r\n)Layer\s+\d+\s+:.*?(?=====)
+^(((?!-))(xn--|_{1,1})?[a-z0-9-]{0,61}[a-z0-9]{1,1}\.)*(xn--)?([a-z0-9][a-z0-9\-]{0,60}|[a-z0-9-]{1,30}\.[a-z]{2,})$
+(?<=\[\"18\-)(?:\d+\-\d+)(?=-poilabel\",)
+(?<=\")B\w{9}(?=\")
+(?<=\;)(?:http|https):\/\/s3\.amazonaws\.com\/assets\.datacamp\.com\/(?:\_|\w|\/|\.)+pdf(?=\&)
+((?<=href="\/)(.+(?=\.(doc|pdf)))|(?<=src=")((http|https).+(?=\/(v2|userfiles)\/)))
+(?:((?>.{1,48}(?:(?<=[^\S\r\n])[^\S\r\n]?|(?=\r?\n)|$|[^\S\r\n]))|.{1,48})(?:\r?\n)?|(?:\r?\n|$))
+(.*(?<=sqs\.)(.*?)\..*/)(.*)
+(?<=/)(\d+)(?=-)
+^((?!-))(xn--)?[a-z0-9][a-z0-9-_]{0,61}[a-z0-9]{0,1}\.(xn--)?([a-z0-9\-]{1,61}|[a-z0-9-]{1,30}\.[a-z]{2,})$
+(?<=^Z_).*
+(?<=\G(?!^)|clients_field_)(\w*)-
+(?<="(?i)0":)(?:\{.*?\}|\".*?\"|\w+|\[.*?[^\[\]]\])
+(?<=<h[1-6]>).*?(?=<\/h[1-6]>)
+(?<=\(VAT\s)[\d]+(?=%\))
+(?<![!=][=]{2})(?<=[^=][!=]=)(?![=U\/]|$)
+(?<=>)((?!\s*<)[\s\S]+?)(?=<)
+(?# PCRE )(?# https://en.wikipedia.org/wiki/Uniform_Resource_Identifier )(?# RFC 3986 )^(?<scheme> (?i) [a-z0-9+.-]+ (?-i) ):(?:\/\/(?<authority>(?: (?<userinfo> (?<username> (?&uriUnreserved)+ ) (?: : (?<password> (?&uriUnreserved)+ )? )? ) @ )?(?<host>| (?'ipv4' (?&_ipv4) )| \[ (?'ipv6' (?&_ipv6) ) \]| (?<hostname> (?i) (?: (?&hostLabel) \. )* (?&hostLabel) (?-i) ) )(?: : (?<port> (?&port_number) ) )?))?(?(authority) (?= [\/?#] | $ ) | (?! \/\/ ) ) (?: (?<=^file:\/\/) \/ )? (?# See *1 )(?'path' (?&pathSequence) )(?: \? (?'query'(?&_query)) )?(?: \# (?<fragment>(?&_fragment)))?$(?(DEFINE)(?# http://es5.github.io/#A.6 )(?<uriCharacter> (?&uriReserved) | (?&uriUnescaped) | (?&uriEscaped) )(?<uriReserved> [;\/?:@&=+$,] )(?<uriUnescaped> [[:alpha:]\d] | (?&uriMark) )(?<uriEscaped> %[[:xdigit]]{2} )(?<uriMark> [-_.!~*`()] )(?<uriUnreserved> (?&uriUnescaped) | (?&uriEscaped) )(?# RFC 952, RFC 1123 )(?<hostLabel> [a-z0-9-]{1,63} )(?# https://en.wikipedia.org/wiki/Dot-decimal_notation#IPv4_address )(?<_ipv4> (?: (?&octet) \. ){3} (?&octet) )(?<octet> (?&_250_255) | (?&_200_249) | (?&_0_199) )(?<_250_255> 25[0-5] )(?<_200_249> 2[0-4]\d )(?<_0_199> 1? (?&_0_99) )(?<_0_99> [1-9]? \d )(?# https://en.wikipedia.org/wiki/IPv6#Address_representation )(?<_ipv6> (?&ipv6_L) | (?&ipv6_F) | (?&ipv6_M) | (?&ipv6_R) )(?# could be optimized with if-else )(?<ipv6_L> :: (?&hextet_1_7) )(?<ipv6_R> (?&hextet_1_7) :: )(?<ipv6_F> (?: (?&hextet) : ){7} (?&hextet) )(?<ipv6_M>(?= (?: (?&hextet) ::? ){1,7} (?&hextet) \] )(?&hextet_1_7) :: (?&hextet_1_7))(?<hextet_1_7> (?&hextet) (?: : (?&hextet) ){0,6} )(?<hextet> [[:xdigit:]]{1,4} )(?<port_number> (?&_65530_65535) | (?&_65500_65529) | (?&_65000_65499) | (?&_60000_64999) | (?&_10000_59999) | (?&_1000_9999) | (?&_100_999) | (?&_0_99) )(?<_65530_65535> 6553[0-5] )(?<_65500_65529> 655[0-2]\d )(?<_65000_65499> 65[0-4]\d{2} )(?<_60000_64999> 6[0-4]\d{3} )(?<_10000_59999> [1-5]\d{4} )(?<_1000_9999> [1-9]\d{3} )(?<_100_999> [1-9]\d{2} )(?<pathSequence> (?: (?&pathSegment) \/ )* (?&pathSegment)? )(?<pathSegment> (?: (?&uriUnreserved) | [:@!$&'()*+,;=] )* )(?<_query> (?: (?&uriUnreserved) | [:@!$&'()*+,;=?\/] )* )(?<_fragment> (?: (?&uriUnreserved) | [:@!$&'()*+,;=?\/] )* ))(?#*1 If an authority component is present, then the path component must either be empty or begin with a slash. If an authority component is absent, then the path cannot begin with an empty segment, that is with two slashes as the following characters would be interpreted as an authority component. Small exception for file URI scheme RFC 8089 https://en.wikipedia.org/wiki/File_URI_scheme which contains an extra slash preceding the path even if no host provided)
+(?<=\,|\+|\~|\>|\(|\)|\[|\]|\{|\}|^)(?<s>\s*)(?<tag>a|div|p|span|img|button)(?!\s*\[[^\]]*__canvas[^\]]*\])(?=[\:\,\+\~\>\(\)\[\]\{\}\s]+)(?=[^\}\;]*[\{])
+(?xm)(?<=age:)\s*\d+
+(?<=\"id\"\:)\s?\d+(?=\,)
+(?:in the arbitration proceedings(?: between)?|(?<=Claimant )(?:\w*) ?[-–](?:\s*and)?)\s*([a-zA-Z][^\n,]+).*(?:\n^(?: *[^\s\-–].*| +)?)*?[-–] ?(?:\w* )Claimant
+(?<=\n)\w{10}\w{0,5}(?=\w{0,9})\s{0,18}
+\b(?<=\w)\s{20}
+(?<=chk-).+?(?=-)
+(?<=\(\()\w+\w+\s\w+\s\)\d+
+(?<=\(\()\w+\w+\s\w+\s\)\d+
+^(?:grammar )(?<namespace>[a-z.]+)(?<=[^\s.]);$
+(?m)\s|Фізичне виховання|Військова підготовка|(.+№\d+|Центр Енергоефективн|БП.|ЦР.\d|ЦР\d|ПМ|ПМа|Гурт\d|Гурт.\d|ОЗ 3|\d.*?(?=\s)|)(?:\s|)(\W+?\s\W+?\s\W+?\s)(?:\s(?=\()|(?:\..?|.)*?|)(?:\s|)(?:(?:.*?[а-я. ]*)|.*?(?=[А-Я\(]))((Збірна група|Потік|)(.*(?<=-\d|\.\d|\d\,|\-\d\d|\d\d\+|\.\.\.|\(підгр\. \d\)).*?(?<=\s)|)|)(.*(?=\())(.*)
+(?<=:).+?(?=-)
+((?<!as\s|:\s|import\s|<|\|\s))DevExpress
+<\w[^>]*>(?=<)|(?<=>)<\/\w[^>]*>
+(?<=\.com)(.*?)[?=\?]
+(?<=^|\b|(?<=\W)(?=\W))\S+?(?=$|\b|(?<=\W)(?=\W))
+(?<=>|>\s)(?:\w+[\s.-]*)+
+(?<="key":)(?:("(\w|\s)+"))(,\s|\n)
+((?<=\s)data-[^="]+?=".+(?=["]\s)")|((?<=\s)(?:data-[^=]+?)=".+?(?=>))|((?<=\s)(?:data-[^=]+?)="[^>]+?(?=>))
+(?<=\$)(\w*)*(\.)*(\w*)*
+^(?:(?<numberstreet>\d+(?:\ |\w|\.)+(?=$|\n|\,))|(?<pobox>(?:PO|P\.O\.)[\ ](?:BOX)[\ ](?:\d|\-)+(?=$|\n|\,)))?(?:\ *\,\ *)?(?<suite>(?:SUITE|STE)\ [\#]?(?:\w|\d|\-)+)?(?:\ *\,\ *)?(?<citystatezip>(?<=^|,|\ )(?<city>[\w\ ]+)(?:\ *\,\ *)(?<stateabrv>[A-Z]{1,3})(?:\ +)(?<zipcode>\d{5}(?:\-\d*)?))?$
+(^\s*)(.+)((?<=\w)\s*$)
+(?<=\d{4}\/\d{2}\/\d{2}\/)\w+\-?\w?\/?\w+\/
+(?<=PO General created under the number).*?(?=Custom)
+(?<=<tr>)[\s\S]+?(?=<\/tr>)
+(?<=\n).*?\.+?(?=\n)
+(?<!^\s)(?<=[\((\,\s?)])(FoX::)?Image\s?\*
+(?<=\d{2})(1)(?=\d{2,4})
+(?:(?<=[^\\])|^)(\\(?:\\{2})*)(?=[^\\]|$)
+(?<=(?i)gleason)[\w\s\p{P}\=]*[^0-9\.\+]*\s*\K(\d)\s*\+\s*(\d)(?=\D)
+(\"\")(?![\)\]\}(\,\s)])|(?<![\n\(\[\{\=(\,\s)])(\"\")|(?<=\n)(\"\")|(\"\")(?=\n)
+(?<=setText\()\"\"[.\n]*|\"\"(\n)*(?![\)\}\]])
+(?<=print\().+(?=\))
+(?<=^|[^\w$-])((?:[\w$]+(?:\([^()]*(?:\([^()]*\)[^()]*)*\)|\[[^\]\[]+\])*?\.)+)((?:host|hostname|href|protocol|origin|port))\b
+^((?:[A-Za-z0-9!#$%&'*+\-\/=?^_`{|}~]|(?<=^|\.)"|"(?=$|\.|@)|(?<=".*)[ .](?=.*")|(?<!\.)\.){1,64})(@)((?:[A-Za-z0-9.\-])*(?:[A-Za-z0-9])\.(?:[A-Za-z0-9]){2,})$
+(?<=\W)\$[a-zA-Z_\\\{\}= +']+\$
+(?<=\/\/\s*COLORS)[\r\n]+(.*)(?=\/\/\s*END\s*COLORS)
+((?<=(\b|^))(?P<ip4>((?P<ip4byte>25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9][0-9]|[0-9])\.){3}(?P=ip4byte))|(?P<ip6>(?<![g-zA-Z])(([0-9a-f]{1,4})?:){7}([0-9a-f]{4})?))
+(?s)(?<=\<span class=\"highlight highlight--wrapping\"\>)(.*?)(?=\<\/span\>)
+(?i)(?<= |^)Yes(?= |$)
+(?i)(?<= |^)Yes(?= |$)
+(?i)(?<= |^)No(?= |$)
+(?i)(?<= |^)No(?= |$)
+(?i)(?<= |^)Yes(?= |$)
+(?i)(?<= |^)Yes(?= |$)
+(?<=[\.,;\s\t\n])[a-z0-9\-]{2,}(?=[\.,;\s\t\n])
+(?<=\d{2})(\d+)(?=\d{4})
+^(?<exe>npm)?\ ?(?<run>(?<=\k<exe> )run(?:-script)?)?\ ?(?<command>(?<=\k<run> )[a-z]+(?:[-|:|.|_][a-z]+)?|(?<!\k<run> )[a-z]+(?:[-][a-z]+)?)?\ ?(?<pkgdetails>[a-z0-9\>\=\:\+\#\^\.\@\/][a-z0-9\>\=\:\+\#\^\~\.\@\/\-]+)?\ ?(?<options>(?:\ [-]{1,2}[a-zA-Z]+(?:[-][a-z]+)*)*)?$
+(?<!\\)(?P<start>```)(?<=```)(?:(?P<lang>[a-z][a-z0-9]*)\s)?(?P<content>.*?)(?<!\\)(?=```)(?P<end>(?:\\\\)*```)
+(?<=ee|i)r\b
+(?<=^|]).*?(?=\[|$)
+((?<=\s)\*(?P<common>[^\*]+?)\*(?=\s)|^\*(?P<uncommon>[^\*].*[^\*])\*$)
+(?<=<tag>)([a-zA-Z\s\w]+)(?=</tag>)
+.*((?<=:\s)[\w\s]+(?=\s\(\d{5}\))).*((?<=\s)[\w._-]+@[\w._-]+).*
+(?<=^Fuse - )[\d.\/m]+A|(?<=\s)\dA
+(LineSequenceNumber)|((?<=Inventory(Date|Time)).*sys)|(sys.*(?=Inventory(Date|Time)))
+(?<=[\u4e00-\u9fa5]), *(?=[\u4e00-\u9fa5])
+(?<=https:\/\/strm.yandex.ru\/kal\/)(.*?)(?=\/)
+(?<=[0-9] )[a-zA-Z\s./-]+\n
+(?<=(\s))([0-9]{1,2})\b(?!\s*(:|am|pm|from|to|minutes|minute|min|mins))
+((?<=<q>)(.|\n|\s)*?(?=</q>))|((?<=<t>)(.|\n|\s)*?(?=</t>))
+(?<=<p>)(.*)(?=</p>)
+((?<=[\w\"\,\;\t\.])[\,\;](?=([\w\"\,\;\t]|[^ ])))
+(?<=/)\d+.?\d+(?=.)
+^((?!Bauxite|Iridium))+(\w)+(\s)(dust)+$
+(?<=\#)\d*
+(?<=https:\/\/www\.ducati\.com\/es\/es\/motocicletas\/)[a-z].+(?=\/)
+(?:(?<=\().+?(?=\))|(?<=\[).+?(?=\]))
+(?<=^|\s)[A-Z]{3,6}(?=\s|$)
+(?<==)(['"])?[^'"]+(?(1)\1|\s)
+(?<=^(?:(?:\d+:(?:\s00)*\n)*)(?:\d+:(?:\s00)*)\s+)\b(?!00)[0-9-afA-F]{2}\b
+(?<=(?:as|AS))\s+[^\s.,\(\)\-=]+(?:\s*)|[^\s.,\(\)\-=][^\s.,\(\)\-=]+\s*(?==)
+(?P<leading> (?<=^/)       /+ (?# Matches extra slashes after the first one) )|(?P<middle> (?<!^) (?<=/) /+ (?!$) (?# Matches extra slashes in the middle of the path) )|(?P<trailing> (?<!^)        /+ (?=$) (?# Matches all trailing slashes) )
+(?<=[\s])(?=[.,;?])
+(?<=perro)
+.*(?:(?<=\/)|^)([a|g|amp|gmp]\d+)[\.]?(?:[\w-]+)?.*
+(?<=X-Filename:[a-zA-Z\s0-9.*+-_/]*\n\n)([^\n\r]*)
+(?<=\[)[^\]]+(?=\])
+(?<= |\u3000|^)([^ \u3000]+) ([^ \u3000]+)(?= |\u3000|$)
+(([a-hKQNB]x)?(R[1-8]?[a-f]?x)?[KQNBR]?[abcdefgh]([1-8]{1}(?!=))(\(ep\))?((?<=[18])=[KQNBR])?\+{,2}|0(-0){1,2})
+(?<="name": ")(.+)(",\n\s+"war_memorials": )(.*?\1,)(.*?)(,.*?)?"(?=,)
+(?<=[[:blank:]])\w+
+(?<=def.)\w+|\b((?!if)\w*(?!\s*[+])(?!.*==)(?=.*[=]))\b
+(?<=\<meta property\=\"og\:image\" content\=\")(\n|\s|\w|\W|\b|\B|.)*?(?=\")
+(?<=var\sTralbumData\s=\s)(?<data>.|\s)*?(?=};)
+(?<=\\)[^\\]+$
+(?<=\.)\w+$
+(?<=profile\.php\?id\=)(?<id>[0-9]+)|(?:(?<=\.com)|(?<=\.me)|(?<=\.co)|(?<=\.us))(?:(?:\/groups\/|\/)(?!profile\.php)(?<username>[\w\.\_]+))
+(?<=[\s\'\{])(page(?![\'\\s])(?!\:?[cC]hildren)(?!Id)(?:Title)?(?:Parent)?:?\s?)(.*?)((\,+?)|(v\.\\d+)|}|$)
+(?<=\")(https)(.*?)(\.mp4)(.*?)(?=\"\})
+(?<=^|\s)(?<Day>0[1-9]|1[0-9]|2[0-9]|3[0-1]|[1-9])(?:st|nd|rd|th)?(?:\/| |-|\.)(?<Month>0[1-9]|1[0-2]|[1-9]|Jan|January|Feb|February|Mar|March|Apr|April|May|Jun|June|Jul|July|Aug|August|Sep|September|Oct|October|Nov|November|Dec|December)(?:-|\/| |\.)(?<Year>(?:[1-2]\d)?(?:\d\d))(?=\s)
+(?<=\*[A-Z]{3}:)
+(?<=\"\>View Low Qual\<)(.*?)(?<=href\=\")(.*?)(?=\"\>View\sHigh\sQual\<)
+^(?:[1-9]\d*?|0)?(?:\.(?:\d*?[1-9]|0))?(?<=[\d])$
+^((?!.*-test\.js$|.*\.spec\.js$))
+(?:^|(?<=\s))(?!charlie@outrunthebear\.co\.uk)(\w[\w\.]*@\w+\.[\w\.]+)\b
+(?s)(?<=\s)\w*(?=\-.*)
+(?s)(?<=\[)(?<loglevel>.*?)(?=\].*)|threadId:(?<threadId>.*?)\s*\||correlationId:(?<correlationId>.*?)\s*\||userId:(?<userId>.*?)\s*\||payload:(?<payload>.*?)\s*\|
+(?s)(?<=This is).*?(?=sentence)
+\s*(?<text>.*?)[\s]*(?<=\s|^)\/(?<key>\w+)(?:\s+|$)(?<value>.*?)?(?:\s+|$)?(?=\s*$|(?<=\s|^)\/\w)
+(?<=is )(.*)
+(?<=jeffery@).+
+(?<=groups\/)(?<id>[0-9]+)|(?<=groups\/)(?<username>[a-zA-Z\.\_0-9]+)
+__([a-zA-Z_]+)__\s*=\s*(?:\"|')((?<=\").+(?=\")|(?<=').+(?='))(?:\"|')\s*$
+((?<=Description\:[\r\n|\r|\n])(\d+\.|\-)\ (?P<desc>(.+)\.))|((?<=\.[\r\n|\r|\n])((\d+\.|\-)\ (?P<desc2>(.+)\.))(?=[\r\n|\r|\n](\d+\.|\-)|[\r\n|\r|\n]*Reference))
+^[\s;]+(?<![^\s;])|(?<=;)[\s;]*|(?<=[^\s;])\s*|(?![^\s;])[\s;]+$
+(?<=^\/)(ru|ua)(?=\/)
+(?<=cu sediul [iî]n)(.*?)(?=,)
+(?<=domiciliat[a] in)(.*?)(?=,)
+(?<=a)b
+^(?'Fare'(?'IgnoreProfix'[A-Z]+-|\/[A-Z]+)?(?'ItineraryDate'(?'Date'\d{2})(?'Month'[A-Z]{3})(?'Year'\d{2}))?(?'Origin'[A-Z]{3})?\s?(?'Airline'(.[0-9A-Z]{3})|([0-9A-Z]{2}))\s(?'Connection'[X][\/])?((?'CodeECity'E\/)|(?'CodeB'B\/)|(?'CodeT'T\/)|(?'CodeL'L\/))*(?'Destination'([A-Z][\/-])?[A-Z]{3})?(?!\d{1,3}[A-LN-RT-Z\s])\s?(?'SegmentBaseEMS'\d+M\s?)?(?'SegmentBase'(?![0-9][A-Z])\d{1,6}(\.\d{1,4})?\s?)?(((?'CodeENoCity'E\/XXX)|(?'SegmentFeeQ'[Q](\s?(?'QCity1'[A-Z]{3})(?'QCity2'[A-Z]{3}))?(?'SegmentFeeQEMS'\d+M)?(?'FeeAmountQ'\d{1,6}(\.\d{1,4})?))|(?'MilePrinciple'M\s?(?'MilePrincipleCityPair'[A-Z]{6})?\s?(?'MilePrincipleMile'\d{1,6}(\.\d{1,4})?)?)|(?'SegmentFeeR'[R](?'SegmentFeeREMS'\d+M)?(?'FeeAmountR'\d{1,6}(\.\d{1,4})?))|(?'SegmentFeeS'(?'SegmentFeeSCnt'[0-9])*S(?'SegmentFeeSEMS'\d+M)?(?'FeeAmountS'\d{1,6}(\.\d{1,4})?))|(M?\/(?'ITFare'IT))|(M?\/(?'BTFare'BT))|(\/\/(?'UnflownIncludeCity'[A-Z]{3})))\s?)*(?'SegmentBaseEMS1'\d+M\s?)?(?'SegmentBase1'(?![0-9][A-Z])\d{1,6}(\.\d{1,4})?\s?)?(?'FareBasis'(?<=[0-9])((?![A-Z][A-Z0-9]\s([A-Z]\/)?[A-Z]{3}|NUC|END|[A-Z]{3}\s[0-9])|(?=[A-Z][A-Z0-9]\sNUC))[A-Z][A-Z0-9\/]{0,8})?(\s?((?'SegmentFeeQ1'[Q](?'SegmentFeeQEMS1'\d+M)?(?'FeeAmountQ1'\d{1,6}(\.\d{1,4})?))|(?'CPMC'P\sR\/(?'CPMCCity1'[A-Z]{3})(\/)?(?'CPMCCity2'[A-Z]{3})?\s?(?'CPMCEMS'\d+M)?(?'CPMCAmt'\d{1,6}(\.\d{1,4})?))|(?'CodeP'P\s(?'CodePCityPair1'[A-Z]{6})\s?(?'CodePCityPair2'[A-Z]{6})?\s?(?'CodePEMS'\d+M)?(?'CodePAmt'\d{1,6}(\.\d{1,4})?))|(?'MilePrinciple1'M\s?(?'MilePrincipleCityPair1'[A-Z]{6})?\s?(?'MilePrincipleMile1'\d{1,6}(\.\d{1,4})?)?)|(?'OSC'H\s(?'OSCCityPair'[A-Z]{6})\s?(?'OSCAmt'\d{1,6}(\.\d{1,4})?))|(?'RSC'U\s(\s?(?'RSCCityPair'[A-Z]{6}))+\s?(?'RSCAmt'\d{1,6}(\.\d{1,4})?))|(?'LCP'C\/(?'LCPCity'[A-Z]{3})(?'LCPCityPair'\s?[A-Z]{6})*\s?(?'LCPAmt'\d{1,6}(\.\d{1,4})?))|(?'HighClassDifferential'D\s(((?'ClassCode'[A-Z])+\/)?(?'HCDCityPair'[A-Z]{6})\s?((M)|(?'HCDEMS'\d+M)|\s|(?'HCDAmt'\d{1,6}(\.\d{1,4})?))\s?)+)|(\/-(?'UnflownExcludeCity'[A-Z]{3}))|(\/\/(?'UnflownIncludeCity1'[A-Z]{3})))?\s?)*)+\s?((?'NUC'\s?([A-Z]{3})\s?(?'BaseTotal'\d{1,6}(\.\d{1,4})?))\s?)?(END\s?(?'Exch'ROE\s?\d+(\.\d+)?)?)?
+(?(DEFINE)(?<line_start>\h*+\*\h*+))(?<=^|\v)(?&line_start)(?:(?:(?P<annotation>      @(?P<name>\w++)(?:(?<=@param)\h++(?P<type>\w++(?:\[\])?)\h++\$(?P<variable>\w++)|(?<=@return)\h++(?P<type>\w++(?:\[\])?)|(?<=@throws)\h++(?P<class>\w++)|(?<=@cache)\h++(?P<time>\d++)|(?<=@roles)\h++(?P<roles>\w++(?:\h*+,\h*+\w++)*))?))(?:\h*+(?P<comment>\V*+(?:\v(?:(?&line_start)[^\v@\h\*]\V++)*+)))?|(?P<description>(?:[^\v@\h\*]\V++)(?:\v(?&line_start)[^\v@\h\*]\V++)*+))
+^(1){0,1}[\-|\s]?(\((?=[\d]{3}[\)]))?[\d]{3}((?<=\([\d]{3})\))?[\-|\s]?[\d]{3}[\-|\s]?[\d]{4}$
+(?<=\/)[^\/]*(?=\.)
+(?<=^.{5}.)(?:.*)(2004)
+(?<="\$name":.)"normal_map",\n\s*"\$type":\s"::bool",\n\s*"\$value":\s(false)
+\/(online%20shop|store|boutique%20en%20ligne)\/[a-z%0-9]*\/((?![a-z]+))
+(^|(?<=\s))(([A-Za-z\d]+)([_\.\-])?([A-Za-z\d]+))@([a-z]+([\.\-_][a-z]+)+)($|)
+(?<!\?)\?{1}(?!.*?\?)|(?<=\?)\?{1}(?!.*?\?)
+(?=Abrechnungsprotokoll für Vera).*(?<=Abzurechnende Sätze)
+(?<=\.)[a-z]{3}(?=\.)
+(?<CCT>(?:(?<=[A-Z])(?=[^A-Z]))|(?:(?<=[a-z])(?=[^a-z]))|(?:(?<=\d)(?=\D))|(?:(?<=[^A-Za-z\d])(?=[A-Za-z\d])))
+(?<=displayImportingConfirmationMessage\(').*(?<=})
+(?<=(|G|M|K|h|da|d|c|m|u|n))(?=(m|g|s|A|K|mol|cd)\b)
+["'`](?:(?<=")[^"\\]*(?s:\\.[^"\\]*)*"|(?<=')[^'\\]*(?s:\\.[^'\\]*)*'|[^`]*`)
+(?<=START)(?s)(.*?)(?=Closing)
+(?<=^|\s)((\-?\d+[\+\-\*\/])+\d+)(?=;|,|\.|$|\s)
+(?<=^|\s)((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))(?=$|\s)
+(?<=^|\s)"[\s\S]+?"(?=$|\s)
+(?<=^|\s)(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?(?=$|\s)
+(?<=^|\s)([a-z0-9_\.-]+)@([a-z0-9_\.-]+)\.([a-z\.]{2,6})(?=$|\s)
+(?<=^|\s)([A-Z\d]{5}\-){4}([A-Z\d]{5})(?=$|\s)
+(?<=^|\s)(".*")+(?=$|\s)
+(?<=^|\s)[А-ЩЭ-Я][а-я]+\s[А-ЩЭ-Я]\.[А-ЩЭ-Я]\.(?=\s|$)
+(?<= |\[|\,|\+) ?-?([1-9]|\.|0\.)([0-9]|\.)*(?!(\/|\*))
+(?<=[qwrtypsdfghjklzxcvbnm])([aeiou]{2,})([qwrtypsdfghjklzxcvbnm])
+(?<=\:)(.*?)(?=\;)
+(?<=href=["'])(?<url>[^"']*)(?=["'][^\>]*\>((?<content>.*?)\<\/a>))
+(?<=var)(((\s+[\$\w]+[^\n{]*);)(\s+)var)(\s*)(?=(?2))
+(?<=\w)\b
+(?<=\s|^)([A-Za-z0-9]+[._-]?[A-Za-z0-9]+)+@([A-Za-z]+[._-]?)+\.[A-Za-z]+\b
+^(((([A-Z]+-)?((\d{2})([A-Z]{3})(\d{2}))?([A-Z]{3})?( )?((.[0-9A-Z]{3})|([0-9A-Z]{2}))( )([X][\/])?((E\/)|(B\/)|(T\/)|(L\/))*(([A-Z][\/-])?[A-Z]{3})?(?!\d{1,3}[A-Z\s])( )?(((E\/XXX)?|([Q]{1}(( )?([A-Z]{3})([A-Z]{3}))?(\d+M)?(\d{1,6}(\.\d{1,4})?))?|(M( )?([A-Z]{6})?( )?(\d{1,6}(\.\d{1,4})?)?)?|([R]{1}(\d+M)?(\d{1,6}(\.\d{1,4})?))?|(([0-9])*S(\d+M)?(\d{1,6}(\.\d{1,4})?))?|(M?\/(IT))|(M?\/(BT))|(\/\/([A-Z]{3})))( )?)*(\d+M( )?)?((?![0-9][A-Z])\d{1,6}(\.\d{1,4})?( )?)?((?<=[0-9])((?![A-Z][A-Z0-9]( )([A-Z]\/)?[A-Z]{3}|NUC|END|[A-Z]{3}( )[0-9])|(?=[A-Z][A-Z0-9]( )NUC))[A-Z][A-Z0-9\/]{0,8})?(( )?(([Q]{1}(\d+M)?(\d{1,6}(\.\d{1,4})?))|(P R\/([A-Z]{3})(\/)?([A-Z]{3})?( )?(\d+M)?(\d{1,6}(\.\d{1,4})?))|(P( )([A-Z]{6})( )?([A-Z]{6})?( )?(\d+M)?(\d{1,6}(\.\d{1,4})?))|(M( )?([A-Z]{6})?( )?(\d{1,6}(\.\d{1,4})?)?)|(H( )([A-Z]{6})( )?(\d{1,6}(\.\d{1,4})?))|(U( )(( )?([A-Z]{6}))+( )?(\d{1,6}(\.\d{1,4})?))|(C\/([A-Z]{3})(( )?[A-Z]{6})*( )?(\d{1,6}(\.\d{1,4})?))|(D( )((([A-Z])+\/)?([A-Z]{6})( )?((M)|(\d+M)|( )|(\d{1,6}(\.\d{1,4})?))( )?)+)|(\/-([A-Z]{3}))|(\/\/([A-Z]{3})))?( )?)*)+)+)( )?((( )?([A-Z]{3})( )?(\d{1,6}(\.\d{1,4})?))( )?(END)|(END))( )?(ROE( )?\d+(\.\d+)?)?(.*)?$
+(https:\/\/provider\.shsp\.swisscom\.com((?!:(443|80)(($)|(\/))))(?:(?:(?::)(\d*)))?(?:(?:(\/latest)(?=\/))|(?:(\/latest)($)))?)
+(https:\/\/provider\.sharespaceapp\.swisscom\.com((?!:(443|80)(($)|(\/))))(?:(?:(?::)(\d*)))?(?:(?:(\/latest)(?=\/))|(?:(\/latest)($)))?)
+(https:\/\/provider\.sharespaceapp\.swisscom\.com((?!:(443|80)(($)|(\/))))(?:(?:(?::)(\d*)))?(?:(?:(\/latest)(?=\/))|(?:(\/latest)($)))?)
+(https:\/\/provider\.sharespaceapp\.swisscom\.com((?!:(443|80)(($)|(\/))))(?:(?:(?::)(\d*)))?(?:(?:(\/latest)(?=\/))|(?:(\/latest)($)))?)
+(https:\/\/provider\.sharespaceapp\.swisscom\.com((?!:(443|80)(($)|(\/))))(?:(?:(?::)(\d*)))?(?:(?:(\/latest)(?=\/))|(?:(\/latest)($)))?)
+(https:\/\/provider\.sharespaceapp\.swisscom\.com((?!:(443|80)(($)|(\/))))(?:(?:(?::)(\d*)))?(?:(?:(\/latest)(?=\/))|(?:(\/latest)($)))?)
+(https:\/\/provider.sharespaceapp.swisscom.com((?!:(443|80)(($)|(\/))))(?:(?:(?::)(\d*)))?(?:(?:(\/latest)(?=\/))|(?:(\/latest)($)))?)
+^[-+](?:[0-9]*[.])?[0-9]+|(?<=\(|\/|\*)[+-](?:[0-9]*[.])?[0-9]+|(?:[0-9]*[.])?[0-9]+|[-+*\/()]
+(".*?"|(?<=:)[^"][0-9]*[^"{}\[\],])|[{}:\[\],]
+(?<=[a-zA-Z> ])([vV]endor)|([vV]endor)(?!\S)
+"[^\n]+(?<=[^\\])"
+(^|(?<=\n))([0-2]\d{1}:[0-5]\d{1}:[0-5]\d{1}\.\d{3}) --> ([0-2]\d{1}:[0-5]\d{1}:[0-5]\d{1}\.\d{3})(.*?)((?=[0-2]\d{1}:[0-5]\d{1}:[0-5]\d{1}\.\d{3})|$)
+(?i)(?m)(?<=Total|Total\s|Total:\s|Total\s:\s)(?<!Subtotal|Subtotal\s|Subtotal:\s|Subtotal\s:\s|Sub\sTotal|Sub\sTotal\s|Sub\sTotal:\s|Sub\sTotal\s:\s|Sub-Total|Sub-Total\s|Sub-Total:\s|Sub-Total\s:\s)\d{1,4}(?:[.,\s]\d{3})*(?:[.,]\d{2})(?!\%|\d|\.|\scm|cm|pol|\spol)
+(?i)(?m)(?<=Capital |Social |Capital: |Social:|Capital: |Social: |Capital : |Social :|Capital €|Social €|Capital € |Social € |Capital€ |Social€ )(\d+((?:[.,\s]\d{3})*)((?:[.,]\d{2})?))
+(?<=)(\t)(\w+\s\w+)(\t)(\d{4,5})|(\t)(\w+)(\t)(\d{4,5})
+(?<=ncia\s|ncia:\s|Ref:\s|Ref\s)(\d+.+|.+\d+|\d+|.+)*
+^((25[0-5]|2[0-4][0-9]|1[0-9]{2}|(0(?=\d\d))?((?<=\d)0|[1-9]?)[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|(0(?=\d\d))?((?<=\d)0|[1-9]?)[0-9])$
+(?|(\[[\"]?.+?[\"]?\])(=>)\R\s*|(?<=\(0\) )(\{)\R\s*(\}))
+(?i)(?m)(?<=social )(\d+((?:[.,\s]\d{3})*)((?:[.,]\d{2})?))
+(?<=^CN=)(.*?)(?=\s?,\s?o)
+(?<=\,)\d{2}
+(?<=([aui]))[wy](?=\1)|(?<=i)[wy](?=u)
+www\.[a-z0-9-]*\.[a-z]*|(?m)^.*svg\+xml.+|\.org|\.com|\.io|\.woff2|.eot|.woff|.ttf|.svg|((?<=\.)[a-z][a-z-0-9\.]*[^\{\/\:\?])
+^(?<pure_real>(?&real))$|^(?<real>(?<decimal>[+-]?(?:\d*(?:[\.,](?=\d))?\d+))(?:(?:(?:(?<=\d)[Ee])?(?:(?&decimal)))(?<=\d))?)(?:(?<=\d)[, +](?=\d|[+-]|[\.,])(?<imaginary>(?&real))[iIjJ])?$|^(?<pure_imaginary>(?&real)[iIjJ])$
+^(?<decimal>([+-]?(?:\d*(?:[\.,](?=\d))?\d+))(?:(?:(?:(?<=\d)[Ee])?((?&decimal)))(?<=\d))?)$
+^(([+-]?(?:\d*(?:\.(?=\d))?\d+))(?:(?:(?:(?<=\d)[Ee])?((?2)))(?<=\d))?)(?:(?<=\d)[, ](?=\d|[+-]|\.)((?1))[iIjJ])?$
+(?<=Greg)(.*)(?=hits)
+((?<=d":).*)(?=:|,)
+((?<=\/\/).*)|((?<=\/\*)[^(*\\)]*(?=\*\/))
+(?<=precedido)Regex2017
+(?<=Received: from ).*(?= by)
+(?<=videos\/|v=|youtu\.be\/)([\w-]+)
+(?<=[a-z])(?=[0-9]+)
+#<(\w+)[^>]*class="[^>]*(?<="|\s)kiwii-xxdark-gray(?="|\s)[^"]*">\s*(\w+\s+\w+\s+)(<(\w+)[^<]*>)?(?<name>[^<]*?)(<[^>]*>)?\s*\w+:?\s*\d+/\d+/\d+
+<a[^>]*href="(?<url>[^"]*(?<=\?|&)o=(?<number>\d+)[^"]*)"[^>]*>\s*last
+<a[^>]*href="[^"]*(?<id>(?<=-)\d+)[^>]*>(?<name>[^<]*)</a
+(class="[^>]*(?<="|\s|-)phone-prefix[^>]*>[^<]*?(?<prefix>\d+)([^<]*<){1,3})?[^>]*class="[^>]*(?<="|\s|-)phone-number[^>]*>[^<]*?(?<mobile>\d+)
+class="[^"]*(?<="|\s)col-xs-9(?="|\s[^>]*)">(?<name>[^<]*)
+class="[^"]*(?<="|\s)description_quote(?="|\s[^"]*)">[^>]*>(?<description>[^<]*)
+<[^"]*class="[^"]*(?<="|\s)marginRight(?="|\s[^"]*)"[^"]*href="(?<url>([^?][^\d+]*(?<number>\d+))[^"]*)"
+[^>]*class="[^"]*(?<="|\s)dd-price(?="|\s)[^"]*"[^<]*.*?content="(\d+)"
+class="[^"]*(?<="|\s)left-top-container(?="|\s)[^"]*"[^<]*<h2[^>]*>(?<title>[^<]*)</h2
+<[^"]*class="[^"]*(?<="|\s)marginRight(?="|\s[^"]*)"[^"]*href="(?<url>([^?][^\d+]*(?<number>\d+))[^"]*)"
+(?<=\/WEB-INF\/classes\/).*\.class
+(.*)((?<=[.!?]\s|^).*?lockbox.*?)(?<=[.!?]|$)(.*)
+(.*[^"]+((?<=[.?!]\s).*lockbox.*(?<=[.?!]))[^"].*)
+((1000)|([2][5]\d)|(([3456789]\d\d)))(?= {0,}(г|м))|(((?<=\D)[\d])|((0(.|,)[3456789][\d]))|([2][6789]))(?= {0,}(л|к))
+(?<=\d)(?=(\d\d\d)+\b)
+(?<=m)(2|3)
+(?<=https://)(.*)(?=:8080)
+(?<=\$u).*proxy.[^$\n]*(?=\$?)
+(?<=\s)x(?=\s\d?)
+(?<=\s)x(?=\s\d?)
+(?<=\s)(\d+)\s(st(u?)k?)s?|(p((ie)?ce(s?)))
+\[(?P<ssh_id>\d{1,}(?=\])).*(?P<action>(Accepted)|(Failed)).+(?P<username>(?<=(for\s)).+(?=\sfrom)).+(?P<host>(?<=(from\s)).+(?=\sport)).+(?P<port>(?<=(port\s))\d{1,})
+((?<=\D)|(?<=^))(0+)(?=[1-9]+)|((?<=\D0)0+(?=\D))|((?<=^0)0+(?=\D*$))
+><w:p .*(?<=\[TICKET_LIST]).*<\/w:p><
+(?<=\"access_token\":\s\")[^\"]*
+\[(\w+)(?=\.)\.((?<=\.)\w+)\.((?<=\.)\w+)(?:\s*)(==|!=|>|<|=|\+=|-=)(?:\s*)(.+?)(?:\s*)(?=\])(?:\s*)\{(.+?(?=\}))\}
+(?<=">)(.*)(?=<)
+(?s)(?<=start).*?(?=end)
+(?<=(?:[?&]))foo(?:=([^&#]+))?\b
+(?<=v=|v\/|embed\/|be\/)([^&?]+)
+(?<=^|\n)(?P<spacer>[[:blank:]]*(?:\{[^{]*(?&spacer)[^}]*\}[[:blank:]]*)[[:blank:]]*|[[:blank:]]+)(\d+)\.(?&spacer)(?:([1-8])?([a-h])([1-8])([+-<>])([1-8]*)|([FSC])?([a-h])([1-8]))(?:(?&spacer)(?:([1-8])?([a-h])([1-8])([+-<>])([1-8]*)|([FSC])?([a-h])([1-8])))?(?&spacer)?(?=$|\n)
+(?<=\[)(?!:scroll:)(?!\d+)(?P<title>[A-Z][\w\s\,\-\?\:\']+)(?=\])
+^(?P<email>(?P<local>(?![\.\ ]+)(?=[^@]+)(?:(?:(?:[\#\!\$\%\&\'\*\+\-\/\=\?\^\_\`\{\|\}\~\p{L}\p{N}])*(?:(?<=\.|^)(?:\"(?:[^\"]|(?<=\\)[\"\(\)\,\:\;\<\>\@\[\\\]])*\")\.?)*(?:[\#\!\$\%\&\'\*\+\-\/\=\?\^\_\`\{\|\}\~\p{L}\p{N}])*)))(?<!\.)\@(?P<host>(?:[\w\-]+?\.?)*|\[[\w\d\:]*\])(?![\.\ ]+))$
+(?<=\\x[ ](?P<modifier>[-,+,?])[ ])(?P<string>.+)(?=\\x\*)
+(?<=\\f[ ](?P<modifier>[-,+,?])[ ])(?P<string>.+)(?=\\f\*)
+(?<=\b)\w([\w\.\-_0-9])*(@| at )[\w0-9][\w\-_0-9]*((\.| DOT )[\w\-_0-9]+)+(?=\b)
+(?:(?<=^)|(?<=\D))((00|\+)?55(\s|\.|-)*)?((\()?0?\d{2}(?(5)\)|)(\s|\.|-)*)?(9(\s|\.|-)*)?\d{4}(\s|\.|-)*\d{4}(?=\D|$)
+(?<=“|’|‘|”)\s(?!\w)
+(?P<lname>(?<=^)(?:.*?)(?=, )).*(?P<fname>(?<=, )(?:.*?)(?= \<)).*(?P<email>(?<=\<)(?:.*?)(?=\>))
+[^.?!]*(?<=[.?\s!])was exactly(?=[\s.?!])[^.?!]*[.?!]
+(?<=(F\H)).*[\t\n\s\/]*
+(?<=(F\H)).*[\t\n\s\/]*
+(?<=[A-Z])(?=[A-Z][a-z])|(?<=[^A-Z])(?=[A-Z])|(?<=[A-Za-z])(?=[^A-Za-z])
+(?<=\()\s+|\s+(?=\))
+(?<=<div)(\s*.*\s*)(?=<\/div>)
+"([^"]*)"|(?<=,|^)([^,]*)(?=,|$)
+((?<=[ )()']where)|(?<=[ )()']and)|(?<=[ )()']o[rn])|(?<=[ )()']if)|(?<=[ )()']when)|(?<=having))+(\s|\()+[)(,'+_¥£$#\@\w\[\]\.\s]+like\s*\(?\s*(('((\w|%|'{2})*)')\s*\+)*\s*@p\d+\s*(\+('%'))*\)
+(?<=method ).+?(?=\.)
+(?<=params\.).*?(?=\])
+"(?<=/countsfrom=)(.*)(?=&instrument=1&levels=1&levels=2&levels=3&to=)(.*)"
+(^[A-Za-z]|(?<=[^\w])[A-Za-z]|(?<![A-Z])[A-Z])
+(?<=\()[^\(\]]+(?=\))
+((?<=[\w+](?<!n)))
+(?<!\s{1}Jr[.!?]|\s{1}Mr[.!?]|\s{1}Mrs[.!?]|\s{1}Ms[.!?]|\s{1}Dr[.!?]|\s{1}Prof[.!?]|\s{1}Sr[.!?]|\s{1}vs[.!?]|\s{1}etc[.!?]|\s{1}no[.!?])(?<=[.?!])\s+(?=[a-z])
+(?<=## )(.*?)(?= ##)
+(?<=## )(.*?)(?= #)
+(?=(?:[A-Za-z\.#\*]))((?<=(?:[\s])|(?<=^)))[a-z-\[\]:{1,2}#\.\*]+(\s+)?{
+(?<=\\W|^)(?:within|in)\s*([1-9][0-9]{0,5})\s*(m?|min?|mins?|minutes?|h?|hours?|d?|days?)(?=\W|$)
+(?<="title":")[^"]*
+#Modifiers                              << NOT GOING TO DO THESE HERE.#∂ Before After Until in?Between#∂ onwards#Time-Time << Don't need as both times will match#Lonely HOURS List: 10,time or 12      <not going to do this# - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - -  # - - - - - - - - - - - BIG TIME REGEX - - - - - - - - - - - - #LONELY HOURS#These guys are just \d\d. So we identify them through proximity to known times(?:#Boundary Lookaround(?<=[ ]|^|[^\d\.:\r\n$£-])#hour - you always have hours(?:1[0-9]|2[0-4]|0?[0-9])(?:#Hour [or / to - , and]#People don't say "12pm or 3?" much. Build it if it comes up.(?:[ ]? (?:or|[,/-]|to|and) [ ]?))){0,3}#TIME BASICS:#Basic times that are definitely times. Have to come last so longer strings match first.#Boundary Lookaround (BREAK THIS FOR THE LONELY NUMBERS)#      (?<=[ ]|^|[^\d\.:\r\n$£-])#hour - you always have hours( (?:1[0-9]|2[0-4]|0?[0-9]) )#Clarifier. Minutes, AM|PM, a TimeZone or a combination.(#Minutes(?:[ ]?[\:\. ][ ]?) ([0-5][0-9])#AM|PM| (?:[ ]?[ap]m|[ ]?o\'?[ ]?clock)#TimeZones| (?:[ ]? (?:PS?T|GMT|∆USA|∆US|ET|BST|∆UK         |UK[ ]?[Tt]ime|[Ee]astern[ ]?[Tt]ime|[Pp]acific[ ]?[Tt]ime|[Cc]entral[ ]?[Tt]ime         |∆UTC|ACDT|ACST|ACT|ACT|ADT|AEDT|AEST|AFT|AKDT|AKST|AMST|AMT|AMT|ART|AST|AST|AWDT         |AWST|AZOST|AZT|BDT|BDT|BIOT|BRST|BRT|BST|BST|BST|BTT|CCT|CDT|CDT|CEDT|CEST|CET         |CHADT|CHAST|CHOT|ChST|CHUT|CIST|CIT|CKT|CLST|CLT|COT|CST|CST|CST|CST|CST|CT|CVT         |CWST|CXT|DAVT|DDUT|DFT|EASST|ECT|ECT|EDT|EEDT|EEST|EET|EGST|EGT|EIT|EST|EST|FET         |FJT|FKST|FKST|FKT|FNT|GALT|GAMT|GFT|GILT|GIT|GMT|GST|GST|GYT|HADT|HAEC|HAST|HKT         |HMT|HOVT|HST|IBST|ICT|IDT|IRDT|IRKT|IRST|IST|IST|IST|JST|KGT|KOST|KRAT|KST|LHST         |LHST|LINT|MAGT|MART|MAWT|MDT|MET|MEST|MHT|MIST|MMT|MSK|MST|MST|MST|MUT|MVT|MYT|NCT         |NDT|NFT|NPT|NST|NT|NUT|NZDT|NZST|OMST|ORAT|PDT|PETT|PGT|PHOT|PKT|PMDT|PMST|PONT         |PST|PST|PYST|PYT|RET|ROTT|SAKT|SAMT|SAST|SBT|SCT|SGT|SLST|SRET|SRT|SST|SST|SYOT         |TAHT|THA|TFT|TJT|TKT|TLT|TMT|TOT|TVT|ULAT|USZ1|UYST|UYT|UZT|VET|VLAT|VOLT|VOST         |VUT|WAKT|WAST|WAT|WEDT|WEST|WET|WST|YAKT)\b )#Now enable the combo. Note ideally we would say "use one of each" e.g., =/10:234210){1,3}#Lonely HOURS: List of Military times <Here we have enough info to allow no ":".|( (?:#Boundary Lookaround(?<=[ ]|^|[^\d\.:\r\n$£-])#Must open with a military time, no "445" must be "0445"(?:1[0-9]|2[0-4]|0[0-9])(?:[ ]?[0-5][0-9][ ]?)#or and(?:[ ]? (?:or|[,/-]|to|and) [ ]?)#2-4 military times, including the closing one){1,3}#Must also end with a military time(?:1[0-9]|2[0-4]|0[0-9])(?:[ ]?[0-5][0-9][ ]?))#Post rationalise the boundary criteria (?:\b|$|,\b)
+(?<=<td colspan=\\"1\\">fs-newarch-proxy</td> <td colspan=\\"1\\">)(.*?)(?=</td>)
+(?<="value":")(.*?)(?=",)
+((?<=\.|^)[a-zA-Z]|[A-Z])
+(.*)(?<=,)((.\n|.)*)(\D\d{6}\D)
+(?<=[\.,; >])#(?!\d)(\w+)
+(?<=FROM|JOIN|OJ)[\s\(]+((((?!SELECT\b)`?[\w_]+`?)(\s*\)?,\s*)*)+)
+(?<=FROM|JOIN|OJ)[\s\(]+(((`?[\w_]+`?)(\s*,\s*)*)+)
+(?<=;)"(([^;]?)([\r\n]?))+"(?![1-9;])
+(?<=;)"(([^;]?)([\r\n]?))+"(?![1-9;])
+(?<=\W|^)([^\s](?=[^\s]*[^a-z\s\;\,\.\:\/\-])[^\,\s]*(?<=[^\.\;\)\:\/]))(?=\W|$)
+((?:(?<=\s|\W|\A))@(\w+))
+(?<=by )(\w+) (\w+)
+((?<=[\?\&])foo\=[^\&\#]*)|((?<=[\?\&])foo(?=[\&\#]))|((?<=[\?\&])foo(?!.))
+((?<=[\?\&])foo\=[^\&\#]*)|((?<=[\?\&])foo(?=[\&\#]))|((?<=[\?\&])foo(?!.))
+(?<=^|\s)(@[\w.]+)(?<!\.)
+(?<=.).(?=[^@]*?.@)|(?:(?<=@.)|(?!^)\G(?=[^@]*$)).(?=.*\.)
+(?<=P{)(.*\n?)(?=})
+(?<=<<)(.*?)(?=>>)
+(?<=\ id\ \|.)(([a-zA-Z0-9_]{8})-([a-zA-Z0-9_]{4})-([a-zA-Z0-9_]{4})-([a-zA-Z0-9_]{4})-([a-zA-Z0-9_]{12}))
+(?i)(?:(?<=^|\s)(?=\S)|(?<=\S|^)(?=\s)){0}(?:(?<=\S)(?=\s|$)|(?<=\s)(?=\S|$))
+((?<=The|\s)(?:\s+?\w+)+|([\w\s-]*[^\d(HD, 1080p\)|\(HD, 720p\)|\(SD, 480p\)][^.flv|gif|mkv|mpeg|mpg|mov][^)(])+)
+(?<=#)[^ ]*
+^\#\s* # must start with "#" to indicate beeing a repo.(?:@?@?(?!-)(?P<user>(?:[a-zA-Z0-9]|-(?!-))+[a-zA-Z0-9])(?![^\x00-\x7F]))? # Username part(?:(?<=\#)|[/\s\.](?<!\v))(?P<repo>[a-zA-Z0-9_.-]+)$
+(?<=\n)\[.*\]\n+(?=\[)
+^(?:(?!\-)(?:(?!\:\.)[a-zA-Z0-9\-])*[^-]\.)*(?:(?!\-)(?:[a-zA-Z0-9\-]*(?<=[a-zA-Z])[0-9]*)+(?<!\-))$
+(?<=than\s)better(?=\sabsolutely)
+(?<=than\s)better(?=\sabsolutely)
+(?<=than\s)better(?=\sabsolutely)
+(?<=\>).+(?=\<)
+(?<=This is).*?(?=sentence)
+(?<=\/|\\|v|\\\/)(\d.+\d.+\d+[a-zA-Z0-9-]*)$
+[^\s]\S+(?<=вич)
+(?<=.).(?=[^@]*?.@)|(?:(?<=@.)|(?!^)\G(?=[^@]*$))(.)(?=.*\.)|(?:(?<=\.)(?=[^.]+$)|(?!^)\G(?=[^@.]*$))[^.](?!$)
+(?<=\.\/\d{4}-\d{2}-\d{2}\/)[^.]+
+(?<=\d{6})(\d+)(?=\d{4})
+(?=(?:^\w))([A-Za-z ]+)(?<=[^ ])$
+([^\w\+ ]|_|(?<=[^ ])\+|\+(?=[^\w]))
+^(.*(?<=\\))?+(.*$|$)
+(?:^|(?<=\/))(?:[^\s.\/]+|\.(?!\.\/))++\/\.\.\/
+(?<=\d)(?=(\d{3})+(?!\d))
+(?<=\n|^|\.|\/)[\w\-]+\.[\w\-]+(?=\n|\/|$)
+(?<=file\s).*?(?=\s*>)
+[\[](.*?)\s|(?<=^|\s)([^=\s]+)="((?:[^\\"]|\\.)*)
+(?<=<p>).*?(?=<\/p>)
+(?<=\\)[^\\]+(?=]$)
+(?<=Zeus_Web_Version = )\d.[^\s]+
+(?<=https://www.facebook.com/groups/).*?(?=/)
+(?<=gs/).*?(?="})
+^(?=(?!(.)\1)([^\DO:105-93+30])(?-1)(?<!\d(?<=(?![5-90-3])\d))).[^\WHY?]$
+(?<=[a-zA-Z])(?=[A-Z])
+^(.+?)[\.\s][Ss]?((?:(?<=[Ss])\d)?\d)[\.\s]?[EeXx]?(\d{2})(?:[\s\.](REPACK))?([\s\.].*)?\.(avi|mp4|mkv|wmv|mpg)$
+(?<=pwd(?:=|:))[^&,\v]*
+(?:^|(?<=\s))(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]))(?=\s|$)
+# SETTINGS(?<ANCHORED>){1}(?<NO_SIGN_DUP>){1}(?<PYTHON_POW>){1}(?<COMMENTS>){0}(?(ANCHORED)^(?&s)*)(?(DEFINE)(?<s>(?(COMMENTS)(?:\s+|\/\*[\s\S]*?\*\/|\/\/.*|\#.*)|\s+))(?<sign>(?(NO_SIGN_DUP)(?<=(?<_>[\s\S]))(?!(?P=_)))[-+])(?<base>\d+(?:\.\d*)?|\d*\.\d+)(?<exp>(?:[eE][+-]?\d+))(?<num>(?&sign)?(?&base)(?&exp)?(?!\w))(?<bracketed>\((?&s)*(?&expr)(?&s)*\))(?<atom>(?&num)|(?&bracketed))(?<pow>(?&atom)(?:(?&s)*(?(PYTHON_POW)(?:\^|\*\*)|\^)(?&s)*(?&pow))*)(?<mul>(?&pow)(?:(?&s)*[*\/](?&s)*(?&mul))*)(?<add>(?&mul)(?:(?&s)*[+-](?&s)*(?&add))*)(?<expr>(?&add)))(?&expr)(?(ANCHORED)(?&s)*$)
+(?<=^[0-9]{4}-V[0-9]{4}-[a-zA-Z]{2}-)[a-zA-Z]{3}(?=-[0-9]{4})
+{.+|(?<=var)\s+([^\s]+)\s*=\s*['"]([^'"]+?)['"];
+(?<=Rx\s)([0-f0-9]+)\s([0-f0-9]+\s)+
+^(?:(((([^"\n]|(['\\]"))*?)((?<=[^\'])")){2})*[^"\n]*)(\/\/.*?)$
+(?<=\[)[^\]]+
+(?<=v(\=|\/))([-a-zA-Z0-9_]+)|(?<=youtu\.be\/)([-a-zA-Z0-9_]+)
+(?<=connectionId=)\d+
+(?<=connectionId=)\d+
+((?<=^|\s)[a-z])|([a-z](?:$|\s))
+((?:(?<=\s)|)@(\w+))
+ (?: \A | (?<= [\s\xA0\(\[\{]))(?P<MODEL>(?:(?:[A-ZА-Я]{4,6} (?! [\s\xA0] )|(?! (?: D-Link | D-LINK | Asus | ASUS | USB ) [\s\xA0] )[A-ZА-Я]{1,4} (?: \d [A-ZА-Я\d]{0,4} )?|\d{2,5} (?= [\-/] ))(?:(?! \s\d{1,2} - (?: Port | PORT ) )[\s\xA0\-/\.](?:\d{1,4} [A-ZА-Я\d]{0,4}|[A-ZА-Я]{1,4} [\-/]? \d{1,4} \w{0,8}|[A-ZА-Я] \w{3,6})(?: [\-/] [A-ZА-Я\d]{1,3} )?){1,4}|\d{1,4}(?! [\s\xA0] USB [\s\xA0] )[\s\xA0]?(?! [kкKК]? (?: [WВAА] | В[Тт] | W[Tt] | Ватт | Watts? | Амп | Amp | Ампер | Ampers? ) \b )[A-ZА-Я] [A-ZА-Я\d]{0,5}|[A-ZА-Я]{1,4} \d [A-ZА-Я\d]{0,10})(?:[\-/] \w{1,6} (?: [\-/] \d{1,3} )?|(?: [\s\x0A] [A-ZА-Я\d]{1,5} (?: [\-/] [A-ZА-Я\d]{1,5} ){0,2} ){1,3})?(?: \+ | [\s\xA0] (?: Plus | PLUS | Плюс | ПЛЮС) )?(?: [\s\xA0]? \( [A-ZА-Я\d\-/]{1,18} \) )?)(?= \Z | [\s\xA0,\.\)\}\]] | (?<= \) ) [:;\-/] )
+ (?: \A | (?<= [\s\xA0\(\[\{]))(?P<MODEL>(?:(?:[A-ZА-Я]{4,6} (?! [\s\xA0] )|(?! (?: D-Link | D-LINK | Asus | ASUS | USB ) [\s\xA0] )[A-ZА-Я]{1,4} (?: \d [A-ZА-Я\d]{0,4} )?|\d{2,5} (?= [\-/] ))(?:(?! \s\d{1,2} - (?: Port | PORT ) )[\s\xA0\-/\.](?:\d{1,4} [A-ZА-Я\d]{0,4}|[A-ZА-Я]{1,4} [\-/]? \d{1,4} \w{0,8}|[A-ZА-Я] \w{3,6})(?: [\-/] [A-ZА-Я\d]{1,3} )?){1,4}|\d{1,4}(?! [\s\xA0] USB [\s\xA0] )[\s\xA0]?(?! [kкKК]? (?: [WВAА] | В[Тт] | W[Tt] | Ватт | Watts? | Амп | Amp | Ампер | Ampers? ) \b )[A-ZА-Я] [A-ZА-Я\d]{0,5}|[A-ZА-Я]{1,4} \d [A-ZА-Я\d]{0,10})(?:[\-/] \w{1,6} (?: [\-/] \d{1,3} )?|(?: [\s\x0A] [A-ZА-Я\d]{1,5} (?: [\-/] [A-ZА-Я\d]{1,5} ){0,2} ){1,3})?(?: \+ | [\s\xA0] (?: Plus | PLUS | Плюс | ПЛЮС) )?(?: [\s\xA0]? \( [A-ZА-Я\d\-/]{1,18} \) )?)(?= \Z | [\s\xA0,\.\)\}\]] | (?<= \) ) [:;\-/] )
+("(?=-?\d*\.?\d+E[+-]?\d+)|(?<=E9)")
+(\/\*(.|\s)*?\*\/|(\n|\t|\r|\v|\f|\a){1,}|\s(?=\s)|(?<=})\s|(?<={)\s|\s(?={)|\s(?=})|(?<=;)\s|[[:blank:]](?=;)|(?<=:)[[:blank:]]|(?<=,)[[:blank:]])
+(.+?)(?<=href=")(.+?)(?=["│ ])
+(?(DEFINE)(?<protocol> (?<=^|[^a-z]) [a-z]+? : )(?<domain> (?:[a-z\-]+\.)+[a-z\-]+ )(?<ip> (?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?) )(?<port> (?<!\s):\d+(?=\/|$|\s))(?<pathquery>[A-Za-z\d\!\*\(\)\;\:\@\&\=\+\$\,\/\?\#\[\]\%\{\}\|\\\^\`\~]+)(?<url> (?&protocol) (?: (?:\/\/) (?: (?&domain) | (?&ip) ) (?&port)? )? (?&pathquery)))(?&url)
+"(?:[^"]|"")*"|[^,\n]+|(?=,)(?<=,)|^|(?<=,)$
+(?<=\||\A|\n)(dev\.test\.com)(?=\||Z|\n)
+((?=\b\d{3}\b)0?1?2?3?4?5?6?7?8?9?(?<=\d{3}))
+(?:(?<=\.)|^)(?:0+)(?=\d)
+(?<=[.?!;])\s+(?=\p{Lu})
+^(\d+')?(?:(?<=')\s*-\s*)?(\d+(?:\s*\d+\/\d+|\.\d+)?")$
+(?<=\()(?:[^()]+|\([^)]+\))+(?=\))
+(?<="3h":|"3h":)((d+)|\d+\.\d+)(?=)
+(?<=p)\d+|(?<=mim)\d+
+((?<=\[client\]\n)[\w\n\s=#\/.]*(?=\[))
+(?<=\s)([[:alnum:]]*\-?[[:alnum:]]*)(?=\s)
+(?:(?<=^)|(?<=,)) # start of line or comma(?:(?!$)\s)* # skip whitespace"? # skip opening quote mark((?<=").*?(?=") # capture value in quotes| # or((?!,)\S)* # capture just value)"? # skip closing quote mark(?:(?!$)\s)* # skip whitespace(?=$|,) # command or the end of the line
+(?<=This is).*?(?=sentence)
+(?<!ca.)(?<!vs.)(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<![A-Z][a-z][a-z]\.)(?<![A-Z][a-z][a-z][a-z]\.)((?<=[.!?])|(?<=[.!?][\'"]))[\s]{1,20}((?=[A-Z])|(?=[0-9])|(?=\"))
+(?:(?<=^)|(?<=\D))((00|\+)?55(\s|\.|-)*)?((\()?0?\d{2}(?(5)\)|)(\s|\.|-)*)?(9(\s|\.|-)*)?\d{4}(\s|\.|-)*\d{4}(?=\D|$)
+(?<=^|[^a-zA-Z0-9])\Q$text\E(?=$|[^a-zA-Z0-9])
+(?<=<name>Number of Failed BGPs</name>\n<value>)[^<]+
+(?<="signature":")[^"]+
+(?<=\s)[+-]?\d+(?:.\d)?\d*
+(?<=<FilesMatch "test">)((.|\n)*?)(?=<\/FilesMatch>)
+(?<=(?:\[embed\])|(?:\[embed\]\s)|(?:))(https?:\/\/)(:?www\.)?(:?youtube\.com\/watch|youtu\.be\/)([\w\?=\&]+)(?=(?:\[\/embed\])|(?:\s\[\/embed\])|(?:))
+(?<=\[)[^\[\]]+(?=\])
+(?:(?<!\\)|(?<=\\\\))(\")
+\bvari?((?<=i)a)?((?<=a)b)?((?<=b)l)?((?<=l)e)?\b
+(?<=TELEPHONE:)[0-9]+
+(?=<[^<]*\s+title="([^"]*)")|<\s*a[^>]*>([^<]*)(?:[^\/]*[^a]*[^>]*)(?<=[>])([^<]*)
+(?<=\/\/:)[\r\n]*(.*?)(?=[\r\n]*\/\/\~[\r\n]*\*)
+(?<=\b(create|alter|drop)\s+(procedure|proc|table|trigger|view|function)\b\s\[dbo\].)\[.*?\]
+(?<=\d\/|\.be\/|v[=\/])([\w\-]{11,})|^([\w\-]{11})$
+\d+[.,]?(\d+\s*k?|x{2,3})(?=\s*(original|actual|highway)?\s*miles)|(?<=mile(s|agex?):?\s*(is|~)?\s*)\d+[.,]?(\d+(\s*k)?|x{2,3})|(\d+(\s*K)|x{2,3})
+(?<=[\?|\&])(?<key>[^\?=\&\#]+)=?(?<value>[^\?=\&\#]*)
+<script(?:(?:.*(?<src>(?<=src=")[^"]*(?="))[^>]*)|[^>]*)>(?<content>(?:(?:\n|.)(?!(?:\n|.)<script))*)</script>
+(?<=(?:\n|:|^)\s*?)(if|end\sif|elseif|else|for\seach|for|next|call|class|exit|do|loop|const|dim|erase|option\s(?:explicit|implicit)|(?:public|private|end)\ssub|(?:public|private|end)\sfunction|private|public|redim|select\scase|end\sselect|case\selse|case|set|while|wend|with|end\swith|on\serror\sgoto\s0|on\serror\sresume\snext|exit|end\sclass|property\slet|property\sget|property\sset)(?=\s|$)
+(?<=(?:\n|:|&|\()\s*?)(Application\.Unlock|Application\.Lock|Application\.Contents\.RemoveAll|Application\.Contents\.Remove|Request\.BinaryRead|Request\.ClientCertificate|Request\.Cookies|Request\.Form|Request\.QueryString|Request\.ServerVariables|Request\.TotalBytes|Response\.AddHeader|Response\.AppendToLog|Response\.BinaryWrite|Response\.Clear|Response\.End|Response\.Flush|Response\.Redirect|Response\.Write|Response\.Buffer|Response\.CacheControl|Response\.Charset|Response\.CodePage|Response\.ContentType|Response\.Cookies|Response\.Expires|Response\.ExpiresAbsolute|Response\.IsClientConnected|Response\.LCID|Response\.PICS|Response\.Status|Server\.ScriptTimeout|Server\.CreateObject|Server\.Execute|Server\.GetLastError|Server\.HTMLEncode|Server\.MapPath|Server\.Transfer|Server\.URLEncode|Session\.Abandon|Session\.Contents\.Remove|Session\.Contents\.RemoveAll|Session\.CodePage|Session\.Contents|Session\.LCID|Session\.SessionID|Session\.StaticObjects|Session\.Timeout|Application|Session|Request)(?=\s|\.|\()
+(?<=\s|:|&|\()(Abs|Array|Asc|Atn|CBool|CByte|CCur|CDate|CDbl|Chr|CInt|CLng|Conversions|Cos|CreateObject|CSng|CStr|DateAdd|DateDiff|DatePart|DateSerial|DateValue|Date|Day|DerivedMath|Escape|Eval|Exp|Filter|FormatCurrency|FormatDateTime|FormatNumber|FormatPercent|GetLocale|GetObject|GetRef|Hex|Hour|InputBox|InStr|InStrRev|Int|Fix|IsArray|IsDate|IsEmpty|IsNull|IsNumeric|IsObject|Join|LBound|LCase|Left|Len|LoadPicture|Log|LTrim|RTrim|Trim|Maths|Mid|Minute|Month|MonthName|MsgBox|Now|Oct|Replace|RGB|Right|Rnd|Round|ScriptEngineBuildVersion|ScriptEngineMajorVersion|ScriptEngineMinorVersion|ScriptEngine|Second|SetLocale|Sgn|Sin|Space|Split|Sqr|StrComp|String|StrReverse|Tan|Timer|TimeSerial|TimeValue|Time|TypeName|UBound|UCase|Unescape|VarType|WeekdayName|Weekday|Year)(?=\()
+(?<=[\s=&\+\-,\(\)])(True|False|Nothing|Empty|Null)(?=[\s=&\+\-,\(\)])
+(?<=\s)(And|Or|Eqv|Imp|Is|Mod|Not|Xor)(?=\s)
+(?:\s*)(?<=[-|/])(?<name>\w*)[:|=]("((?<value>.*?)(?<!\\)")|(?<value>[\w]*))
+^(((?:(?:f|ht)tps?(?!\:\/\/[-\.\w]+@)|mailto(?=\:\/\/[-\.\w]+@))\:\/\/)?(?:((?:(?:(?:2(?:[0-4]\d|5[0-5])|[01]?\d?\d))(?:\.(?:2(?:[0-4]\d|5[0-5])|[01]?\d?\d)){3})|(?:(?:[a-zA-Z0-9](?:[-\w]*[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}(?:(?:\/[-\w]+(?=\/))*)?)|(?:[0-9a-zA-Z](?:[-.\w]*[0-9a-zA-Z])?@(?:[0-9a-zA-Z](?:[-\w]*[0-9a-zA-Z])?\.)+[a-zA-Z]{2,6}(?![\/\?])))(\/[-\w]+)?(?:(?<=\w)\.([a-zA-Z0-9]{2,4}))?(?:(?<=\w)\?([a-zA-Z][-\w]*=[-\w]+(?:&[a-zA-Z][-\w]*=[-\w]+)*))?))$
+(?<=,)\s*(?=,)|^(?=,)|[^\"]{2,}(?=\")|([^,\"]+(?=,|$))
+^(?:(?:[^@,"\[\]\x5c\x00-\x20\x7f-\xff\.]|\x5c(?=[@,"\[\]\x5c\x00-\x20\x7f-\xff]))(?:[^@,"\[\]\x5c\x00-\x20\x7f-\xff\.]|(?<=\x5c)[@,"\[\]\x5c\x00-\x20\x7f-\xff]|\x5c(?=[@,"\[\]\x5c\x00-\x20\x7f-\xff])|\.(?=[^\.])){1,62}(?:[^@,"\[\]\x5c\x00-\x20\x7f-\xff\.]|(?<=\x5c)[@,"\[\]\x5c\x00-\x20\x7f-\xff])|"(?:[^"]|(?<=\x5c)"){1,62}")@(?:(?:[a-z0-9][a-z0-9-]{1,61}[a-z0-9]\.?)+\.[a-z]{2,6}|\[(?:[0-1]?\d?\d|2[0-4]\d|25[0-5])(?:\.(?:[0-1]?\d?\d|2[0-4]\d|25[0-5])){3}\])$
+(?<=\d{7}_).+((?=\x5B\d\x5D)|.{3})
+/(?<=[^a-zA-Z0-9])((\+351|00351|351)?)(2\d{1}|(9(3|6|2|1)))\d{7}(?=[^a-zA-Z0-9])/
+\A[^,"]*(?=,)|(?:[^",]*"[^"]*"[^",]*)+|[^",]*"[^"]*\Z|(?<=,)[^,]*(?=,)|(?<=,)[^,]*\Z|\A[^,]*\Z
+(?<=<(\S|\s)*)((?<=(href=('|")+))|(?<=(href=))[^('|")])([^'>"\s)]*)(?=('|"|[\S])?)
+(?<=<[\/?]?)\w+(?::\w+)?
+@"([^"]|["]{2})*"|".*?(?<=[^\\]|[\\]{2})"
+(?<key>[^\s]+(\s\w)*)(?=([\s]*:[\s]*))\2(?<=\2)(?<value>\b[^,:]+\b)
+string pattern = @"(?<=<html>).(\n|\r|[^<]|<(?!/html>))*"
+\s*[;,]\s*(?!(?<=(?:^|[;,])\s*"(?:[^"]|""|\\")*[;,]\s*)(?:[^"]|""|\\")*"\s*(?:[;,]|$))
+(?<=>)[A-Z]{2}[\d|\w]{9}\d{1}(?=(<))
+(?<=(\A|,))(?<val>(\w|\W){1})(?=(,|\Z))
+(?<=^|[\s ]+)[^\!\@\%\$\s ]*([\!\@\%\$][^\!\@\%\$\s ]*){2,}(?=[\s ]+|$)
+(?<=<\w+ )(\w+-*\w*=[^>]+\s?)(?=>)
+(?<=<TAGNAME.*>).*(?=</TAGNAME>)
+(?!\bnot\b|\band\b|\bor\b|\b\"[^"]+\"\b)((?<=\s|\-|\(|^)[^\"\s\()]+(?=\s|\*|\)|$))
+(?<=(?:^|\s|,)")[^"]*?(?=")|(?<=\s|^)(?!")[\w\W]+?(?=\s|$)
+(?<=(,|;|:))\s(?=((?:(?!<).)*>))
+^(ht|f)tp((?<=http)s)?://((?<=http://)www|(?<=https://)www|(?<=ftp://)ftp)\.(([a-z][0-9])|([0-9][a-z])|([a-z0-9][a-z0-9\-]{1,2}[a-z0-9])|([a-z0-9][a-z0-9\-](([a-z0-9\-][a-z0-9])|([a-z0-9][a-z0-9\-]))[a-z0-9\-]*[a-z0-9]))\.(co|me|org|ltd|plc|net|sch|ac|mod|nhs|police|gov)\.uk(:\d+)?\/?$
+^(ht|f)tp((?<=http)s)?://((?<=http://)www|(?<=https://)www|(?<=ftp://)ftp)\.(([a-z][0-9])|([0-9][a-z])|([a-z0-9][a-z0-9\-]{1,2}[a-z0-9])|([a-z0-9][a-z0-9\-](([a-z0-9\-][a-z0-9])|([a-z0-9][a-z0-9\-]))[a-z0-9\-]*[a-z0-9]))\.(co|me|org|ltd|plc|net|sch|ac|mod|nhs|police|gov)\.uk$
+(?<BirthMillennium>[23])\x20?(?:(?<BirthYear>[0-9]{2})\x20?(?:(?:(?<BirthMonth>0[13578]|1[02])\x20?(?<BirthDay>0[1-9]|[12][0-9]|3[01]))\x20?|(?:(?<BirthMonth>0[469]|11)\x20?(?<BirthDay>0[1-9]|[12][0-9]|30))\x20?|(?:(?<BirthMonth>02)\x20?(?<BirthDay>0[1-9]|1[0-9]|2[0-8]))\x20?)|(?:(?<BirthYear>04|08|[2468][048]|[13579][26]|(?<=3)00)\x20?(?<BirthMonth>02)\x20?(?<BirthDay>29)\x20?))(?<ProvinceCode>0[1-34]|[12][1-9]|3[1-5]|88)\x20?(?<RegistryDigit>[0-9]{3}(?<GenderDigit>[0-9]))\x20?(?<CheckDigit>[0-9])
+((?i)(?<=\b(^to |^to:|^to;):?)[^:].+?$)+(\b[-\w]{2,40}(\.[-\w]{1,40}){0,5}@[-\w]{2,40}(\.[-0-9a-zA-Z]{2,20}))*\b
+^(0*100{1,1}\.?((?<=\.)0*)?%?$)|(^0*\d{0,2}\.?((?<=\.)\d*)?%?)$
+(?<=(\s|-|\/|\\|\())([A-G][b#]?[m]?((6\/9|11|13|[679]))?((dim|dom|aug|sus|min|maj|add|no|m|M|-|\+)(11|13|15|[23456789])?){0,2}([b#\-\+][59]){0,2}(\/[A-G][b#]?)?)(?=(\s|-|\/|\\|\)|$))
+(([Gg]rand)?([Ff]ather|[Mm]other|mom|pop|son|daughter|parent|((p|m)a)|uncle|aunt)s?)|(([cC]ousin)?((?<=[cC]ousin)\s+(?=brother|sister))?(?<siblings>brother|sister)?((?<=brother|sister)s?)?)
+(?<=(?:^|,)")(?:[^"]|"")+
+(?<=[\w\s](?:[\.\!\? ]+[\x20]*[\x22\xBB]*))(?:\s+(?![\x22\xBB](?!\w)))
+(?<=[[]tex[]]).*?(?=[[]/tex[]])
+\b([a-z]+)(?:(?<=emphas|fantas)|(?<!ba|ma|pr|se|s))([iy])z(a(?:bl[ey]|tion(?:|al(?:|ly)|s))|es?|ed|ers?|ing)\b
+\b([a-z]+)(?:(?<=ic|[ai]m|[^a-z]pr|[eiou][tr])|(?<![rd]a|c|gu|m|parad|o|p|r|[acrs]t|v|w))([iy])s(a(?:bl[ey]|tion(?:|al(?:|ly)|s))|e|ed|ers?|(?<!ys)es|ing)\b
+&#x((?=.*[ABCDEF]))*((?=.*[0-9]))*.{2,5};
+(?<=(\n|^))(>\s*)+
+,(?!(?<=(?:^|,)\s*\x22(?:[^\x22]|\x22\x22|\\\x22)*,)(?:[^\x22]|\x22\x22|\\\x22)*\x22\s*(?:,|$))
+^(?ni:(?=\d)((?'year'((1[6-9])|([2-9]\d))\d\d)(?'sep'[/.-])(?'month'0?[1-9]|1[012])\2(?'day'((?<!(\2((0?[2469])|11)\2))31)|(?<!\2(0?2)\2)(29|30)|((?<=((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|(16|[2468][048]|[3579][26])00)\2\3\2)29)|((0?[1-9])|(1\d)|(2[0-8])))(?:(?=\x20\d)\x20|$))?((?<time>((0?[1-9]|1[012])(:[0-5]\d){0,2}(\x20[AP]M))|([01]\d|2[0-3])(:[0-5]\d){1,2}))?)$
+/(?:(?<=^)|(?<=[;:.,|][ ])|(?<=[[('"]))(?:[)]?P\.?O\.?(?:(?i)[ ]?Box)?[ ]{0,2}(?<PO>\d{1,5})[)]?|(?<HouseNumber>(?>(?:(?<NumberException>(?:19[789]|20[0123])\d)|\d+?(?:[-\\\/]\d{1,3})?)(?=(?:[;,]|[-\\\/]?[A-Za-z]\d?)?\s)))(?:(?<DoorSide>[-\\\/]?[A-Za-z]\d{0,2}))?,?\s{0,2}(?>(?:(?:^|[ ]{1,2})(?<StreetPrefix>AU|EI?|GR|H[AW]|JO|K|M[AEM]|N[EOW]?|O[HLMV]|RD|S[EW]?|TE|W)\b)?)(?:(?:^|[ ]{1,2})(?<StreetName>(?:\p{Lu}[-'\p{L}]*?(?:\.?[ ]{1,2}\p{Lu}[-'\p{L}]*?){0,8}?(?>(?<StreetNameIndicator>(?i)BOULEVARD|PLAZA|ROAD|STR(?:ASSE|EET)|WA(?:LK|Y))?)|(?<StreetOrdinal>\d{1,3}(?:[. ]?(?:°|st|[nr]d|th))))\b))(?:(?:(?>[ ]{1,2}(?i)(?<StreetType>A(?:C(?:CESS|RES)|LLEY|NX|PPROACH|R(?:CADE|TERY)|VE(?:NUE)?)|B(?:A(?:NK|SIN|Y)|CH|E(?:ACH|ND)|L(?:DG|VD)?|O(?:ULEVARD|ARDWALK|WL)|R(?:ACE|AE|EAK|IDGE|O(?:ADWAY|OK|W))?|YPASS)|C(?:A(?:NAL|USEWAY)|ENTRE(?:WAY)?|H(?:A(?:NN?EL|SE)?)?|I(?:R(?:C(?:LET?|U(?:IT|S)))?)?|L(?:B|OSE)?|O(?:MMON|NCOURSE|OP|PSE|R(?:[DK]|NER|S[OT])|UR(?:[VS]E|T(?:YARD)?)|VE)?|R(?:ES(?:CENT|T)?|IEF|OSS(?:ING)?)|T[RS]?|U(?:LDESAC|RVE)|V)|D(?:ALE|EVIATION|I[PV]|M|OWNS|R(?:IVE(?:WAY)?)?)|E(?:ASEMENT|DGE|LBOW|N(?:D|TRANCE)|S(?:PLANADE|T(?:ATE|S))|X(?:P(?:(?:(?:RESS)?WA)?Y)|T(?:ENSION)?))|F(?:AIRWAY|I(?:ELDS?|RETRAIL)|L(?:DS?|S)|O(?:LLOW|R(?:D|MATION))|R(?:D|EEWAY|ONT(?:AGE|ROAD)?))|G(?:A(?:P|RDENS?|TE(?:S|WAY)?)|L(?:ADE|EN)|R(?:ANGE|EEN|O(?:UND|V(?:ET?)?))?)|H(?:AVEN|BR|E(?:ATH|IGHTS)|I(?:GHWAY|LL)|L|OUSE|TS|UB|WY)|I(?:NTER(?:CHANGE)?|SLAND)|J(?:C|UNCTION)|K(?:EY|NOLL)|L(?:A(?:NE(?:WAY)?)?|DG|IN(?:E|K)|N|O(?:O(?:KOUT|P)|WER)?)|M(?:A(?:LL)?|DWS?|E(?:A(?:D|NDER)|WS)|L|NR|OT(?:EL|ORWAY))|NO(?:OK)?|O(?:L|UTLOOK|V(?:ERPASS)?)|P(?:A(?:R(?:ADE|K(?:LANDS|WAY)?)|SS|TH(?:WAY)?)?|DE|I(?:ER|[KN]E)|KW?Y|L(?:A(?:CE|ZA)|Z)?|O(?:CKET|INT|RT)|RO(?:MENADE|PERTY)|T|URSUIT)?|QUA(?:D(?:RANT)?|YS?)|R(?:A?(?:MBLE|NCH)|DG?|E(?:ACH|S(?:ERVE|T)|T(?:REAT|URN))|I(?:D(?:E|GE)|NG|S(?:E|ING))|O(?:AD(?:WAY)?|TARY|U(?:ND|TE)|W)|R|UN)|S(?:CH|(?:ER(?:VICE)?WAY)|IDING|LOPE|MT|P(?:PGS|UR)|Q(?:UARE)?|T(?:A(?:TE)?|CT|EPS|HY|PL|RAND|R(?:EET|IP)|TER)?|UBWAY)|T(?:ARN|CE|E(?:R(?:RACE)?)?|HRO(?:UGHWAY|WAY)|O(?:LLWAY|P|R)|R(?:A(?:CK|IL)|FY|L)?|URN)|UN(?:DERPASS|IV)?|V(?:AL(?:E|LEY)|I(?:EW|S(?:TA)?)?|L(?:GS?|Y))|W(?:A(?:L[KL](?:WAY)?|Y)|HARF|YND)|XING)\b\.?){1,2})??(?>(?:[ ]{1,2}(?<StreetSuffix>E|N[EW]?|S[EW]?|W)\b)?))(?:(?:^|[ ]{1,2}|[;,.]\s{0,2}?)(?i)(?<Apt>(?:[#]?\d{1,5}(?:[. ]{0,2}(?:°|st|[nr]d|th))?[;,. ]{0,2})?(?:(?:(?>(?:A|DE)P(?:AR)?T(?:MENT)?S?|B(?:UI)?LD(?:IN)?G?|FL(?:(?:OO)?R)?|HA?NGS?R|LOT|PIER|RM|S(LIP|PC|T(E|OP))|TRLR|UNIT|(?=[#]))(?:[ ]{1,2}[#]?\w{1,5})??|BA?SE?ME?N?T|FRO?NT|LO?BBY|LOWE?R|OF(?:C|FICE)|P\.?H|REAR|SIDE|UPPR)){1,3}(?:[#;,. ]{1,3}(?:[-.]?[A-Z\d]){1,3})?)[;,.]?)?)(?<CityState>[-;,.[(]?\s{1,4}(?<City>[A-Z][A-Za-z]{1,16}[.]?(?:[- ](?:[A-Z][A-Za-z]{0,16}|[a-z]{1,3})(?:(?:[- ][A-Za-z]{1,17}){1,7})?)?)(?<!\s[ACDF-IK-PR-W][AC-EHI-PR-Z])[)]?(?>(?<State>[-;,.]?\s{1,4}[[(]?(?<StateAbbr>A[LKSZRAP]|C[AOT]|D[EC]|F[LM]|G[AU]|HI|I[ADLN]|K[SY]|LA|M[ADEHINOPST]|N[CDEHJMVY]|O[HKR]|P[ARW]|RI|S[CD]|T[NX]|UT|V[AIT]|W[AIVY])\b[])]?|[-;,.]\s{0,3}[ ][[(]?(?=[A-Z])(?<StateName>(?i)Ala(?:bam+a|[sz]ka)|Ari[sz]ona|Arkan[sz]as|California|Colorado|Con+ec?t+icut+|Delaw[ae]re?|Flori?da|Georgia|Haw+ai+|Idaho|Ill?inois|Indiana|Iowa|Kansas|Kentu[ck]+[iy]|Louis+ian+a|Ma(?:ine|r[iy]land|s+achuset+s)|Mi(?:chigan|n+es+ot+a|s+is+ip+i|s+ouri)|Montana|Ne(?:bra[sz]ka|vada|w[ ]?(?:Hamp?shire|Jerse[iy]|Mexico|York))|[NS](?:o[ru]th|[.])[ ]?(?:Carolina|Dakota)|Ohio|Oklahoma|Oregon|Pen+s[iy]lvan+[iy]a|Rh?oa?de?[ ]?Island|Ten+es+e+|Texas|Ut+ah?|Vermont|Washington|(?:W(?:est|[.])?[ ]?)?Virginia|Wi[sz]cou?nsin|W[iy]om[iy]+ng?)[])]?)?)(?(State)|(?:(?<=[)])|(?! [A-Z]))))?(?>(?:[-;,.\s]{0,4}(?:^|[ ]{1,2})[[(]?(?<ZipCode>(?!0{5})\d{5}(?:-\d{4})?)[])]?)?)(?(State)|(?(ZipCode)|(?(City)(?!)|(?(PO)|(?(NumberException)(?!)|(?(StreetNameIndicator)|(?(StreetType)|(?(StreetPrefix)|(?!)))))))))(?=[]).?!'"\s]|$)(?![ ]+\d)/gmx
+(?mi:(?<=^(([^'"\n])|("[^"]*"))*[\t ])_(?=\s*$))
+(?<=[[]).*?(?=[]])
+(?<=((\s|\n)[XYZABCIJKxyzabcijk]))-?((\d*\.\d+)|(\d+\.\d*)|(\d+\.\d+))(\s|\n)
+((?<=,\s*\")([^\"]*|([^\"]*\"\"[^""]*\"\"[^\"]*)+)(?=\"\s*,))|((?<=,)[^,\"]*(?=,))
+(?<=(?:\\))[a-zA-Z0-9\-\s_]*(?=(?:\.\w*$))
+(?<id>[A-Za-z_][0-9A-Za-z_]*) (?<op>\=) (?:  	(?>	 		(?: 			(?<= 				((\.[0-9]+|[0-9]+(\.[0-9]+)?)([eE][-+][0-9]+)?|[0-9]+) 				| 				[A-Za-z_][0-9A-Za-z_]* 				| 				\) 			) 			(?<op> 				\+ 				| 				\* 			) 			( 				?= 				((\.[0-9]+|[0-9]+(\.[0-9]+)?)([eE][-+][0-9]+)?|[0-9]+) 				| 				[A-Za-z_][0-9A-Za-z_]* 				| 				\( 			) 		) 		| 		( 			?<parenthesis> 			( 				?<= 				\= 				| 				\+ 				| 				\* 				| 				\( 			) 			(?<op>\() 			( 				?= 				((\.[0-9]+|[0-9]+(\.[0-9]+)?)([eE][-+][0-9]+)?|[0-9]+) 				| 				[A-Za-z_][0-9A-Za-z_]* 				| 				\( 			) 		) 		| 		( 			?<-parenthesis> 			( 				?<= 				((\.[0-9]+|[0-9]+(\.[0-9]+)?)([eE][-+][0-9]+)?|[0-9]+) 				| 				[A-Za-z_][0-9A-Za-z_]* 				| 				\) 			) 			(?<op>\)) 			(?! 				((\.[0-9]+|[0-9]+(\.[0-9]+)?)([eE][-+][0-9]+)?|[0-9]+) 				| 				[A-Za-z_][0-9A-Za-z_]* 			) 		) 		| 		(?: 			(?<= 				\= 				| 				\( 				| 				\+ 				| 				\* 			) 			(?: 				(?<const>(\.[0-9]+|[0-9]+(\.[0-9]+)?)([eE][-+][0-9]+)?|[0-9]+) 				| 				(?<id>[A-Za-z_][0-9A-Za-z_]*) 			) 			( 				?=$ 				| 				\) 				| 				\+ 				| 				\* 			) 		) 	)+ 	( 		? 		( 			parenthesis 		) 		(?!) 	) )$
+(?:(?:(?<=[\s^,(])\*(?=\S)(?!_)(?<bold>.+?)(?<!_)(?<=\S)\*(?=[\s$,.?!]))|(?:(?<=[\s^,(])_(?=\S)(?!\*)(?<underline>.+?)(?<!\*)(?<=\S)_(?=[\s$,.?!]))|(?:(?<=[\s^,(])(?:\*_|_\*)(?=\S)(?<boldunderline>.+?)(?<=\S)(?:\*_|_\*)(?=[\s$,.?!])))
+(?<=[\?&])[^=&]+(?=[&]|$)
+^\s*(?<sign>[+-]?)(?:0*?)(?<abs_value>(?:(?:[1-9]\d*)|0)?(?:(?<=\d)\.|\.(?=\d))(?:(?:(?:\d*[1-9])|0)?)?|(?:(?:[1-9]\d*)|0)?)(?:0*)\s*$
+(?<=<embed\s[^<>]*?src\s*?=\s*?\x22)[^<>]*?(?=\x22[^<>]*?>)
+(?<=<param(?=[^<>]*?name\s*=\s*\x22movie\x22)[^<>]*?value\s*=\s*\x22)[^<>]*?(?=\x22[^<>]*?>)
+(?<=\r\n)\[.*\]
+(?<=\r\n)\[.*\]
+(?s)(?<=<a[^>]+?)(?<name>\w+)=(?:["']?(?<value>[^"'>]*)["']?)(?=.+?>)
+(?<=[-{1,2}|/])(?<name>[a-zA-Z0-9]*)[ |:|"]*(?<value>[\w|.|?|=|&|+| |:|/|\\]*)(?=[ |"]|$)
+(?<=<)[^<>]+(?=>)
+/^[46]\s*?((((?=(?>.*?(\:\:))(?!.+\3)))\3?|([\dA-F]{1,4}(\3|\:\b|$)|\2))(?4){5}((?4){2}|(((2[0-4]|1\d|[1-9])?\d|25[0-5])\.?\b){4})|((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))\r?\n/iR
+/^[^\n]*?(\x2E(com|bat|cmd|exe)((?<=[\x25\x22].{4})|(?=(\x2520|\x20|\x26)))|(\x25|\x26\x23x|\x5c)00)/Ri
+/mailto\x3A[^\n]*?(\x2Eexe((?<=[\x25\x22].{4})|(?=(\x2520|\x20|\x26)))|(\x25|\x26\x23x|\x5cx)00)/i
+/^[^\n]*?(\x2E(com|bat|cmd|exe)((?<=[\x25\x22].{4})|(?=(\x2520|\x20|\x26)))|(\x25|\x26\x23x|\x5c)00)/Ri
+/^[^\n]*?(\x2E(com|bat|cmd|exe)((?<=[\x25\x22].{4})|(?=(\x2520|\x20|\x26)))|(\x25|\x26\x23x|\x5c)00)/Ri
+/^[^\n]*?(\x2E(com|bat|cmd|exe)((?<=[\x25\x22].{4})|(?=(\x2520|\x20|\x26)))|(\x25|\x26\x23x|\x5c)00)/Ri
+/mailto\x3A[^\n]*?(\x2Ebat((?<=[\x25\x22].{4})|(?=(\x2520|\x20|\x26)))|(\x25|\x26\x23x|\x5cx)00)/i
+/mailto\x3A[^\n]*?(\x2Ecmd((?<=[\x25\x22].{4})|(?=(\x2520|\x20|\x26)))|(\x25|\x26\x23x|\x5cx)00)/i
+/mailto\x3A[^\n\s]*?(\x2Eexe((?<=[\x25\x22].{4})|(?=(\x2520|\x20|\x26)))|(\x25|\x26\x23x|\x5cx)00)/i
+/^[^\n\s]*?(\x2E(com|bat|cmd|exe)((?<=[\x25\x22].{4})|(?=(\x2520|\x20|\x26)))|(\x25|\x26\x23x|\x5c)00)/Ri
+/\/setup.cgi.*?(?<=[?&])(?>service_name|device|ssid_num|cfKeyWord_Domain|h_skeyword)=[^&$]*?\x3e/iU
+/(?<=[?&])(?>service_name|device|ssid_num|cfKeyWord_Domain|h_skeyword)=[^&]*?[\x3c\x3e]/iP

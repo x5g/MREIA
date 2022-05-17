@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/b1c01a4d-008b-4b0e-ba90-2c1eb3893705
+
+(.)(.).\\\1
+(.).*\1
+[OJ\-]+[NH4]+
+.(.).\1.
+
+(( -)|(- ))((<-)|(->))
+[/N]{2}.*
+.[JS BACH]{2}[345]+
+[KNIGHTS WHO SAY]?.*
+([ X]{4}|[ \-]+4X)
+
+[ -->]+
+[NO/]+[I/O]+
+[J|NKI3S]+
+[^ ][\^ ][NI!]+
+[^<====_DO_THIS]+
+
+[ /]+\|[\\]+[ \+]+
+[^J /]+
+(FOUR)?.*
+(TIMES)?.*

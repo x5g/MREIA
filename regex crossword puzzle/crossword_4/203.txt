@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5bc36124e7e39
+
+[SUIR]{3}
+[SUN][BACK]{2}
+[BY][EC]+
+
+[BLR][BLUR]{2}
+[ICE]K[ACID]
+[BLUE]+
+
+.*
+.*
+.*
+
+.*
+.*
+.*

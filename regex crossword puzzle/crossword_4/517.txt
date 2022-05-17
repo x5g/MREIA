@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/a0b922f8-2555-43b0-927e-d26205a33a17
+
+[A-D]?[^IO]\w$
+[^ABCDEPGHILOPQ]?.?.
+SS|PP|PL|DL
+
+[GOODIE]*
+(AL|OL|L|PL|JU)*
+
+([^A-F])(O)\1?\2?.$
+.*
+
+[E-P]+
+[^A-N][Q-Z]
+.*

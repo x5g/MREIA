@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/56b3ae13ea26b
+
+[NOMADIC]*
+[RENTING]*
+[SNOWY]*[LAND]
+
+[NOMADIC]*
+[WINTER][SUMMER][SPRING]
+[^CANDLE][LIGHT][STAR]
+
+[^WILD].*
+[NICEST]*
+[^RING]*
+
+[MILD][NOT][COLD]
+[^POND]*
+[FIN][FISH].

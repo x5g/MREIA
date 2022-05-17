@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5b046ae0db510
+
+(Y|U)(E|O)(I|W)
+[TMNRUI]*
+.+
+
+[^SZU](T|O|P|L)\1
+(ER|ML|FL)[B-B]
+(IOJ|IPD|ILU|IUM)
+
+.*
+.*
+.*
+
+.*
+.*
+.*

@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/f5e3552b-9c6f-469a-b09f-764cd77d0fde
+
+(\.\.\s|\.\s\.)
+(\s\.\.|\s\.\s)
+(\.\.\.|\.\s\s)
+
+(\s\.\s|\.\s\.)
+(\.\.\s|\.\s\.)
+(\.\s\s|\s\s\s)
+
+.*
+.*
+.*
+
+.*
+.*
+.*

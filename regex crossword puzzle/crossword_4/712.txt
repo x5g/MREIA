@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/56e6fe9ce22d1
+
+[^PYTHON](HE|EH)
+.*(MES|SI)
+([T|TV])+.?\1
+
+(ME|IMT).*
+.*[^AEIOUY]?B+
+[BEST]+
+
+.*
+.*
+.*
+
+.*
+.*
+.*

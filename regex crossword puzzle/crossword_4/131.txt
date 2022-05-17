@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/611f997fb7190
+
+(?!(.)\1)[A-C\s]{2}
+(?!(.)\1)[SHOOT]+
+(?!(.)\1)[MIRACLE]+
+(?!(.)\1).*
+(?!(.)\1)[CLUCK].
+(?!(.)\1)[EGGS]+
+(?!(.)\1)[GONE]+
+
+(?=(.).+\1.+)[A-K]+.
+(?!.*(\w).*\1.+)[AL GORE]+
+
+.*I.*C.*E.*
+(?=(.)..\1.+)[FORE ]+(\w)\2
+
+.*
+.*
+.[ORAL]
+[C ]+
+[^ACT][SURPRISED]
+.*
+G?[^EGO]?G?

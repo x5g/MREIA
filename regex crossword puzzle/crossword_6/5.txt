@@ -1,0 +1,15 @@
+﻿https://regexcrossword.com/playerpuzzles/57c4583abc27d
+
+2 3 2
+
+(?!(.)\1)[SOKKA ]+
+(?!.*([^(Θ ⌅ Θ)\^ ∫ᐠ]).*\1)(?=.?\B.\b.?).*(.).*\2.*
+[APPA OR MOMO]+
+
+(?!(.)\1)[^AZULA][^OZAI]
+(?!.*(.).*\1)[KATARA ]+
+(?!(.)\1)[ZUKO OR TOPH]+
+
+(?!(.)\1)[TY LEE OR MAI]+
+(?!.*([^R]).*\1)[IROH ]+
+(?!(.)\1)[SUKI ]+

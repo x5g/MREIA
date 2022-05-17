@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5dfd81f8044ce
+
+[EBONY]+[CRABBY]*
+[FILL]+K?[PEACE]*
+(ART|IBC|AJK|UUB)
+
+[ALBUM]*
+(AD|CK|BR)[JUICE]
+(RT|CK|A|O)+
+
+.*
+.*
+.*
+
+.*
+.*
+.*

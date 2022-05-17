@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/2a34fd66-9a17-47f7-b409-002d77d40c57
+
+\W
+
+[<script>alert("test");</script>]
+
+[<?php return "test";]
+
+[^!-;]

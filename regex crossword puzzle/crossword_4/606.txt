@@ -1,0 +1,17 @@
+https://regexcrossword.com/challenges/volapuk/puzzles/2
+
+M[\DIP]*
+(\\d|\d.)[\\\/B]
+(Y$|YH|\d$)+
+
+(Y|\d|M)+
+(.H|P|.P)+
+[\dIP\s].+
+
+[^IB][0-3]Y
+^(P|Y)*(PA|\.H$)
+[PA\\d\d]+
+
+(M|A|P)+
+[^2O13]\.\\*(A|P)?
+[HOW2Y]+

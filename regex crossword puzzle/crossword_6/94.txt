@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/5fd91a0dcb8ae
+
+2 3 2
+
+[^D-Q]+
+[SACK]+
+[PRESENT]+
+
+[AEIOU]+
+[CR3SC3NT]+
+[^A-JL-QS-Z]+
+
+[COOKER]+
+[RICE]+
+CA|ND|LE

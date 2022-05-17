@@ -1,0 +1,27 @@
+https://regexcrossword.com/playerpuzzles/5fe0a221c40f0
+
+[IN][O-Z]*[HOUR\s]*
+[WE\sT]+
+[GIYGA\s]+
+[MOTIVE]+
+(?=[HOAXE\s]+$).*
+[PARDON]*[WHAT\sUP]*
+
+(?=[AM I IN?]+$).*
+(?=[VOTER\s]+$).*
+(?=[GOOD BOY!]+$).*
+(.)W?I?D?T?H?\1
+(?![EXPERT]+$).*
+
+[LIMITS].[ARE][MY].[KRYPTONITE]
+[TOS\s]{3}[OVER]+
+(?!A?B?Y\s\s)[^ONE][^LAST][^DAY]...
+[\sWITCH]+
+(?![GREPPER]+$).*
+
+I?V?O?R?Y?T?O{0}\WE{0}R
+\sTA?\b\sWE[ET]?
+(?=.{4}G).*
+.VOTED?
+\sEE?OH[SIX]
+[NERD]{3}[\sLEE]*P

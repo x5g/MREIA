@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5d8483e52fe5f
+
+3 4 3
+
+[BEE|WASP].[^SOUP]
+[ALPINOBOMBUS!][B][^BE]!
+..[BEE]
+
+[BEE!]*
+[EEE][^FLYSPRAY].
+[^HUMMM]+[BUZZ]
+.[BOMBUS]
+
+![HONEY]
+[^B][BUMBLE]*
+^[U][B][B]
+[BOMBINI]!

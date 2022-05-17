@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/570e542adbdc1
+
+.D
+B.
+
+A.
+.E
+
+.*
+.*
+
+.*
+.*

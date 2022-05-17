@@ -1,0 +1,3 @@
+https://regexcrossword.com/playerpuzzles/56a0ac2dd2721
+
+(  ?  !  ^  [  S  F  ]  )  [  F  G  S  ]  (  U  )  R  \  1

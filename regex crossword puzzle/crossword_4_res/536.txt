@@ -1,0 +1,6 @@
+https://regexcrossword.com/playerpuzzles/56fe5c4c0b56d
+
+O  1  1  I
+I  O  0  0
+0  O  I  1
+I  0  1  O

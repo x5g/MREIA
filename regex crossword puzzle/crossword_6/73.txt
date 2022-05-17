@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/587029fc8ed67
+
+1 2 1
+
+[CIGAR]
+[RUM][CARIBBEAN]
+[CORAL]
+
+[PALM TREE][SUN]
+[BEACH][OCEAN]
+
+[BIKINI][SAND]
+[TROPICS][SURFBOARD]

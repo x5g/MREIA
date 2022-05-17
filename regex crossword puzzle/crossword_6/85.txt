@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5d76ac7227b9f
+
+1
+
+[^ABC]
+
+(A|F)
+
+[^CDE]

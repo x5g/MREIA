@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/5ce0f0eb6e3e1
+
+[GIN]+O
+.*(.)\1.*[T-W]
+.*(.)\1.*
+.*(.)\1.*
+
+[M-R]*
+[FREEDOM]*[FRIES]* .*
+[TRIG GERED]*
+(?!.*([TOUT])\1.*)[NOT YOU]*[PEPE!]
+
+.*O(?=.*M).*
+[KEK IS TAN]+
+(4CH|GE|POL|T | )+
+.*
+
+.*
+.[KEK]{2}\w
+[R-T]*
+\w\W{3}

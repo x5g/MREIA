@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5d6c2ac752d6c
+
+w*[A-M]
+
+.?
+
+[^123]
+
+Z?[k-qM-Z]

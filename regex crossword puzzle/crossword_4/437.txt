@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/60ae443a61170
+
+[^QUORA][LIVE]
+OR|RO
+[G-O][GAP]
+
+[O-R]*
+[GOL]+
+
+.*
+.*
+
+.*
+.*
+.*

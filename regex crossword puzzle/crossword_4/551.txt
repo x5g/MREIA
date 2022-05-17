@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/60ab7dcde9e84
+
+[B]?(AF|J|SAD)+
+(SG|GA|K)+
+[^FAST]+
+
+.*
+.*
+.*
+
+[ASH]*(D|F)+
+[FOG]+(A|H)
+[JFK]+L
+
+.*
+.*
+.*

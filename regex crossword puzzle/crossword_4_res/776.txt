@@ -1,0 +1,7 @@
+https://regexcrossword.com/playerpuzzles/81494610-aeb0-4572-8c3d-237b28e5024b
+
+A  E  B  D  C
+B  A  C  E  D
+C  B  D  A  E
+D  C  E  B  A
+E  D  A  C  B

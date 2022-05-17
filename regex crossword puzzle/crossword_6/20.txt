@@ -1,0 +1,9 @@
+﻿https://regexcrossword.com/playerpuzzles/57ac7f608fcb4
+
+1
+
+[☞-⚡]*
+
+[^☟⚡☞⚡]*
+
+(?!\u2621)[☟-☡]

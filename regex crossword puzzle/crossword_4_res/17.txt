@@ -1,0 +1,7 @@
+https://regexcrossword.com/playerpuzzles/0948239d-4d79-4586-94a0-7f0210669543
+
+1  1  0  0  1
+1  1  1  0  0
+0  1  0  1  0
+0  1  1  1  1
+0  0  0  0  1

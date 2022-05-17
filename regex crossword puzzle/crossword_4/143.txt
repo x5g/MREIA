@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/570e557eafc4a
+
+(A|CD)*
+(R).\1
+CD[^RA]
+
+[^AEIOU]*
+(.)\1\1
+[ACR]+
+
+.*
+.*
+.*
+
+.*
+.*
+.*

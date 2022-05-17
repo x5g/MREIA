@@ -1,0 +1,25 @@
+https://regexcrossword.com/playerpuzzles/5a845cb12e311
+
+(?=.*(HEAR|TSI|CKSTU|DENTS))(.)...\2(?! </3 )
+^(?:(A|S)HI(FTY)?(?=N).*)$
+(?!AN UNUSUAL)DIE?T{2}.*
+(?=.*S.O.).*
+[CS ]{3,30}
+
+(?=[EDAM BREATH]+$)(?=[^(GOODBIRTHCONTROL)]+).*
+(?!UNLEASHED A WAVE OF LOW EFFORT 5x5s).*
+(?=[EVIDENCE OF THIS ON TWODEE.ORG]+).*
+[^A.CLASS.DESPERATE.FOR.GRADES]+.*
+(?=.*S(?!AD(?=STUDENTS))).*
+
+.*
+.*
+.*
+.*
+(?=.*E(?!XTRA CREDITS))(?=(M(.))\1(?!\2)).*
+
+.*
+.*
+.*
+(.).\1(?:O)?\1
+(?!.*C)(?!.*([^\s]).*\1)[A SODDING CHEEKY SMILE]+

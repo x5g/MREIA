@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5fd4fe102c92f
+
+[^H-P]*
+(D|R|Y).(F|R|Y)
+(ED|DE|BD|DB).
+
+[GREED]*
+[DEN]*
+[\sBAY]*.
+
+[^E](RE|ED)*
+[^STR](ND|DN)
+[SLAY]*\s
+
+[GENOA]*
+[^A]*
+\w*.

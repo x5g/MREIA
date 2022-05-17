@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/58950c6b6f341
+
+3 4 3
+
+[R3AL]+[ACES]+
+\.*[SOLVE]?[THINGS]+[VERY\s]*[QUICKLY]
+(I|DID|IT|O|N){1,3}(M|Y)+[0WN]?
+
+\??(G|O)*(O|G)?(\s\?)?
+(G|I|F)*[M0R3]*
+[YOU]+(A|R|E|\s)?[NOT]*[ALONE]{1,2}
+[LAS3RTAG\!]{2}
+
+1?([LOVE])+[PLAYING]*[THIS]?
+A?L?I?E?N?\s(M|A|RI|N|ES)+
+[R3A11Y]+[LONG]?[AGO]?
+([0-4])+[YEARS]?(O|F)*[AGE]?

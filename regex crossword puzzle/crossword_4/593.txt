@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/b03575bb-db75-430a-b7ea-13e0fe7f5651
+
+[DUNES]*
+[LALAFELL]+
+\w?\W?\W
+[CULINARY]+
+[COLISEUM][GLADIATOR]
+[EORZEA]\w
+.[^A-LMATERIA]
+
+[SULTANA]{4}\s?M?O?\s+?
+[RAUBAHN][\WALDYNN]{2,}[ALA MHINGO]{1,2}
+
+([^A-MUO-TV-Z])(.)\1\2[\sMO]+
+[UL DAH]*[GENERAL]*[IMMORTAL\sFLAMES]{2}
+
+[^FOLK]+[^HRY]*
+(LA|AL|FE|LL)
+.*
+(CU|LI|N\s|A\s|R\s|I\s|AN)
+[CHAMPION]+
+.[^A-IN-RJU-ZKL]
+\W\w

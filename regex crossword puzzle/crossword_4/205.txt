@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/f7795884-b38e-408f-8da7-b28535a98386
+
+[^K-UC-H]*
+[S-Z]+
+
+[GRILLED][MEAT]
+[AND][FRUIT]
+
+[^F]+
+\w[^NOT]
+
+.*
+.*

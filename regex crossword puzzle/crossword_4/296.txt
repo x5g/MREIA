@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5bd9c4c05ad2f
+
+LK
+[CL]*
+
+L*
+(K|C)*
+
+.*
+.*
+
+.*
+.*

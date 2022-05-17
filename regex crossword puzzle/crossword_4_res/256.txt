@@ -1,0 +1,11 @@
+https://regexcrossword.com/playerpuzzles/1e6aba32-6655-4c81-b33f-d2e3c3841d95
+
+                  [  [   
+                  O  M   
+                  G  !   
+                  ]  ]   
+                  +  +   
+               /  -  -  \
+[  O  M  ]  +  |  O  M  |
+[  G  !  ]  +  |  G  !  |
+               \  -  -  /

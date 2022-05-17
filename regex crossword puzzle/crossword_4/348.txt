@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5a8c88e08267f
+
+[MICRO]+
+(OR|NOR).*
+.(OE|ZY)
+
+[FLEMAL]?.T
+[PC][LORGE]+
+(IS|HAS).*
+
+.*
+.*
+.*
+
+.*
+.*
+.*

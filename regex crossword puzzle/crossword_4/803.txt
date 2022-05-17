@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5d7691adf1050
+
+[^BCDE]
+(B|D)
+[^ABDE]
+B+
+[^ABCD]
+
+ADCBE
+
+.*
+
+.*
+.*
+.*
+.*
+.*

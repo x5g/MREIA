@@ -1,0 +1,11 @@
+https://regexcrossword.com/playerpuzzles/5be5037302d70
+
+A+
+
+A|B
+A|Z
+
+.*
+.*
+
+.*

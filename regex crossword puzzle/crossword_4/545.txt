@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/56e92e9711af5
+
+[^BCE]*(DG|GD)
+(C|B)?[ACER]*[IEH]
+(.)*[AIF][IE]
+
+(CAB|BAC|ABC)
+(.)?(DE|DF|ED)?[EFD]
+[HIE]*(HI|GH)[^EF]
+
+.*
+.*
+.*
+
+.*
+.*
+.*

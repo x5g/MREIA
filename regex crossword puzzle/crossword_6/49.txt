@@ -1,0 +1,25 @@
+https://regexcrossword.com/playerpuzzles/5daf22b3dfa3c
+
+3 4 5 6 5 4 3
+
+(?!.*(.).*\1)^[\--0][/ROAM\\]*
+(THE)?(LANd)?[^MILLION POuND cash BuRNt]*
+(?=[^\.\-].*JU.*)\W[JUJUSUMU]+
+(?=.*(F.*)E)T(.).(\2)..
+(?=\w\W\w+)(?=.*AN.*)(?=[DANCE\.]+)[^ILLUMInaTI].*
+[IC]+E[^CREAM]*[^VAN]
+(?!.*(.)\1)\w\W*
+
+[SZI]+[DTX]+
+\.[I\.E/]*
+(?!.*(.)\1).[K-P]A.*
+(?!.*(.)\1)T.*\W
+(?=.*S.*)(.)(.)(.)(\2).*
+(?=[U-Z]+)(..)\1
+
+(?=.*C.*\W)[C\\UT]+
+..(.)\1.
+.(.).*\1
+(?=.*E.*\.)[^SCOTLAND]+
+(?=\W.*H.*I)[^TWENTY ThREE]*
+(..)\1

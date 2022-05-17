@@ -1,0 +1,8 @@
+https://regexcrossword.com/playerpuzzles/90a9cef5-e326-400e-81bf-8696b8ca9ea6
+
+.  .  .     D  I
+D     G  Y  R  E
+   A  N  D     G
+I  M  B  L  E   
+I  N     T  H  E
+   W  A  B  E  ;

@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5692d77aee843
+
+(.)[P-Z]\1
+[^O].*
+[^CIRCLE]+
+
+[OX]+
+.O.
+[OX]+
+
+(.).\1
+(.)[^X]\1
+(.)\1.
+
+[^WINS]+
+.*(.)\1
+.(.)\1

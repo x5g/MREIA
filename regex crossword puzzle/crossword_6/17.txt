@@ -1,0 +1,21 @@
+https://regexcrossword.com/playerpuzzles/5f3df1f28d20f
+
+3 4 5 4 3
+
+[RESOURCE\s]+
+[DEVELOPMENT]+
+[YEARS]{2}(OF| |PL|EN|TY)+
+[^SEVEN_ROLLED]+
+[GRAIN]+[^ORE]
+
+[LARGE\sT]+[ARMY]+
+[VICTORY_POINTS]+
+[TRADE\s]+
+.{2}[^COMPETITION]+
+([FEILD\s])+\1
+
+[C-I]T[IE\s]
+[LONGEST][ROAD]*[TOKEN]
+[LUMBER]*(CA|RD|\s)+
+[COAST]+(\W|AT|ER)
+[^ROBBER][DESERT]+

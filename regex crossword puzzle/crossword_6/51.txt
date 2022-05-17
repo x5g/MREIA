@@ -1,0 +1,25 @@
+﻿https://regexcrossword.com/playerpuzzles/5de7e3c50b33e
+
+5 6 7 6 5
+
+(?=.*(.+)\1)-*[+-/]+-*
+(?!.*([A-Z]).*\1)-*[^QUIHK\-SOU¿DY]+-*
+-+[^QUICK\-SKINAR⊙LNE]{2}-+
+(?=.(.)Q.\1.)-*[^KEN KWEZY÷SOX]+[^COME♡CLOSER]+-*
+(?=(.)...\1)-*[SPEAKERS]+I[EYES]+-*
+
+(?!.*(.).*\1)[SLOWLY\-]*
+(?!.*(.).*\1.*)[PIK\-]+.*
+[LIQUID SHINY\-]+.*
+[AEiOU\-]+.*
+-*[SPACE][FIN\-]+-*
+[AWK]?(?=.(.).\1)-*[SED\-]+-*
+-*[TXFR\-]-*
+
+-*D.*-*
+(?=\w\W\w.)-*[IET\-]+-*
+-[E-I]+[EU]+.*-*
+-*N[OQ]+KX?-*
+(?=(.)A\1..)-*[SAIS\-]+-*
+(?=(.)(.)\1\2)-*.*-*
+(?=(.).\1).-*P.*-*

@@ -1,0 +1,7 @@
+https://regexcrossword.com/playerpuzzles/57ffe7fe19bb4
+
+{  [  {  }  ,
+,  {  [  ]  [
+}  ]  ,  {  }
+{  }     }  {
+[  [  [  ,  {

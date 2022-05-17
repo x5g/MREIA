@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/60eeaaeb7b2b2
+
+.*1
+11
+
+1.*
+1.*
+
+.*
+.*
+
+.*
+.*

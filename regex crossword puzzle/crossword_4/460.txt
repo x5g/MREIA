@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5fbc6a12b3d11
+
+(AD|DA).
+[CD]+
+A+B+
+
+[A-C]*
+D+A
+DA*(CB|BC)
+
+.*
+.*
+.*
+
+.*
+.*
+.*

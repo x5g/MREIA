@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5b04091e4d656
+
+(SAD|SCR)[^M]
+(CNER)|(CN)(IM|ID)
+
+[SRFC]+
+(AN)|(CN)
+(DR)|(DI)|[DR]
+(UM)|/s|(MU)
+
+.*
+.*
+.*
+.*
+
+.*
+.*

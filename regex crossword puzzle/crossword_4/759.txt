@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5fd915e1c25c9
+
+[^XMASU-Z]+
+ER|RE|EP|IR
+
+TR|AI|NS
+SW|EE|TS
+
+.*
+.*
+
+.*
+.*

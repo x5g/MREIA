@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5fbc5eff0cdae
+
+(BC|AA)
+A+
+
+[AB]*
+(CA|AB)
+
+.*
+.*
+
+.*
+.*

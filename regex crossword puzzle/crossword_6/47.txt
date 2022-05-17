@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/5a26c2c21538d
+
+1 2 3 2 1
+
+[PC/XT PC/AT]
+[256K]?[RAM]+
+[OP]{1,2}[CIRCUS]
+[DZUB]+
+[;-G]
+
+(?=E.*P.*).*[XGAV-[].
+[OR\-D]+
+[D-P][:-C][S-U]+
+
+.*
+[ANALOG].*
+[ATI]*[RASTA][PALLETTE]

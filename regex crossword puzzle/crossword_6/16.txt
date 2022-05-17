@@ -1,0 +1,19 @@
+https://regexcrossword.com/playerpuzzles/59d0c71ecef9a
+
+2 3 4 3 2
+
+[MUNCH]\W
+[DOPPLER]?[EEENNNOOOAAAA!]*
+[CLICK].[HOWLER]+
+[FLOAT]*
+[CLIP]*[CLOP]?[CLIP]?[CLOP]*
+
+[^KLACK]*
+[SPLASH]*.\W[NASH]
+[4CHN]?[TICK]+[MOOO]*
+[REEEEE]['SCREAM']*
+
+[TEE\sssH!]*[POP]*
+(.)(.)\1\2
+(\W)(.)\1\2
+[H-O]+

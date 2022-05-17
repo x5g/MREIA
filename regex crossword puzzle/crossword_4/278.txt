@@ -1,0 +1,15 @@
+https://regexcrossword.com/challenges/intermediate/puzzles/2
+
+[BQW](PR|LE)
+[RANK]+
+
+[AWE]+
+[ALP]+K
+(PR|ER|EP)
+
+.*
+.*
+.*
+
+.*
+.*

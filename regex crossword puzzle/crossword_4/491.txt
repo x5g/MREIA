@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/56e95734c3ea5
+
+[^ALZ](XM|MX)
+[AEIOU]+[SON]
+[^XYZ](TÉ|ÉT)
+
+(WA|AW)[WXY]
+[^HEX][GROS].
+.(ÉS|SÉ)
+
+.*
+.*
+.*
+
+.*
+.*
+.*

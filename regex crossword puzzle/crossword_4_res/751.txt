@@ -1,0 +1,8 @@
+https://regexcrossword.com/playerpuzzles/59601d728e221
+
+Y  Z           X
+   Y  X  Z      
+   X  Z     Y   
+Z        Y  X   
+X           Z  Y
+      Y  X     Z

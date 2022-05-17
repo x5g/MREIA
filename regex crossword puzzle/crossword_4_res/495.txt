@@ -1,0 +1,11 @@
+https://regexcrossword.com/playerpuzzles/2250b055-3ce8-486d-b260-ecad530dedbd
+
+*  *     S  P  A  C  E     *  1
+*  *  *     *  *  *     *  *  9
+*  *                       *  7
+*        .           .        8
+                               
+   *                       *   
+   *     T  A  I  T  O     *   
+*  *  *        *        *  *  *
+*  I  N  V  A  D  E  R  S  *  *

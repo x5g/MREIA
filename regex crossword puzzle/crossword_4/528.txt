@@ -1,0 +1,25 @@
+https://regexcrossword.com/playerpuzzles/f23afe8c-7462-4deb-9006-7f5795a5e1fe
+
+[^DUNE].*
+.*
+[ARK ]{2,}.*[M0YA].*
+(EN|TER|PRI|SE)[LO'LAAN ]*
+[HA'TAK]{1,}(I|S|D)?\??
+
+.(.)\s\1.
+[VOYAGER][V GER]*.
+(?=.*(.)\1.*)B?(AB|[YL])*[ON 5](DE|FI|AN|T)
+(E|AR|T|H)[FORCE 1]+([SOL ]|[BI]|AN|CA)+
+(M|AC?|[ROSS])[EVENT HORIZON \?]+
+
+[MILLENIUM].*
+[CYGNUS] [ANDROMEDA]+[RAMA]+
+[TALYN ]*
+(?!.*(.).*\1.*)[^ET][VALLEY ]{2,}[^ FORGE]
+.[TIE]+\W+
+
+[DISCOVERY]+[SHARLIN]+.*(YA|M|AT)O?
+.*(LE|XX)[^DEATH ][GLIDER]?
+[RODGER YOUNG]*[NOSTROMO]
+(SE|RE|NI|TY)*(SU|\s|L|AC|O)+
+(M|AR|DU|K)[GALACTICA]*[G?QUAN]

@@ -1,0 +1,11 @@
+https://regexcrossword.com/playerpuzzles/5d75e946035fc
+
+2
+
+AC
+
+[^BC]
+C+
+
+[^AB]
+(A|C)

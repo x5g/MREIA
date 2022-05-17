@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/57a3afb2cf143
+
+[BUILD]+[^GITHUB\\]
+[DOCKER]+
+[PROD](\w|\d|\s)+
+
+(DE|BU)G*[SNAP]
+[CLOUD]+[REPOSITORY]
+[F-O][THOUGHTWORKS]+
+
+[DELIVERY]+.
+[PULL REQUEST](OY|TH)+
+[INTEGRATION]+[^G-U]
+
+(A|B|D)[PIPELINE]+
+[AUTOMATE]+
+[DEPLOYMENT]+.

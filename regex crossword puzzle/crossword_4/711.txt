@@ -1,0 +1,17 @@
+https://regexcrossword.com/playerpuzzles/c88d0b5e-0a13-41d2-b99e-158bec2b8907
+
+[A-Z]*Z.*
+(TAR|HL|ZU).*
+(AD|LC|AC)U
+
+[^A-Y]*.*[BL]
+T[CLIC]*
+(.)*\1\1
+
+.*
+.*
+.*
+
+.*
+.*
+.*

@@ -1,0 +1,15 @@
+https://regexcrossword.com/playerpuzzles/56918f7c8d6e3
+
+.*
+.*
+.*
+
+(LOL|DO|PO)[LOL]?
+[ANSWER][IS]?[NOT].
+
+[HE]?[^LD]?[P]?.[^A-K\dO]
+(TR|I|VI|A|L)(N|^O|R)(EVI|D|ENT)
+
+.*
+.*
+.*

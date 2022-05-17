@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5f8ea8cbeb6a8
+
+(EA|NL)
+(AE|LN)
+
+(EL|NA)
+(AN|LA)
+
+.*
+.*
+
+.*
+.*

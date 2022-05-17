@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/569ad83da98e9
+
+                               
+            -  -  -            
+         '  -  -  -  '         
+         (  O  .  O  )         
+         \  (  |  )  /         
+            \  _  /            
+               |               
+   @        -  -  -        @   
+   |     /  \  |  /  \     |   
+   \  _  /  |  |  |  \  _  /   
+            |  |  |            

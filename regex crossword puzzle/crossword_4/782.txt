@@ -1,0 +1,13 @@
+https://regexcrossword.com/playerpuzzles/5b036b96-6036-4a3e-89d3-ffd62cb064b7
+
+[~A-F]?[^_4"!UV-Z5SM3]?
+[A-G0-4P-R]
+[^U-zD0-9]
+
+[<3]*[^A-Z0-9]*[^0-26A-L]*?[^AG-ZC0-9]?[0-9]?
+
+(\w|\d)+
+
+[^N-R17-9]?[S-Z]?
+[^0-9]*?[^O-Z3]+
+[^G-ZBF0-9]

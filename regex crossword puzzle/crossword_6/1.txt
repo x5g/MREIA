@@ -1,0 +1,23 @@
+https://regexcrossword.com/playerpuzzles/592f7eec3cdea
+
+2 3 4 5 4 3 2
+
+.[AMERICA]
+[INTERNET][^A-E][PROTOCOL]
+[LIONS][TIGERS][BOARS][NEWTS]
+(F|AK|EN|E|WS)?[^RECEDE]{3}
+(\S)?(SN|EK|BE|LO)+(\S)?
+[FREEDOM][RINGS].
+[^A-P]+
+
+[N-Z]+(.)\1
+[^T-Z]+[A-M]
+(UL|TI|MA|TE)V([F-J])\2
+(O)\1+[A-G]+[^A-Q]?
+(W|I|N)+\1?[PIMP][COVFEFE]
+
+[WORK]+[USA]+
+[NORTH]+.[EDGY]+
+[POINT][OF][VIEW].[^O]
+[^NOTE][FINE]+
+(ZI|P|L|IN)+E

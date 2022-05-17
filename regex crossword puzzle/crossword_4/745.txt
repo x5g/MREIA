@@ -1,0 +1,9 @@
+https://regexcrossword.com/playerpuzzles/5c7c26115748b
+
+\w*?
+
+^(?:[G-J])$
+
+(?:[H]?|\d+)??
+
+(\D|\W)
